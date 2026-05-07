@@ -1,0 +1,93 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+.venv_jetson_build/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+*.tmp
+*.wav
+*.pcm
+
+# Build/test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+# Large local data/model artifacts (keep repo lightweight)
+models/
+llm/
+Zipformer-30M-RNNT-6000h/
+Zipformer-30M-RNNT-Streaming-6000h/
+sherpa-onnx/
+nghitts/public/tts-model/
+ZipVoice/
+
+# Local data stores
+edubot/data/ASR_vietnamese_test/
+edubot/data/chroma/
+edubot/data/embed_cache/
+edubot/data/logs/
+edubot/output_data_old/
+edubot/output_data_clean24/
+edubot/output_data_new/
+edubot/output_data_jetson/
+
+edubot/documents/he_mat_troi
+edubot/documents/solar_system
+edubot/documents/dong_vat
+edubot/documents/animal
+edubot/documents/models
+
+edubot/hardware/esp32_lcd_servo.md
+edubot/hardware/lcd.py
+
+edubot/models/
+edubot/tests/interaction_checklist.txt
+edubot/tests/interaction_demo_script.txt
+
+edubot/scripts/offline_build.py
+
+# Optional: local sqlite and generated bundles
+edubot/data/edubot.db
+edubot/data/graph/
+edubot/data/qa_bank.json
+edubot/data/documents/*/graph/
+edubot/data/documents/*/qa_bank.json
+edubot/data/documents/*/chroma/
+edubot/build_manifest.json
+edubot/qa_bank.json
+
+# Vendored / third-party trees and local environments
+nghitts/
+openWakeWord/
+sherpa-onnx/
+src/
+venv/
+.venv/
+.venv_jetson_build/
+
+
+# tools and scripts
+robot_expressions/
+ollama_llm.py
+new_voice_nghitts.py
+before.txt
+s2s_realtime.py
+test.py
+
