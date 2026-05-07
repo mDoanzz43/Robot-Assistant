@@ -1,0 +1,3412 @@
+{
+  "nodes": [
+    {
+      "id": "doc_animal_mammals_basic_c_mammal",
+      "name": "Động vật có vú",
+      "description": "Động vật nuôi con bằng sữa.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_milk",
+      "name": "Sữa mẹ",
+      "description": "Thức ăn nuôi con của động vật có vú.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_fur",
+      "name": "Lông",
+      "description": "Lớp phủ trên cơ thể động vật.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_land",
+      "name": "Đất liền",
+      "description": "Nơi nhiều động vật có vú sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_water",
+      "name": "Nước",
+      "description": "Môi trường sống của một số loài.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_whale",
+      "name": "Cá voi",
+      "description": "Động vật có vú sống dưới nước.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_mammals_basic_c_human",
+      "name": "Con người",
+      "description": "Một loài động vật có vú.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_bird",
+      "name": "Chim",
+      "description": "Động vật có lông vũ và cánh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_feather",
+      "name": "Lông vũ",
+      "description": "Lớp phủ đặc trưng của chim.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_wing",
+      "name": "Cánh",
+      "description": "Bộ phận giúp chim bay.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_fly",
+      "name": "Bay",
+      "description": "Khả năng di chuyển trên không.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_egg",
+      "name": "Trứng",
+      "description": "Cách sinh sản của chim.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_beak",
+      "name": "Mỏ",
+      "description": "Bộ phận dùng để ăn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_ostrich",
+      "name": "Đà điểu",
+      "description": "Loài chim không biết bay.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_birds_basic_c_habitat",
+      "name": "Môi trường sống",
+      "description": "Nơi chim sinh sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_fish",
+      "name": "Cá",
+      "description": "Động vật sống dưới nước.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_water",
+      "name": "Nước",
+      "description": "Môi trường sống của cá.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_gill",
+      "name": "Mang",
+      "description": "Bộ phận giúp cá thở.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_fin",
+      "name": "Vây",
+      "description": "Bộ phận giúp cá bơi.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_swim",
+      "name": "Bơi",
+      "description": "Cách cá di chuyển.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_scale",
+      "name": "Vảy",
+      "description": "Lớp phủ trên cơ thể cá.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_river",
+      "name": "Sông",
+      "description": "Nơi một số cá sinh sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_fish_basic_c_sea",
+      "name": "Biển",
+      "description": "Nơi nhiều cá sinh sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_reptile",
+      "name": "Bò sát",
+      "description": "Động vật có da khô và vảy.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_skin",
+      "name": "Da khô",
+      "description": "Đặc điểm da của bò sát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_scale",
+      "name": "Vảy",
+      "description": "Lớp phủ trên da bò sát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_crawl",
+      "name": "Bò/trườn",
+      "description": "Cách bò sát di chuyển.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_egg",
+      "name": "Trứng",
+      "description": "Cách sinh sản của bò sát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_snake",
+      "name": "Rắn",
+      "description": "Một loài bò sát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_lizard",
+      "name": "Thằn lằn",
+      "description": "Một loài bò sát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_reptiles_basic_c_crocodile",
+      "name": "Cá sấu",
+      "description": "Một loài bò sát lớn.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_amphibian",
+      "name": "Lưỡng cư",
+      "description": "Động vật sống được cả dưới nước và trên cạn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_water",
+      "name": "Nước",
+      "description": "Môi trường sống ban đầu của lưỡng cư.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_land",
+      "name": "Đất liền",
+      "description": "Môi trường sống khi trưởng thành.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_gill",
+      "name": "Mang",
+      "description": "Cách thở khi còn nhỏ.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_lung",
+      "name": "Phổi",
+      "description": "Cách thở khi trưởng thành.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_frog",
+      "name": "Ếch",
+      "description": "Một loài lưỡng cư.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_toad",
+      "name": "Cóc",
+      "description": "Một loài lưỡng cư.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_amphibians_basic_c_growth",
+      "name": "Phát triển",
+      "description": "Quá trình thay đổi khi lớn lên.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_insect",
+      "name": "Côn trùng",
+      "description": "Động vật nhỏ có 6 chân.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_leg",
+      "name": "Chân",
+      "description": "Bộ phận giúp côn trùng di chuyển.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_body",
+      "name": "Cơ thể",
+      "description": "Cấu tạo của côn trùng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_head",
+      "name": "Đầu",
+      "description": "Phần đầu của cơ thể.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_thorax",
+      "name": "Ngực",
+      "description": "Phần giữa của cơ thể.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_abdomen",
+      "name": "Bụng",
+      "description": "Phần cuối của cơ thể.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_wing",
+      "name": "Cánh",
+      "description": "Bộ phận giúp bay.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_insects_basic_c_ant",
+      "name": "Kiến",
+      "description": "Một loại côn trùng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_food_chain",
+      "name": "Chuỗi thức ăn",
+      "description": "Cách sinh vật ăn lẫn nhau.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_plant",
+      "name": "Cây",
+      "description": "Sinh vật tạo ra thức ăn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn năng lượng cho cây.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_herbivore",
+      "name": "Động vật ăn cỏ",
+      "description": "Ăn thực vật.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_carnivore",
+      "name": "Động vật ăn thịt",
+      "description": "Ăn động vật khác.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_grass",
+      "name": "Cỏ",
+      "description": "Một loại cây.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_rabbit",
+      "name": "Thỏ",
+      "description": "Động vật ăn cỏ.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_food_chain_basic_c_fox",
+      "name": "Cáo",
+      "description": "Động vật ăn thịt.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_habitat",
+      "name": "Môi trường sống",
+      "description": "Nơi động vật sinh sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_forest",
+      "name": "Rừng",
+      "description": "Nơi có nhiều cây.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_desert",
+      "name": "Sa mạc",
+      "description": "Nơi khô và nóng.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_ocean",
+      "name": "Đại dương",
+      "description": "Nơi có nhiều nước.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_ice",
+      "name": "Vùng băng",
+      "description": "Nơi rất lạnh.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_animal",
+      "name": "Động vật",
+      "description": "Sinh vật sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_fish",
+      "name": "Cá",
+      "description": "Động vật sống dưới nước.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_habitats_basic_c_camel",
+      "name": "Lạc đà",
+      "description": "Động vật sống ở sa mạc.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_predator",
+      "name": "Động vật săn mồi",
+      "description": "Động vật săn và ăn con khác.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_prey",
+      "name": "Con mồi",
+      "description": "Động vật bị săn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_hunt",
+      "name": "Săn",
+      "description": "Hành động bắt con mồi.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_eat",
+      "name": "Ăn",
+      "description": "Cách lấy năng lượng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_speed",
+      "name": "Tốc độ",
+      "description": "Khả năng chạy nhanh.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_hide",
+      "name": "Ẩn nấp",
+      "description": "Cách tránh bị phát hiện.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_lion",
+      "name": "Sư tử",
+      "description": "Một động vật săn mồi.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_predator_prey_basic_c_deer",
+      "name": "Hươu",
+      "description": "Một con mồi.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_adaptation",
+      "name": "Thích nghi",
+      "description": "Cách động vật thay đổi để sống tốt.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_animal",
+      "name": "Động vật",
+      "description": "Sinh vật sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_environment",
+      "name": "Môi trường",
+      "description": "Nơi động vật sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_survive",
+      "name": "Sống sót",
+      "description": "Tiếp tục sống.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_food",
+      "name": "Thức ăn",
+      "description": "Nguồn năng lượng cho động vật.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_polar_bear",
+      "name": "Gấu Bắc Cực",
+      "description": "Động vật sống ở vùng lạnh.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_camel",
+      "name": "Lạc đà",
+      "description": "Động vật sống ở sa mạc.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_adaptation_basic_c_fur",
+      "name": "Lông dày",
+      "description": "Giúp giữ ấm.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_life_cycle",
+      "name": "Vòng đời",
+      "description": "Các giai đoạn phát triển của động vật.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_stage",
+      "name": "Giai đoạn",
+      "description": "Mỗi bước trong vòng đời.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_growth",
+      "name": "Phát triển",
+      "description": "Quá trình lớn lên.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_reproduction",
+      "name": "Sinh sản",
+      "description": "Tạo ra thế hệ mới.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_egg",
+      "name": "Trứng",
+      "description": "Giai đoạn đầu.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_larva",
+      "name": "Sâu",
+      "description": "Giai đoạn sau trứng.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_pupa",
+      "name": "Nhộng",
+      "description": "Giai đoạn biến đổi.",
+      "difficulty": 3,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_life_cycle_basic_c_butterfly",
+      "name": "Bướm",
+      "description": "Giai đoạn trưởng thành.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_group_behavior",
+      "name": "Sống theo nhóm",
+      "description": "Hành vi sống cùng nhau.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_animal",
+      "name": "Động vật",
+      "description": "Sinh vật sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_group",
+      "name": "Nhóm",
+      "description": "Nhiều cá thể cùng sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_protection",
+      "name": "Bảo vệ",
+      "description": "Giữ an toàn.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_food",
+      "name": "Thức ăn",
+      "description": "Nguồn năng lượng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_care",
+      "name": "Chăm sóc",
+      "description": "Giúp con non phát triển.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_wolf",
+      "name": "Sói",
+      "description": "Động vật sống theo đàn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_animal_group_behavior_basic_c_fish",
+      "name": "Cá",
+      "description": "Động vật sống theo đàn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta đang sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_crust",
+      "name": "Vỏ Trái Đất",
+      "description": "Lớp ngoài cùng của Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_mantle",
+      "name": "Lớp phủ",
+      "description": "Lớp dày nằm dưới vỏ Trái Đất.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_outer_core",
+      "name": "Lõi ngoài",
+      "description": "Lớp kim loại nóng chảy.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_inner_core",
+      "name": "Lõi trong",
+      "description": "Lớp trong cùng, rất nóng và rắn.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_heat",
+      "name": "Nhiệt độ",
+      "description": "Độ nóng của các lớp.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_layers_c_metal",
+      "name": "Kim loại",
+      "description": "Chất tạo nên lõi Trái Đất.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Ngôi sao ở trung tâm Hệ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_star",
+      "name": "Ngôi sao",
+      "description": "Thiên thể phát ra ánh sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_solar_system",
+      "name": "Hệ Mặt Trời",
+      "description": "Hệ gồm Mặt Trời và các hành tinh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời chiếu đến Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_heat",
+      "name": "Nhiệt",
+      "description": "Nhiệt lượng từ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_plants",
+      "name": "Cây cối",
+      "description": "Sinh vật cần ánh sáng để phát triển.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_sun_basic_c_gas",
+      "name": "Khí",
+      "description": "Chất tạo nên Mặt Trời.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_moon",
+      "name": "Mặt Trăng",
+      "description": "Vệ tinh tự nhiên của Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh mà Mặt Trăng quay quanh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_satellite",
+      "name": "Vệ tinh",
+      "description": "Thiên thể quay quanh hành tinh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn ánh sáng cho Mặt Trăng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng được phản chiếu từ Mặt Trăng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_phase",
+      "name": "Pha Mặt Trăng",
+      "description": "Hình dạng thay đổi của Mặt Trăng.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_crater",
+      "name": "Hố va chạm",
+      "description": "Các hố lớn trên bề mặt Mặt Trăng.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_moon_basic_c_orbit",
+      "name": "Quay quanh",
+      "description": "Chuyển động của Mặt Trăng quanh Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_planet",
+      "name": "Hành tinh",
+      "description": "Thiên thể quay quanh Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Ngôi sao trung tâm của Hệ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_solar_system",
+      "name": "Hệ Mặt Trời",
+      "description": "Hệ gồm Mặt Trời và các hành tinh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Một hành tinh có sự sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_mars",
+      "name": "Sao Hỏa",
+      "description": "Hành tinh đỏ.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_jupiter",
+      "name": "Sao Mộc",
+      "description": "Hành tinh lớn nhất.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời chiếu đến hành tinh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_planets_basic_c_orbit",
+      "name": "Quỹ đạo",
+      "description": "Đường đi của hành tinh quanh Mặt Trời.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_rotation",
+      "name": "Sự quay",
+      "description": "Chuyển động quay của Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_axis",
+      "name": "Trục",
+      "description": "Đường tưởng tượng Trái Đất quay quanh.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_day",
+      "name": "Ban ngày",
+      "description": "Thời gian có ánh sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_night",
+      "name": "Ban đêm",
+      "description": "Thời gian không có ánh sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn ánh sáng cho Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_earth_rotation_basic_c_time",
+      "name": "Thời gian",
+      "description": "Đo thời gian quay của Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_gravity",
+      "name": "Lực hấp dẫn",
+      "description": "Lực kéo các vật lại gần nhau.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_force",
+      "name": "Lực",
+      "description": "Tác động làm vật di chuyển.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh có lực hấp dẫn.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_object",
+      "name": "Vật thể",
+      "description": "Mọi thứ có thể bị kéo.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_fall",
+      "name": "Rơi",
+      "description": "Chuyển động xuống đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_space",
+      "name": "Không gian",
+      "description": "Vùng ngoài Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_planet",
+      "name": "Hành tinh",
+      "description": "Thiên thể quay quanh Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_gravity_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Ngôi sao trung tâm.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh có các mùa.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn ánh sáng và nhiệt.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_season",
+      "name": "Mùa",
+      "description": "Thời gian trong năm với thời tiết khác nhau.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_spring",
+      "name": "Mùa xuân",
+      "description": "Mùa ấm dần.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_summer",
+      "name": "Mùa hạ",
+      "description": "Mùa nóng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_autumn",
+      "name": "Mùa thu",
+      "description": "Mùa mát.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_winter",
+      "name": "Mùa đông",
+      "description": "Mùa lạnh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_seasons_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_star",
+      "name": "Ngôi sao",
+      "description": "Thiên thể phát ra ánh sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Một ngôi sao gần Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng do sao phát ra.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_heat",
+      "name": "Nhiệt",
+      "description": "Nhiệt do sao tạo ra.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_gas",
+      "name": "Khí",
+      "description": "Chất tạo nên ngôi sao.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Nơi chúng ta sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_night",
+      "name": "Ban đêm",
+      "description": "Thời gian thấy sao rõ nhất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_stars_basic_c_universe",
+      "name": "Vũ trụ",
+      "description": "Nơi có rất nhiều ngôi sao.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_comet",
+      "name": "Sao chổi",
+      "description": "Thiên thể có đuôi sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_ice",
+      "name": "Băng",
+      "description": "Thành phần của sao chổi.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_dust",
+      "name": "Bụi",
+      "description": "Thành phần nhỏ trong sao chổi.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_rock",
+      "name": "Đá",
+      "description": "Chất rắn trong sao chổi.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_tail",
+      "name": "Đuôi",
+      "description": "Phần sáng phía sau sao chổi.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn nhiệt làm sao chổi sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_orbit",
+      "name": "Quỹ đạo",
+      "description": "Đường đi quanh Mặt Trời.",
+      "difficulty": 3,
+      "verified": true
+    },
+    {
+      "id": "doc_space_comets_basic_c_heat",
+      "name": "Nhiệt",
+      "description": "Làm sao chổi nóng lên.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_asteroid",
+      "name": "Tiểu hành tinh",
+      "description": "Khối đá bay trong không gian.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_rock",
+      "name": "Đá",
+      "description": "Chất tạo nên tiểu hành tinh.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_space",
+      "name": "Không gian",
+      "description": "Nơi tiểu hành tinh tồn tại.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Trung tâm quỹ đạo.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_orbit",
+      "name": "Quỹ đạo",
+      "description": "Đường đi quanh Mặt Trời.",
+      "difficulty": 3,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_belt",
+      "name": "Vành đai tiểu hành tinh",
+      "description": "Khu vực có nhiều tiểu hành tinh.",
+      "difficulty": 3,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_mars",
+      "name": "Sao Hỏa",
+      "description": "Hành tinh gần vành đai.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_asteroids_basic_c_jupiter",
+      "name": "Sao Mộc",
+      "description": "Hành tinh lớn gần vành đai.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_galaxy",
+      "name": "Thiên hà",
+      "description": "Tập hợp lớn của các ngôi sao.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_star",
+      "name": "Ngôi sao",
+      "description": "Thiên thể phát sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_planet",
+      "name": "Hành tinh",
+      "description": "Thiên thể quay quanh sao.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_gas",
+      "name": "Khí",
+      "description": "Thành phần trong thiên hà.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_solar_system",
+      "name": "Hệ Mặt Trời",
+      "description": "Hệ có Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_milky_way",
+      "name": "Dải Ngân Hà",
+      "description": "Thiên hà chứa Hệ Mặt Trời.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_universe",
+      "name": "Vũ trụ",
+      "description": "Nơi chứa các thiên hà.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_galaxy_basic_c_many",
+      "name": "Số lượng lớn",
+      "description": "Có rất nhiều.",
+      "difficulty": 3,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_eclipse",
+      "name": "Nhật thực và nguyệt thực",
+      "description": "Hiện tượng che ánh sáng giữa các thiên thể.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_solar_eclipse",
+      "name": "Nhật thực",
+      "description": "Mặt Trăng che ánh sáng từ Mặt Trời.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "name": "Nguyệt thực",
+      "description": "Trái Đất che ánh sáng đến Mặt Trăng.",
+      "difficulty": 2,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn ánh sáng.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_moon",
+      "name": "Mặt Trăng",
+      "description": "Vệ tinh của Trái Đất.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta sống.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời.",
+      "difficulty": 1,
+      "verified": true
+    },
+    {
+      "id": "doc_space_eclipse_basic_c_alignment",
+      "name": "Thẳng hàng",
+      "description": "Các thiên thể nằm trên một đường.",
+      "difficulty": 3,
+      "verified": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "doc_animal_mammals_basic_c_mammal",
+      "to": "doc_animal_mammals_basic_c_milk",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_mammal",
+      "to": "doc_animal_mammals_basic_c_fur",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_mammal",
+      "to": "doc_animal_mammals_basic_c_land",
+      "relation": "LIVES_IN",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_mammal",
+      "to": "doc_animal_mammals_basic_c_whale",
+      "relation": "HAS",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_mammal",
+      "to": "doc_animal_mammals_basic_c_human",
+      "relation": "HAS",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_milk",
+      "to": "doc_animal_mammals_basic_c_mammal",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_fur",
+      "to": "doc_animal_mammals_basic_c_mammal",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_land",
+      "to": "doc_animal_mammals_basic_c_water",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_whale",
+      "to": "doc_animal_mammals_basic_c_mammal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_whale",
+      "to": "doc_animal_mammals_basic_c_water",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_human",
+      "to": "doc_animal_mammals_basic_c_mammal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_mammals_basic_c_human",
+      "to": "doc_animal_mammals_basic_c_land",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_feather",
+      "relation": "PART_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_wing",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_egg",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_beak",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_fly",
+      "relation": "CAN",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_habitat",
+      "relation": "LIVES_IN",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_birds_basic_c_bird",
+      "to": "doc_animal_birds_basic_c_ostrich",
+      "relation": "HAS",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_birds_basic_c_feather",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_birds_basic_c_wing",
+      "to": "doc_animal_birds_basic_c_fly",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_birds_basic_c_wing",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_birds_basic_c_egg",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_birds_basic_c_beak",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_birds_basic_c_ostrich",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_birds_basic_c_ostrich",
+      "to": "doc_animal_birds_basic_c_fly",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_birds_basic_c_habitat",
+      "to": "doc_animal_birds_basic_c_bird",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_water",
+      "relation": "LIVES_IN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_gill",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_fin",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_scale",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_swim",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_river",
+      "relation": "LIVES_IN",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fish",
+      "to": "doc_animal_fish_basic_c_sea",
+      "relation": "LIVES_IN",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_fish_basic_c_water",
+      "to": "doc_animal_fish_basic_c_fish",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_fish_basic_c_gill",
+      "to": "doc_animal_fish_basic_c_fish",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fin",
+      "to": "doc_animal_fish_basic_c_fish",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_fin",
+      "to": "doc_animal_fish_basic_c_swim",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_scale",
+      "to": "doc_animal_fish_basic_c_fish",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_fish_basic_c_river",
+      "to": "doc_animal_fish_basic_c_water",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_fish_basic_c_river",
+      "to": "doc_animal_fish_basic_c_sea",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_fish_basic_c_sea",
+      "to": "doc_animal_fish_basic_c_water",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_skin",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_scale",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_crawl",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_egg",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_snake",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_lizard",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_reptile",
+      "to": "doc_animal_reptiles_basic_c_crocodile",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_skin",
+      "to": "doc_animal_reptiles_basic_c_scale",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_scale",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_crawl",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_egg",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_snake",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_lizard",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_reptiles_basic_c_crocodile",
+      "to": "doc_animal_reptiles_basic_c_reptile",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_water",
+      "relation": "LIVES_IN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_land",
+      "relation": "LIVES_IN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_gill",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_lung",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_frog",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_toad",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_amphibian",
+      "to": "doc_animal_amphibians_basic_c_growth",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_water",
+      "to": "doc_animal_amphibians_basic_c_land",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_gill",
+      "to": "doc_animal_amphibians_basic_c_water",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_lung",
+      "to": "doc_animal_amphibians_basic_c_land",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_frog",
+      "to": "doc_animal_amphibians_basic_c_amphibian",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_toad",
+      "to": "doc_animal_amphibians_basic_c_amphibian",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_growth",
+      "to": "doc_animal_amphibians_basic_c_gill",
+      "relation": "CAUSES",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_amphibians_basic_c_growth",
+      "to": "doc_animal_amphibians_basic_c_lung",
+      "relation": "CAUSES",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_insects_basic_c_insect",
+      "to": "doc_animal_insects_basic_c_leg",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_insects_basic_c_insect",
+      "to": "doc_animal_insects_basic_c_body",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_insects_basic_c_insect",
+      "to": "doc_animal_insects_basic_c_wing",
+      "relation": "CAN",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_insects_basic_c_insect",
+      "to": "doc_animal_insects_basic_c_ant",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_insects_basic_c_leg",
+      "to": "doc_animal_insects_basic_c_insect",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_insects_basic_c_body",
+      "to": "doc_animal_insects_basic_c_head",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_body",
+      "to": "doc_animal_insects_basic_c_thorax",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_body",
+      "to": "doc_animal_insects_basic_c_abdomen",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_body",
+      "to": "doc_animal_insects_basic_c_leg",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_insects_basic_c_head",
+      "to": "doc_animal_insects_basic_c_body",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_thorax",
+      "to": "doc_animal_insects_basic_c_body",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_abdomen",
+      "to": "doc_animal_insects_basic_c_body",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_insects_basic_c_wing",
+      "to": "doc_animal_insects_basic_c_insect",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_insects_basic_c_ant",
+      "to": "doc_animal_insects_basic_c_insect",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_plant",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_herbivore",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_carnivore",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_grass",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_rabbit",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_food_chain",
+      "to": "doc_animal_food_chain_basic_c_fox",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_plant",
+      "to": "doc_animal_food_chain_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_herbivore",
+      "to": "doc_animal_food_chain_basic_c_plant",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_carnivore",
+      "to": "doc_animal_food_chain_basic_c_herbivore",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_grass",
+      "to": "doc_animal_food_chain_basic_c_plant",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_grass",
+      "to": "doc_animal_food_chain_basic_c_rabbit",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_rabbit",
+      "to": "doc_animal_food_chain_basic_c_herbivore",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_rabbit",
+      "to": "doc_animal_food_chain_basic_c_fox",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_food_chain_basic_c_fox",
+      "to": "doc_animal_food_chain_basic_c_carnivore",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_habitat",
+      "to": "doc_animal_habitats_basic_c_forest",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_habitat",
+      "to": "doc_animal_habitats_basic_c_desert",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_habitat",
+      "to": "doc_animal_habitats_basic_c_ocean",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_habitat",
+      "to": "doc_animal_habitats_basic_c_ice",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_habitat",
+      "to": "doc_animal_habitats_basic_c_animal",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_forest",
+      "to": "doc_animal_habitats_basic_c_habitat",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_forest",
+      "to": "doc_animal_habitats_basic_c_ice",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_desert",
+      "to": "doc_animal_habitats_basic_c_habitat",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_desert",
+      "to": "doc_animal_habitats_basic_c_ocean",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_ocean",
+      "to": "doc_animal_habitats_basic_c_habitat",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_ice",
+      "to": "doc_animal_habitats_basic_c_habitat",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_animal",
+      "to": "doc_animal_habitats_basic_c_habitat",
+      "relation": "LIVES_IN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_animal",
+      "to": "doc_animal_habitats_basic_c_fish",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_animal",
+      "to": "doc_animal_habitats_basic_c_camel",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_fish",
+      "to": "doc_animal_habitats_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_fish",
+      "to": "doc_animal_habitats_basic_c_ocean",
+      "relation": "LIVES_IN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_camel",
+      "to": "doc_animal_habitats_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_habitats_basic_c_camel",
+      "to": "doc_animal_habitats_basic_c_desert",
+      "relation": "LIVES_IN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_predator",
+      "to": "doc_animal_predator_prey_basic_c_prey",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_predator",
+      "to": "doc_animal_predator_prey_basic_c_hunt",
+      "relation": "CAN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_predator",
+      "to": "doc_animal_predator_prey_basic_c_eat",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_predator",
+      "to": "doc_animal_predator_prey_basic_c_lion",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_prey",
+      "to": "doc_animal_predator_prey_basic_c_hide",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_prey",
+      "to": "doc_animal_predator_prey_basic_c_speed",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_prey",
+      "to": "doc_animal_predator_prey_basic_c_deer",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_hunt",
+      "to": "doc_animal_predator_prey_basic_c_prey",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_speed",
+      "to": "doc_animal_predator_prey_basic_c_prey",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_hide",
+      "to": "doc_animal_predator_prey_basic_c_prey",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_lion",
+      "to": "doc_animal_predator_prey_basic_c_predator",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_lion",
+      "to": "doc_animal_predator_prey_basic_c_deer",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_predator_prey_basic_c_deer",
+      "to": "doc_animal_predator_prey_basic_c_prey",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_adaptation",
+      "to": "doc_animal_adaptation_basic_c_environment",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_adaptation",
+      "to": "doc_animal_adaptation_basic_c_survive",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_adaptation",
+      "to": "doc_animal_adaptation_basic_c_food",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_adaptation",
+      "to": "doc_animal_adaptation_basic_c_animal",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_animal",
+      "to": "doc_animal_adaptation_basic_c_adaptation",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_animal",
+      "to": "doc_animal_adaptation_basic_c_polar_bear",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_animal",
+      "to": "doc_animal_adaptation_basic_c_camel",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_environment",
+      "to": "doc_animal_adaptation_basic_c_animal",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_polar_bear",
+      "to": "doc_animal_adaptation_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_polar_bear",
+      "to": "doc_animal_adaptation_basic_c_fur",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_camel",
+      "to": "doc_animal_adaptation_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_camel",
+      "to": "doc_animal_adaptation_basic_c_environment",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_fur",
+      "to": "doc_animal_adaptation_basic_c_polar_bear",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_adaptation_basic_c_fur",
+      "to": "doc_animal_adaptation_basic_c_environment",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_life_cycle",
+      "to": "doc_animal_life_cycle_basic_c_stage",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_life_cycle",
+      "to": "doc_animal_life_cycle_basic_c_growth",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_life_cycle",
+      "to": "doc_animal_life_cycle_basic_c_reproduction",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_stage",
+      "to": "doc_animal_life_cycle_basic_c_egg",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_stage",
+      "to": "doc_animal_life_cycle_basic_c_larva",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_stage",
+      "to": "doc_animal_life_cycle_basic_c_pupa",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_stage",
+      "to": "doc_animal_life_cycle_basic_c_butterfly",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_growth",
+      "to": "doc_animal_life_cycle_basic_c_life_cycle",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_egg",
+      "to": "doc_animal_life_cycle_basic_c_larva",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_egg",
+      "to": "doc_animal_life_cycle_basic_c_stage",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_larva",
+      "to": "doc_animal_life_cycle_basic_c_pupa",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_larva",
+      "to": "doc_animal_life_cycle_basic_c_stage",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_pupa",
+      "to": "doc_animal_life_cycle_basic_c_butterfly",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_pupa",
+      "to": "doc_animal_life_cycle_basic_c_stage",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_butterfly",
+      "to": "doc_animal_life_cycle_basic_c_stage",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_life_cycle_basic_c_butterfly",
+      "to": "doc_animal_life_cycle_basic_c_life_cycle",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_group_behavior",
+      "to": "doc_animal_group_behavior_basic_c_group",
+      "relation": "RELATED_TO",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_group_behavior",
+      "to": "doc_animal_group_behavior_basic_c_protection",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_group_behavior",
+      "to": "doc_animal_group_behavior_basic_c_food",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_group_behavior",
+      "to": "doc_animal_group_behavior_basic_c_care",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_animal",
+      "to": "doc_animal_group_behavior_basic_c_group_behavior",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_animal",
+      "to": "doc_animal_group_behavior_basic_c_wolf",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_animal",
+      "to": "doc_animal_group_behavior_basic_c_fish",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_group",
+      "to": "doc_animal_group_behavior_basic_c_animal",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_wolf",
+      "to": "doc_animal_group_behavior_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_wolf",
+      "to": "doc_animal_group_behavior_basic_c_group_behavior",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_fish",
+      "to": "doc_animal_group_behavior_basic_c_animal",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_animal_group_behavior_basic_c_fish",
+      "to": "doc_animal_group_behavior_basic_c_group_behavior",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_layers_c_crust",
+      "to": "doc_space_earth_layers_c_earth",
+      "relation": "IS_A",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_crust",
+      "to": "doc_space_earth_layers_c_mantle",
+      "relation": "PREREQUISITE_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_mantle",
+      "to": "doc_space_earth_layers_c_earth",
+      "relation": "IS_A",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_mantle",
+      "to": "doc_space_earth_layers_c_outer_core",
+      "relation": "PREREQUISITE_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_mantle",
+      "to": "doc_space_earth_layers_c_heat",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_earth_layers_c_outer_core",
+      "to": "doc_space_earth_layers_c_earth",
+      "relation": "IS_A",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_outer_core",
+      "to": "doc_space_earth_layers_c_inner_core",
+      "relation": "PREREQUISITE_OF",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_outer_core",
+      "to": "doc_space_earth_layers_c_metal",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_layers_c_outer_core",
+      "to": "doc_space_earth_layers_c_heat",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_layers_c_inner_core",
+      "to": "doc_space_earth_layers_c_earth",
+      "relation": "IS_A",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_earth_layers_c_inner_core",
+      "to": "doc_space_earth_layers_c_metal",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_layers_c_inner_core",
+      "to": "doc_space_earth_layers_c_heat",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_star",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_solar_system",
+      "relation": "PART_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_heat",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_earth",
+      "relation": "CAUSES",
+      "weight": 0.75
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_gas",
+      "relation": "HAS",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_sun_basic_c_sun",
+      "to": "doc_space_sun_basic_c_plants",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_sun_basic_c_star",
+      "to": "doc_space_sun_basic_c_sun",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_sun_basic_c_solar_system",
+      "to": "doc_space_sun_basic_c_sun",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_sun_basic_c_solar_system",
+      "to": "doc_space_sun_basic_c_star",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_sun_basic_c_light",
+      "to": "doc_space_sun_basic_c_earth",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_sun_basic_c_light",
+      "to": "doc_space_sun_basic_c_plants",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_sun_basic_c_light",
+      "to": "doc_space_sun_basic_c_heat",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_sun_basic_c_heat",
+      "to": "doc_space_sun_basic_c_earth",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_sun_basic_c_heat",
+      "to": "doc_space_sun_basic_c_light",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_sun_basic_c_plants",
+      "to": "doc_space_sun_basic_c_earth",
+      "relation": "LIVES_IN",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_satellite",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_orbit",
+      "relation": "CAN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_phase",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_moon_basic_c_moon",
+      "to": "doc_space_moon_basic_c_crater",
+      "relation": "HAS",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_moon_basic_c_earth",
+      "to": "doc_space_moon_basic_c_moon",
+      "relation": "HAS",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_moon_basic_c_satellite",
+      "to": "doc_space_moon_basic_c_moon",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_moon_basic_c_sun",
+      "to": "doc_space_moon_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_moon_basic_c_light",
+      "to": "doc_space_moon_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_moon_basic_c_phase",
+      "to": "doc_space_moon_basic_c_moon",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_moon_basic_c_phase",
+      "to": "doc_space_moon_basic_c_light",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_moon_basic_c_crater",
+      "to": "doc_space_moon_basic_c_moon",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_moon_basic_c_orbit",
+      "to": "doc_space_moon_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_solar_system",
+      "relation": "PART_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_orbit",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_earth",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_mars",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_planet",
+      "to": "doc_space_planets_basic_c_jupiter",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_sun",
+      "to": "doc_space_planets_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_planets_basic_c_solar_system",
+      "to": "doc_space_planets_basic_c_sun",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_planets_basic_c_earth",
+      "to": "doc_space_planets_basic_c_planet",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_mars",
+      "to": "doc_space_planets_basic_c_planet",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_jupiter",
+      "to": "doc_space_planets_basic_c_planet",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_planets_basic_c_light",
+      "to": "doc_space_planets_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_planets_basic_c_orbit",
+      "to": "doc_space_planets_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_earth",
+      "to": "doc_space_earth_rotation_basic_c_rotation",
+      "relation": "CAN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_earth",
+      "to": "doc_space_earth_rotation_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_earth",
+      "to": "doc_space_earth_rotation_basic_c_axis",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_rotation",
+      "to": "doc_space_earth_rotation_basic_c_axis",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_rotation",
+      "to": "doc_space_earth_rotation_basic_c_day",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_rotation",
+      "to": "doc_space_earth_rotation_basic_c_night",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_rotation",
+      "to": "doc_space_earth_rotation_basic_c_time",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_rotation",
+      "to": "doc_space_earth_rotation_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_axis",
+      "to": "doc_space_earth_rotation_basic_c_earth",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_day",
+      "to": "doc_space_earth_rotation_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_day",
+      "to": "doc_space_earth_rotation_basic_c_night",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_night",
+      "to": "doc_space_earth_rotation_basic_c_light",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_sun",
+      "to": "doc_space_earth_rotation_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_light",
+      "to": "doc_space_earth_rotation_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_time",
+      "to": "doc_space_earth_rotation_basic_c_day",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_earth_rotation_basic_c_time",
+      "to": "doc_space_earth_rotation_basic_c_night",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_force",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_object",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_fall",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_space",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_planet",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_gravity",
+      "to": "doc_space_gravity_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_gravity_basic_c_force",
+      "to": "doc_space_gravity_basic_c_gravity",
+      "relation": "EXAMPLE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_earth",
+      "to": "doc_space_gravity_basic_c_gravity",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_gravity_basic_c_earth",
+      "to": "doc_space_gravity_basic_c_object",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_object",
+      "to": "doc_space_gravity_basic_c_fall",
+      "relation": "CAN",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_gravity_basic_c_fall",
+      "to": "doc_space_gravity_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_planet",
+      "to": "doc_space_gravity_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_gravity_basic_c_planet",
+      "to": "doc_space_gravity_basic_c_gravity",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_gravity_basic_c_sun",
+      "to": "doc_space_gravity_basic_c_gravity",
+      "relation": "HAS",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_seasons_basic_c_earth",
+      "to": "doc_space_seasons_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_earth",
+      "to": "doc_space_seasons_basic_c_season",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_seasons_basic_c_earth",
+      "to": "doc_space_seasons_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_seasons_basic_c_sun",
+      "to": "doc_space_seasons_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_season",
+      "to": "doc_space_seasons_basic_c_spring",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_season",
+      "to": "doc_space_seasons_basic_c_summer",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_season",
+      "to": "doc_space_seasons_basic_c_autumn",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_season",
+      "to": "doc_space_seasons_basic_c_winter",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_spring",
+      "to": "doc_space_seasons_basic_c_season",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_spring",
+      "to": "doc_space_seasons_basic_c_autumn",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_seasons_basic_c_summer",
+      "to": "doc_space_seasons_basic_c_season",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_summer",
+      "to": "doc_space_seasons_basic_c_winter",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_autumn",
+      "to": "doc_space_seasons_basic_c_season",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_winter",
+      "to": "doc_space_seasons_basic_c_season",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_seasons_basic_c_light",
+      "to": "doc_space_seasons_basic_c_sun",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_seasons_basic_c_light",
+      "to": "doc_space_seasons_basic_c_summer",
+      "relation": "CAUSES",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_seasons_basic_c_light",
+      "to": "doc_space_seasons_basic_c_winter",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_heat",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_gas",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_universe",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_earth",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_sun",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_stars_basic_c_star",
+      "to": "doc_space_stars_basic_c_night",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_stars_basic_c_sun",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_stars_basic_c_sun",
+      "to": "doc_space_stars_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_stars_basic_c_light",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_stars_basic_c_heat",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_stars_basic_c_gas",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_stars_basic_c_night",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_stars_basic_c_universe",
+      "to": "doc_space_stars_basic_c_star",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_ice",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_dust",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_rock",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_tail",
+      "relation": "CAUSES",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_comet",
+      "to": "doc_space_comets_basic_c_orbit",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_comets_basic_c_ice",
+      "to": "doc_space_comets_basic_c_comet",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_comets_basic_c_dust",
+      "to": "doc_space_comets_basic_c_comet",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_comets_basic_c_rock",
+      "to": "doc_space_comets_basic_c_comet",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_comets_basic_c_tail",
+      "to": "doc_space_comets_basic_c_comet",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_tail",
+      "to": "doc_space_comets_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_comets_basic_c_sun",
+      "to": "doc_space_comets_basic_c_heat",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_comets_basic_c_orbit",
+      "to": "doc_space_comets_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_comets_basic_c_heat",
+      "to": "doc_space_comets_basic_c_tail",
+      "relation": "CAUSES",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_rock",
+      "relation": "IS_A",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_space",
+      "relation": "LIVES_IN",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_orbit",
+      "relation": "CAUSES",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_belt",
+      "relation": "LIVES_IN",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_mars",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_jupiter",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_asteroid",
+      "to": "doc_space_asteroids_basic_c_asteroid",
+      "relation": "RELATED_TO",
+      "weight": 0.6
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_rock",
+      "to": "doc_space_asteroids_basic_c_asteroid",
+      "relation": "PART_OF",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_orbit",
+      "to": "doc_space_asteroids_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_belt",
+      "to": "doc_space_asteroids_basic_c_mars",
+      "relation": "RELATED_TO",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_belt",
+      "to": "doc_space_asteroids_basic_c_jupiter",
+      "relation": "RELATED_TO",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_mars",
+      "to": "doc_space_asteroids_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_asteroids_basic_c_jupiter",
+      "to": "doc_space_asteroids_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_star",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_planet",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_gas",
+      "relation": "HAS",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_universe",
+      "relation": "PART_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_many",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_galaxy",
+      "to": "doc_space_galaxy_basic_c_milky_way",
+      "relation": "HAS",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_star",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_planet",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_gas",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "PART_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_solar_system",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "PART_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_solar_system",
+      "to": "doc_space_galaxy_basic_c_milky_way",
+      "relation": "PART_OF",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_milky_way",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_milky_way",
+      "to": "doc_space_galaxy_basic_c_solar_system",
+      "relation": "HAS",
+      "weight": 0.85
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_universe",
+      "to": "doc_space_galaxy_basic_c_galaxy",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_galaxy_basic_c_universe",
+      "to": "doc_space_galaxy_basic_c_many",
+      "relation": "RELATED_TO",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_eclipse",
+      "to": "doc_space_eclipse_basic_c_light",
+      "relation": "CAUSES",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_eclipse",
+      "to": "doc_space_eclipse_basic_c_alignment",
+      "relation": "PREREQUISITE_OF",
+      "weight": 0.7
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_solar_eclipse",
+      "to": "doc_space_eclipse_basic_c_eclipse",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_solar_eclipse",
+      "to": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "relation": "OPPOSITE_OF",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "to": "doc_space_eclipse_basic_c_eclipse",
+      "relation": "IS_A",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_sun",
+      "to": "doc_space_eclipse_basic_c_light",
+      "relation": "HAS",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_sun",
+      "to": "doc_space_eclipse_basic_c_solar_eclipse",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_moon",
+      "to": "doc_space_eclipse_basic_c_solar_eclipse",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_moon",
+      "to": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_moon",
+      "to": "doc_space_eclipse_basic_c_sun",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_earth",
+      "to": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "relation": "CAUSES",
+      "weight": 0.95
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_earth",
+      "to": "doc_space_eclipse_basic_c_moon",
+      "relation": "RELATED_TO",
+      "weight": 0.8
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_alignment",
+      "to": "doc_space_eclipse_basic_c_solar_eclipse",
+      "relation": "CAUSES",
+      "weight": 0.9
+    },
+    {
+      "from": "doc_space_eclipse_basic_c_alignment",
+      "to": "doc_space_eclipse_basic_c_lunar_eclipse",
+      "relation": "CAUSES",
+      "weight": 0.9
+    }
+  ]
+}

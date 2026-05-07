@@ -45,8 +45,8 @@ edubot/data/embed_cache/
 edubot/data/logs/
 edubot/output_data_old/
 edubot/output_data_clean24/
-edubot/output_data_new/
-edubot/output_data_jetson/
+edubot/output_data_new/  # now tracked in repo - removed from ignore
+edubot/output_data_jetson/  # now tracked in repo - removed from ignore
 
 edubot/documents/he_mat_troi
 edubot/documents/solar_system
@@ -81,6 +81,9 @@ src/
 venv/
 .venv/
 .venv_jetson_build/
+
+!nghitts/python_tts/
+!nghitts/python_tts/**
 
 
 # tools and scripts

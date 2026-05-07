@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "files": {
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_01.json": {
+      "hash": "0207b22b8ab1aa20",
+      "doc_id": "doc_animal_mammals_basic",
+      "topic": "Động vật có vú",
+      "updated_at": 1776323006
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_02.json": {
+      "hash": "8a18790f891a08b7",
+      "doc_id": "doc_animal_birds_basic",
+      "topic": "Chim",
+      "updated_at": 1776323012
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_03.json": {
+      "hash": "028cb52c1e18dbb0",
+      "doc_id": "doc_animal_fish_basic",
+      "topic": "Cá",
+      "updated_at": 1776323019
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_04.json": {
+      "hash": "729a3ddbdad34de4",
+      "doc_id": "doc_animal_reptiles_basic",
+      "topic": "Bò sát",
+      "updated_at": 1776323026
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_05.json": {
+      "hash": "82811bc0c74ca5cb",
+      "doc_id": "doc_animal_amphibians_basic",
+      "topic": "Lưỡng cư",
+      "updated_at": 1776323033
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_06.json": {
+      "hash": "073d168ff0be9751",
+      "doc_id": "doc_animal_insects_basic",
+      "topic": "Côn trùng",
+      "updated_at": 1776323039
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_07.json": {
+      "hash": "5d666b7e45078976",
+      "doc_id": "doc_animal_food_chain_basic",
+      "topic": "Chuỗi thức ăn",
+      "updated_at": 1776323046
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_08.json": {
+      "hash": "e1188b18b53d5c5b",
+      "doc_id": "doc_animal_habitats_basic",
+      "topic": "Môi trường sống của động vật",
+      "updated_at": 1776323053
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_09.json": {
+      "hash": "bef7f95b7caa5514",
+      "doc_id": "doc_animal_predator_prey_basic",
+      "topic": "Động vật săn mồi và con mồi",
+      "updated_at": 1776323059
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_10.json": {
+      "hash": "047fceabc14bfb7c",
+      "doc_id": "doc_animal_adaptation_basic",
+      "topic": "Sự thích nghi của động vật",
+      "updated_at": 1776323067
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_11.json": {
+      "hash": "71fca8ff79c67087",
+      "doc_id": "doc_animal_life_cycle_basic",
+      "topic": "Vòng đời của động vật",
+      "updated_at": 1776323073
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_12.json": {
+      "hash": "971267deaf4d927b",
+      "doc_id": "doc_animal_group_behavior_basic",
+      "topic": "Hành vi sống theo nhóm của động vật",
+      "updated_at": 1776323080
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_01.json": {
+      "hash": "aae27c3d97c1a9df",
+      "doc_id": "doc_space_earth_layers",
+      "topic": "Các lớp của Trái Đất",
+      "updated_at": 1776323086
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_02.json": {
+      "hash": "2cf2329e3f8ad372",
+      "doc_id": "doc_space_sun_basic",
+      "topic": "Mặt Trời",
+      "updated_at": 1776323093
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_03.json": {
+      "hash": "451ddd4571acbf8d",
+      "doc_id": "doc_space_moon_basic",
+      "topic": "Mặt Trăng",
+      "updated_at": 1776323100
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_04.json": {
+      "hash": "0206b26f69863c6d",
+      "doc_id": "doc_space_planets_basic",
+      "topic": "Các hành tinh",
+      "updated_at": 1776323107
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_05.json": {
+      "hash": "f2754e90878cb414",
+      "doc_id": "doc_space_earth_rotation_basic",
+      "topic": "Sự quay của Trái Đất",
+      "updated_at": 1776323114
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_06.json": {
+      "hash": "0cdbeeece732389d",
+      "doc_id": "doc_space_gravity_basic",
+      "topic": "Lực hấp dẫn",
+      "updated_at": 1776323120
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_07.json": {
+      "hash": "e95d93e99997d4e1",
+      "doc_id": "doc_space_seasons_basic",
+      "topic": "Các mùa trong năm",
+      "updated_at": 1776323127
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_08.json": {
+      "hash": "fcfa9afa7d50c6f3",
+      "doc_id": "doc_space_stars_basic",
+      "topic": "Các ngôi sao",
+      "updated_at": 1776323134
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_09.json": {
+      "hash": "525a86c28abcdf9a",
+      "doc_id": "doc_space_comets_basic",
+      "topic": "Sao chổi",
+      "updated_at": 1776323140
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_10.json": {
+      "hash": "94110c7676206efe",
+      "doc_id": "doc_space_asteroids_basic",
+      "topic": "Tiểu hành tinh",
+      "updated_at": 1776323147
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_11.json": {
+      "hash": "a2e95596601bcf11",
+      "doc_id": "doc_space_galaxy_basic",
+      "topic": "Thiên hà",
+      "updated_at": 1776323154
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_12.json": {
+      "hash": "fda364d3543768e1",
+      "doc_id": "doc_space_eclipse_basic",
+      "topic": "Nhật thực và nguyệt thực",
+      "updated_at": 1776323161
+    }
+  }
+}

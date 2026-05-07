@@ -1,0 +1,3890 @@
+[
+  {
+    "id": "doc_animal_mammals_basic_qa_1",
+    "concept_id": "doc_animal_mammals_basic_c_mammal",
+    "question": "Động vật có vú nuôi con bằng gì?",
+    "answer": "Sữa mẹ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_2",
+    "concept_id": "doc_animal_mammals_basic_c_mammal",
+    "question": "Động vật có vú có lông không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_3",
+    "concept_id": "doc_animal_mammals_basic_c_whale",
+    "question": "Cá voi sống ở đâu?",
+    "answer": "Dưới nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_4",
+    "concept_id": "doc_animal_mammals_basic_c_human",
+    "question": "Con người có phải là động vật có vú không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_5",
+    "concept_id": "doc_animal_mammals_basic_c_land",
+    "question": "Nhiều động vật có vú sống ở đâu?",
+    "answer": "Đất liền",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_6",
+    "concept_id": "doc_animal_mammals_basic_c_water",
+    "question": "Một số động vật có vú sống trong nước đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_7",
+    "concept_id": "doc_animal_mammals_basic_c_milk",
+    "question": "Sữa mẹ dùng để làm gì?",
+    "answer": "Nuôi con",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_8",
+    "concept_id": "doc_animal_mammals_basic_c_fur",
+    "question": "Động vật có vú có lớp gì trên cơ thể?",
+    "answer": "Lông",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_9",
+    "concept_id": "doc_animal_mammals_basic_c_whale",
+    "question": "Cá voi có phải là động vật có vú không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_10",
+    "concept_id": "doc_animal_mammals_basic_c_mammal",
+    "question": "Điền từ: Động vật có vú nuôi con bằng ____.",
+    "answer": "sữa",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_11",
+    "concept_id": "doc_animal_mammals_basic_c_human",
+    "question": "Con người thuộc nhóm động vật nào?",
+    "answer": "Động vật có vú",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_12",
+    "concept_id": "doc_animal_mammals_basic_c_land",
+    "question": "Đất liền có phải là nơi sống của nhiều động vật có vú không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_13",
+    "concept_id": "doc_animal_mammals_basic_c_water",
+    "question": "Nước là môi trường sống của cá voi đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_14",
+    "concept_id": "doc_animal_mammals_basic_c_mammal",
+    "question": "Động vật có vú là gì?",
+    "answer": "Động vật nuôi con bằng sữa",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_15",
+    "concept_id": "doc_animal_mammals_basic_c_fur",
+    "question": "Lông có trên cơ thể động vật có vú không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_16",
+    "concept_id": "doc_animal_mammals_basic_c_whale",
+    "question": "Cá voi sống trên cạn hay dưới nước?",
+    "answer": "Dưới nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_17",
+    "concept_id": "doc_animal_mammals_basic_c_milk",
+    "question": "Sữa mẹ có quan trọng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_mammals_basic_qa_18",
+    "concept_id": "doc_animal_mammals_basic_c_mammal",
+    "question": "Động vật có vú có thể sống ở nhiều môi trường không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_1",
+    "concept_id": "doc_animal_birds_basic_c_bird",
+    "question": "Chim là động vật có gì?",
+    "answer": "Lông vũ và cánh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_2",
+    "concept_id": "doc_animal_birds_basic_c_fly",
+    "question": "Hầu hết chim có thể làm gì?",
+    "answer": "Bay",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_3",
+    "concept_id": "doc_animal_birds_basic_c_ostrich",
+    "question": "Đà điểu có bay được không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_4",
+    "concept_id": "doc_animal_birds_basic_c_egg",
+    "question": "Chim sinh sản bằng gì?",
+    "answer": "Trứng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_5",
+    "concept_id": "doc_animal_birds_basic_c_beak",
+    "question": "Chim dùng gì để ăn?",
+    "answer": "Mỏ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_6",
+    "concept_id": "doc_animal_birds_basic_c_habitat",
+    "question": "Chim sống ở đâu?",
+    "answer": "Nhiều nơi như rừng, cây, nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_7",
+    "concept_id": "doc_animal_birds_basic_c_feather",
+    "question": "Lông vũ có trên cơ thể chim không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_8",
+    "concept_id": "doc_animal_birds_basic_c_wing",
+    "question": "Cánh giúp chim làm gì?",
+    "answer": "Bay",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_9",
+    "concept_id": "doc_animal_birds_basic_c_bird",
+    "question": "Điền từ: Chim có ____ để bay.",
+    "answer": "cánh",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_10",
+    "concept_id": "doc_animal_birds_basic_c_ostrich",
+    "question": "Đà điểu là chim đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_11",
+    "concept_id": "doc_animal_birds_basic_c_bird",
+    "question": "Chim có phải là động vật không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_12",
+    "concept_id": "doc_animal_birds_basic_c_beak",
+    "question": "Mỏ dùng để làm gì?",
+    "answer": "Ăn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_13",
+    "concept_id": "doc_animal_birds_basic_c_fly",
+    "question": "Tất cả chim đều bay được đúng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_14",
+    "concept_id": "doc_animal_birds_basic_c_egg",
+    "question": "Trứng là gì?",
+    "answer": "Cách chim sinh sản",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_15",
+    "concept_id": "doc_animal_birds_basic_c_feather",
+    "question": "Chim có tóc hay lông vũ?",
+    "answer": "Lông vũ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_16",
+    "concept_id": "doc_animal_birds_basic_c_habitat",
+    "question": "Chim có sống ở nhiều nơi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_17",
+    "concept_id": "doc_animal_birds_basic_c_wing",
+    "question": "Cánh có phải là bộ phận của chim không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_birds_basic_qa_18",
+    "concept_id": "doc_animal_birds_basic_c_bird",
+    "question": "Chim thuộc nhóm động vật nào?",
+    "answer": "Động vật",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_1",
+    "concept_id": "doc_animal_fish_basic_c_fish",
+    "question": "Cá sống ở đâu?",
+    "answer": "Dưới nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_2",
+    "concept_id": "doc_animal_fish_basic_c_gill",
+    "question": "Cá thở bằng gì?",
+    "answer": "Mang",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_3",
+    "concept_id": "doc_animal_fish_basic_c_fin",
+    "question": "Cá bơi bằng gì?",
+    "answer": "Vây",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_4",
+    "concept_id": "doc_animal_fish_basic_c_scale",
+    "question": "Cơ thể cá có gì?",
+    "answer": "Vảy",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_5",
+    "concept_id": "doc_animal_fish_basic_c_water",
+    "question": "Cá có sống trên cạn không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_6",
+    "concept_id": "doc_animal_fish_basic_c_river",
+    "question": "Một số cá sống ở đâu?",
+    "answer": "Sông",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_7",
+    "concept_id": "doc_animal_fish_basic_c_sea",
+    "question": "Nhiều cá sống ở đâu?",
+    "answer": "Biển",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_8",
+    "concept_id": "doc_animal_fish_basic_c_swim",
+    "question": "Cá di chuyển bằng cách nào?",
+    "answer": "Bơi",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_9",
+    "concept_id": "doc_animal_fish_basic_c_fish",
+    "question": "Điền từ: Cá sống dưới ____.",
+    "answer": "nước",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_10",
+    "concept_id": "doc_animal_fish_basic_c_gill",
+    "question": "Mang có phải là bộ phận của cá không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_11",
+    "concept_id": "doc_animal_fish_basic_c_fin",
+    "question": "Vây giúp cá làm gì?",
+    "answer": "Bơi",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_12",
+    "concept_id": "doc_animal_fish_basic_c_scale",
+    "question": "Vảy có trên cơ thể cá không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_13",
+    "concept_id": "doc_animal_fish_basic_c_water",
+    "question": "Nước có quan trọng với cá không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_14",
+    "concept_id": "doc_animal_fish_basic_c_fish",
+    "question": "Cá là động vật sống ở đâu?",
+    "answer": "Dưới nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_15",
+    "concept_id": "doc_animal_fish_basic_c_river",
+    "question": "Sông có phải là nơi cá sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_16",
+    "concept_id": "doc_animal_fish_basic_c_sea",
+    "question": "Biển có phải là nơi cá sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_17",
+    "concept_id": "doc_animal_fish_basic_c_swim",
+    "question": "Bơi nghĩa là gì?",
+    "answer": "Di chuyển trong nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_fish_basic_qa_18",
+    "concept_id": "doc_animal_fish_basic_c_fish",
+    "question": "Cá có thể bay không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_1",
+    "concept_id": "doc_animal_reptiles_basic_c_reptile",
+    "question": "Bò sát là gì?",
+    "answer": "Động vật có da khô và vảy",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_2",
+    "concept_id": "doc_animal_reptiles_basic_c_reptile",
+    "question": "Bò sát có da ướt không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_3",
+    "concept_id": "doc_animal_reptiles_basic_c_skin",
+    "question": "Da của bò sát như thế nào?",
+    "answer": "Khô",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_4",
+    "concept_id": "doc_animal_reptiles_basic_c_skin",
+    "question": "Da bò sát có ướt không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_5",
+    "concept_id": "doc_animal_reptiles_basic_c_scale",
+    "question": "Bò sát có gì trên da?",
+    "answer": "Vảy",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_6",
+    "concept_id": "doc_animal_reptiles_basic_c_scale",
+    "question": "Vảy có phải đặc điểm của bò sát không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_7",
+    "concept_id": "doc_animal_reptiles_basic_c_crawl",
+    "question": "Bò sát di chuyển như thế nào?",
+    "answer": "Bò hoặc trườn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_8",
+    "concept_id": "doc_animal_reptiles_basic_c_crawl",
+    "question": "Bò sát có bay được không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_9",
+    "concept_id": "doc_animal_reptiles_basic_c_egg",
+    "question": "Bò sát sinh sản bằng gì?",
+    "answer": "Trứng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_10",
+    "concept_id": "doc_animal_reptiles_basic_c_egg",
+    "question": "Bò sát có đẻ trứng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_11",
+    "concept_id": "doc_animal_reptiles_basic_c_snake",
+    "question": "Rắn là động vật gì?",
+    "answer": "Bò sát",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_12",
+    "concept_id": "doc_animal_reptiles_basic_c_snake",
+    "question": "Rắn có phải là bò sát không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_13",
+    "concept_id": "doc_animal_reptiles_basic_c_lizard",
+    "question": "Thằn lằn là động vật gì?",
+    "answer": "Bò sát",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_14",
+    "concept_id": "doc_animal_reptiles_basic_c_lizard",
+    "question": "Thằn lằn có phải là bò sát không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_15",
+    "concept_id": "doc_animal_reptiles_basic_c_crocodile",
+    "question": "Cá sấu là động vật gì?",
+    "answer": "Bò sát",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_16",
+    "concept_id": "doc_animal_reptiles_basic_c_crocodile",
+    "question": "Cá sấu có phải là bò sát không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_17",
+    "concept_id": "doc_animal_reptiles_basic_c_reptile",
+    "question": "Bò sát sống ở đâu?",
+    "answer": "Đất liền và nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_reptiles_basic_qa_18",
+    "concept_id": "doc_animal_reptiles_basic_c_reptile",
+    "question": "Điền từ: Bò sát có da ____.",
+    "answer": "khô",
+    "type": "fill",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_1",
+    "concept_id": "doc_animal_amphibians_basic_c_amphibian",
+    "question": "Lưỡng cư là gì?",
+    "answer": "Động vật sống cả dưới nước và trên cạn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_2",
+    "concept_id": "doc_animal_amphibians_basic_c_amphibian",
+    "question": "Lưỡng cư có sống được trên cạn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_3",
+    "concept_id": "doc_animal_amphibians_basic_c_water",
+    "question": "Lưỡng cư sống ở đâu khi còn nhỏ?",
+    "answer": "Dưới nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_4",
+    "concept_id": "doc_animal_amphibians_basic_c_water",
+    "question": "Nước có phải là môi trường của lưỡng cư không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_5",
+    "concept_id": "doc_animal_amphibians_basic_c_land",
+    "question": "Lưỡng cư sống ở đâu khi lớn?",
+    "answer": "Trên cạn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_6",
+    "concept_id": "doc_animal_amphibians_basic_c_land",
+    "question": "Lưỡng cư có sống trên cạn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_7",
+    "concept_id": "doc_animal_amphibians_basic_c_gill",
+    "question": "Lưỡng cư thở bằng gì khi còn nhỏ?",
+    "answer": "Mang",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_8",
+    "concept_id": "doc_animal_amphibians_basic_c_gill",
+    "question": "Mang giúp lưỡng cư thở trong nước đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_9",
+    "concept_id": "doc_animal_amphibians_basic_c_lung",
+    "question": "Lưỡng cư thở bằng gì khi lớn?",
+    "answer": "Phổi",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_10",
+    "concept_id": "doc_animal_amphibians_basic_c_lung",
+    "question": "Phổi dùng để thở trên cạn đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_11",
+    "concept_id": "doc_animal_amphibians_basic_c_frog",
+    "question": "Ếch là loại động vật gì?",
+    "answer": "Lưỡng cư",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_12",
+    "concept_id": "doc_animal_amphibians_basic_c_frog",
+    "question": "Ếch có phải là lưỡng cư không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_13",
+    "concept_id": "doc_animal_amphibians_basic_c_toad",
+    "question": "Cóc là loại động vật gì?",
+    "answer": "Lưỡng cư",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_14",
+    "concept_id": "doc_animal_amphibians_basic_c_toad",
+    "question": "Cóc có phải là lưỡng cư không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_15",
+    "concept_id": "doc_animal_amphibians_basic_c_growth",
+    "question": "Lưỡng cư thay đổi khi lớn lên gọi là gì?",
+    "answer": "Phát triển",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_16",
+    "concept_id": "doc_animal_amphibians_basic_c_growth",
+    "question": "Lưỡng cư có thay đổi khi lớn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_17",
+    "concept_id": "doc_animal_amphibians_basic_c_amphibian",
+    "question": "Lưỡng cư có thể sống ở mấy môi trường?",
+    "answer": "Hai môi trường",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_amphibians_basic_qa_18",
+    "concept_id": "doc_animal_amphibians_basic_c_amphibian",
+    "question": "Điền từ: Lưỡng cư sống ở ____ và trên cạn.",
+    "answer": "nước",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_1",
+    "concept_id": "doc_animal_insects_basic_c_insect",
+    "question": "Côn trùng là gì?",
+    "answer": "Động vật nhỏ có 6 chân",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_2",
+    "concept_id": "doc_animal_insects_basic_c_insect",
+    "question": "Côn trùng có 6 chân không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_3",
+    "concept_id": "doc_animal_insects_basic_c_leg",
+    "question": "Côn trùng có bao nhiêu chân?",
+    "answer": "6 chân",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_4",
+    "concept_id": "doc_animal_insects_basic_c_leg",
+    "question": "Chân giúp côn trùng làm gì?",
+    "answer": "Di chuyển",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_5",
+    "concept_id": "doc_animal_insects_basic_c_body",
+    "question": "Cơ thể côn trùng có mấy phần?",
+    "answer": "3 phần",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_6",
+    "concept_id": "doc_animal_insects_basic_c_body",
+    "question": "Cơ thể côn trùng có đầu không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_7",
+    "concept_id": "doc_animal_insects_basic_c_head",
+    "question": "Đầu là phần nào của cơ thể?",
+    "answer": "Phần đầu",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_8",
+    "concept_id": "doc_animal_insects_basic_c_head",
+    "question": "Đầu có phải là một phần của cơ thể không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_9",
+    "concept_id": "doc_animal_insects_basic_c_thorax",
+    "question": "Ngực nằm ở đâu?",
+    "answer": "Giữa cơ thể",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_10",
+    "concept_id": "doc_animal_insects_basic_c_thorax",
+    "question": "Ngực có phải là phần giữa không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_11",
+    "concept_id": "doc_animal_insects_basic_c_abdomen",
+    "question": "Bụng nằm ở đâu?",
+    "answer": "Phần cuối cơ thể",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_12",
+    "concept_id": "doc_animal_insects_basic_c_abdomen",
+    "question": "Bụng có phải là phần cuối không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_13",
+    "concept_id": "doc_animal_insects_basic_c_wing",
+    "question": "Cánh giúp côn trùng làm gì?",
+    "answer": "Bay",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_14",
+    "concept_id": "doc_animal_insects_basic_c_wing",
+    "question": "Côn trùng có thể bay không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_15",
+    "concept_id": "doc_animal_insects_basic_c_ant",
+    "question": "Kiến là loại gì?",
+    "answer": "Côn trùng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_16",
+    "concept_id": "doc_animal_insects_basic_c_ant",
+    "question": "Kiến có phải là côn trùng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_17",
+    "concept_id": "doc_animal_insects_basic_c_insect",
+    "question": "Côn trùng có thể có cánh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_insects_basic_qa_18",
+    "concept_id": "doc_animal_insects_basic_c_insect",
+    "question": "Điền từ: Côn trùng có ____ chân.",
+    "answer": "6",
+    "type": "fill",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_1",
+    "concept_id": "doc_animal_food_chain_basic_c_food_chain",
+    "question": "Chuỗi thức ăn là gì?",
+    "answer": "Cách sinh vật ăn lẫn nhau",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_2",
+    "concept_id": "doc_animal_food_chain_basic_c_food_chain",
+    "question": "Chuỗi thức ăn có liên quan đến ăn uống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_3",
+    "concept_id": "doc_animal_food_chain_basic_c_plant",
+    "question": "Cây làm gì để sống?",
+    "answer": "Tạo thức ăn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_4",
+    "concept_id": "doc_animal_food_chain_basic_c_plant",
+    "question": "Cây có cần ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_5",
+    "concept_id": "doc_animal_food_chain_basic_c_sun",
+    "question": "Nguồn năng lượng cho cây là gì?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_6",
+    "concept_id": "doc_animal_food_chain_basic_c_sun",
+    "question": "Mặt Trời giúp cây phát triển không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_7",
+    "concept_id": "doc_animal_food_chain_basic_c_herbivore",
+    "question": "Động vật ăn cỏ ăn gì?",
+    "answer": "Cây",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_8",
+    "concept_id": "doc_animal_food_chain_basic_c_herbivore",
+    "question": "Thỏ có ăn cỏ không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_9",
+    "concept_id": "doc_animal_food_chain_basic_c_carnivore",
+    "question": "Động vật ăn thịt ăn gì?",
+    "answer": "Động vật khác",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_10",
+    "concept_id": "doc_animal_food_chain_basic_c_carnivore",
+    "question": "Cáo có ăn thỏ không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_11",
+    "concept_id": "doc_animal_food_chain_basic_c_grass",
+    "question": "Cỏ là gì?",
+    "answer": "Một loại cây",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_12",
+    "concept_id": "doc_animal_food_chain_basic_c_grass",
+    "question": "Cỏ có phải là thực vật không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_13",
+    "concept_id": "doc_animal_food_chain_basic_c_rabbit",
+    "question": "Thỏ là loại động vật gì?",
+    "answer": "Ăn cỏ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_14",
+    "concept_id": "doc_animal_food_chain_basic_c_rabbit",
+    "question": "Thỏ có phải là động vật ăn cỏ không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_15",
+    "concept_id": "doc_animal_food_chain_basic_c_fox",
+    "question": "Cáo là loại động vật gì?",
+    "answer": "Ăn thịt",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_16",
+    "concept_id": "doc_animal_food_chain_basic_c_fox",
+    "question": "Cáo có phải là động vật ăn thịt không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_17",
+    "concept_id": "doc_animal_food_chain_basic_c_food_chain",
+    "question": "Ví dụ chuỗi thức ăn là gì?",
+    "answer": "Cỏ → thỏ → cáo",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_food_chain_basic_qa_18",
+    "concept_id": "doc_animal_food_chain_basic_c_food_chain",
+    "question": "Điền từ: Chuỗi thức ăn là cách sinh vật ____ lẫn nhau.",
+    "answer": "ăn",
+    "type": "fill",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_1",
+    "concept_id": "doc_animal_habitats_basic_c_habitat",
+    "question": "Môi trường sống là gì?",
+    "answer": "Nơi động vật sinh sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_2",
+    "concept_id": "doc_animal_habitats_basic_c_habitat",
+    "question": "Động vật có cần môi trường sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_3",
+    "concept_id": "doc_animal_habitats_basic_c_forest",
+    "question": "Rừng là nơi như thế nào?",
+    "answer": "Có nhiều cây",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_4",
+    "concept_id": "doc_animal_habitats_basic_c_forest",
+    "question": "Rừng có phải là môi trường sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_5",
+    "concept_id": "doc_animal_habitats_basic_c_desert",
+    "question": "Sa mạc như thế nào?",
+    "answer": "Khô và nóng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_6",
+    "concept_id": "doc_animal_habitats_basic_c_desert",
+    "question": "Sa mạc có nhiều nước không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_7",
+    "concept_id": "doc_animal_habitats_basic_c_ocean",
+    "question": "Đại dương có gì?",
+    "answer": "Nhiều nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_8",
+    "concept_id": "doc_animal_habitats_basic_c_ocean",
+    "question": "Đại dương có phải là môi trường sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_9",
+    "concept_id": "doc_animal_habitats_basic_c_ice",
+    "question": "Vùng băng như thế nào?",
+    "answer": "Rất lạnh",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_10",
+    "concept_id": "doc_animal_habitats_basic_c_ice",
+    "question": "Vùng băng có nóng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_11",
+    "concept_id": "doc_animal_habitats_basic_c_animal",
+    "question": "Động vật là gì?",
+    "answer": "Sinh vật sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_12",
+    "concept_id": "doc_animal_habitats_basic_c_animal",
+    "question": "Động vật có sống trong môi trường không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_13",
+    "concept_id": "doc_animal_habitats_basic_c_fish",
+    "question": "Cá sống ở đâu?",
+    "answer": "Trong nước",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_14",
+    "concept_id": "doc_animal_habitats_basic_c_fish",
+    "question": "Cá có sống trên cạn không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_15",
+    "concept_id": "doc_animal_habitats_basic_c_camel",
+    "question": "Lạc đà sống ở đâu?",
+    "answer": "Sa mạc",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_16",
+    "concept_id": "doc_animal_habitats_basic_c_camel",
+    "question": "Lạc đà có sống ở sa mạc không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_17",
+    "concept_id": "doc_animal_habitats_basic_c_habitat",
+    "question": "Vì sao động vật cần môi trường phù hợp?",
+    "answer": "Để sống sót và tìm thức ăn",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_animal_habitats_basic_qa_18",
+    "concept_id": "doc_animal_habitats_basic_c_habitat",
+    "question": "Điền từ: Môi trường sống là nơi động vật ____.",
+    "answer": "sống",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_1",
+    "concept_id": "doc_animal_predator_prey_basic_c_predator",
+    "question": "Động vật săn mồi là gì?",
+    "answer": "Động vật săn và ăn con khác",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_2",
+    "concept_id": "doc_animal_predator_prey_basic_c_predator",
+    "question": "Động vật săn mồi có ăn động vật khác không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_3",
+    "concept_id": "doc_animal_predator_prey_basic_c_prey",
+    "question": "Con mồi là gì?",
+    "answer": "Động vật bị săn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_4",
+    "concept_id": "doc_animal_predator_prey_basic_c_prey",
+    "question": "Con mồi có bị săn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_5",
+    "concept_id": "doc_animal_predator_prey_basic_c_hunt",
+    "question": "Săn là gì?",
+    "answer": "Bắt con mồi",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_6",
+    "concept_id": "doc_animal_predator_prey_basic_c_hunt",
+    "question": "Động vật săn mồi có săn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_7",
+    "concept_id": "doc_animal_predator_prey_basic_c_eat",
+    "question": "Động vật ăn để làm gì?",
+    "answer": "Lấy năng lượng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_8",
+    "concept_id": "doc_animal_predator_prey_basic_c_eat",
+    "question": "Động vật săn mồi có ăn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_9",
+    "concept_id": "doc_animal_predator_prey_basic_c_speed",
+    "question": "Tốc độ giúp con mồi làm gì?",
+    "answer": "Chạy nhanh để thoát",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_10",
+    "concept_id": "doc_animal_predator_prey_basic_c_speed",
+    "question": "Con mồi có cần chạy nhanh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_11",
+    "concept_id": "doc_animal_predator_prey_basic_c_hide",
+    "question": "Ẩn nấp là gì?",
+    "answer": "Trốn để không bị thấy",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_12",
+    "concept_id": "doc_animal_predator_prey_basic_c_hide",
+    "question": "Con mồi có thể ẩn nấp không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_13",
+    "concept_id": "doc_animal_predator_prey_basic_c_lion",
+    "question": "Sư tử là loại gì?",
+    "answer": "Động vật săn mồi",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_14",
+    "concept_id": "doc_animal_predator_prey_basic_c_lion",
+    "question": "Sư tử có săn hươu không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_15",
+    "concept_id": "doc_animal_predator_prey_basic_c_deer",
+    "question": "Hươu là loại gì?",
+    "answer": "Con mồi",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_16",
+    "concept_id": "doc_animal_predator_prey_basic_c_deer",
+    "question": "Hươu có bị săn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_17",
+    "concept_id": "doc_animal_predator_prey_basic_c_predator",
+    "question": "Vì sao động vật săn mồi phải săn?",
+    "answer": "Để sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_animal_predator_prey_basic_qa_18",
+    "concept_id": "doc_animal_predator_prey_basic_c_predator",
+    "question": "Điền từ: Động vật săn mồi ____ con khác để sống.",
+    "answer": "săn",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_1",
+    "concept_id": "doc_animal_adaptation_basic_c_adaptation",
+    "question": "Thích nghi là gì?",
+    "answer": "Cách động vật thay đổi để sống tốt",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_2",
+    "concept_id": "doc_animal_adaptation_basic_c_adaptation",
+    "question": "Động vật có cần thích nghi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_3",
+    "concept_id": "doc_animal_adaptation_basic_c_animal",
+    "question": "Động vật là gì?",
+    "answer": "Sinh vật sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_4",
+    "concept_id": "doc_animal_adaptation_basic_c_animal",
+    "question": "Động vật có sống trong môi trường không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_5",
+    "concept_id": "doc_animal_adaptation_basic_c_environment",
+    "question": "Môi trường là gì?",
+    "answer": "Nơi sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_6",
+    "concept_id": "doc_animal_adaptation_basic_c_environment",
+    "question": "Động vật có sống trong môi trường không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_7",
+    "concept_id": "doc_animal_adaptation_basic_c_survive",
+    "question": "Sống sót là gì?",
+    "answer": "Tiếp tục sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_8",
+    "concept_id": "doc_animal_adaptation_basic_c_survive",
+    "question": "Thích nghi có giúp sống sót không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_9",
+    "concept_id": "doc_animal_adaptation_basic_c_food",
+    "question": "Thức ăn dùng để làm gì?",
+    "answer": "Cung cấp năng lượng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_10",
+    "concept_id": "doc_animal_adaptation_basic_c_food",
+    "question": "Động vật cần thức ăn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_11",
+    "concept_id": "doc_animal_adaptation_basic_c_polar_bear",
+    "question": "Gấu Bắc Cực sống ở đâu?",
+    "answer": "Nơi lạnh",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_12",
+    "concept_id": "doc_animal_adaptation_basic_c_polar_bear",
+    "question": "Gấu Bắc Cực có lông dày không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_13",
+    "concept_id": "doc_animal_adaptation_basic_c_camel",
+    "question": "Lạc đà sống ở đâu?",
+    "answer": "Sa mạc",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_14",
+    "concept_id": "doc_animal_adaptation_basic_c_camel",
+    "question": "Lạc đà có cần nhiều nước không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_15",
+    "concept_id": "doc_animal_adaptation_basic_c_fur",
+    "question": "Lông dày giúp làm gì?",
+    "answer": "Giữ ấm",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_16",
+    "concept_id": "doc_animal_adaptation_basic_c_fur",
+    "question": "Lông dày có giúp chống lạnh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_17",
+    "concept_id": "doc_animal_adaptation_basic_c_adaptation",
+    "question": "Vì sao động vật cần thích nghi?",
+    "answer": "Để sống sót",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_animal_adaptation_basic_qa_18",
+    "concept_id": "doc_animal_adaptation_basic_c_adaptation",
+    "question": "Điền từ: Thích nghi giúp động vật ____ sót.",
+    "answer": "sống",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_1",
+    "concept_id": "doc_animal_life_cycle_basic_c_life_cycle",
+    "question": "Vòng đời là gì?",
+    "answer": "Các giai đoạn phát triển",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_2",
+    "concept_id": "doc_animal_life_cycle_basic_c_life_cycle",
+    "question": "Động vật có vòng đời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_3",
+    "concept_id": "doc_animal_life_cycle_basic_c_stage",
+    "question": "Giai đoạn là gì?",
+    "answer": "Một bước trong vòng đời",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_4",
+    "concept_id": "doc_animal_life_cycle_basic_c_stage",
+    "question": "Vòng đời có nhiều giai đoạn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_5",
+    "concept_id": "doc_animal_life_cycle_basic_c_growth",
+    "question": "Phát triển là gì?",
+    "answer": "Quá trình lớn lên",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_6",
+    "concept_id": "doc_animal_life_cycle_basic_c_growth",
+    "question": "Vòng đời có liên quan đến phát triển không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_7",
+    "concept_id": "doc_animal_life_cycle_basic_c_reproduction",
+    "question": "Sinh sản là gì?",
+    "answer": "Tạo ra thế hệ mới",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_8",
+    "concept_id": "doc_animal_life_cycle_basic_c_reproduction",
+    "question": "Động vật có sinh sản không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_9",
+    "concept_id": "doc_animal_life_cycle_basic_c_egg",
+    "question": "Trứng là giai đoạn nào?",
+    "answer": "Giai đoạn đầu",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_10",
+    "concept_id": "doc_animal_life_cycle_basic_c_egg",
+    "question": "Trứng có phải là giai đoạn đầu không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_11",
+    "concept_id": "doc_animal_life_cycle_basic_c_larva",
+    "question": "Sâu là giai đoạn nào?",
+    "answer": "Sau trứng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_12",
+    "concept_id": "doc_animal_life_cycle_basic_c_larva",
+    "question": "Sâu có phải là giai đoạn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_13",
+    "concept_id": "doc_animal_life_cycle_basic_c_pupa",
+    "question": "Nhộng là gì?",
+    "answer": "Giai đoạn biến đổi",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_14",
+    "concept_id": "doc_animal_life_cycle_basic_c_pupa",
+    "question": "Nhộng có phải là giai đoạn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_15",
+    "concept_id": "doc_animal_life_cycle_basic_c_butterfly",
+    "question": "Bướm là giai đoạn nào?",
+    "answer": "Trưởng thành",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_16",
+    "concept_id": "doc_animal_life_cycle_basic_c_butterfly",
+    "question": "Bướm có phải là giai đoạn cuối không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_17",
+    "concept_id": "doc_animal_life_cycle_basic_c_life_cycle",
+    "question": "Tại sao vòng đời quan trọng?",
+    "answer": "Giúp phát triển và sinh sản",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_animal_life_cycle_basic_qa_18",
+    "concept_id": "doc_animal_life_cycle_basic_c_life_cycle",
+    "question": "Điền từ: Vòng đời gồm nhiều ____ phát triển.",
+    "answer": "giai đoạn",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_1",
+    "concept_id": "doc_animal_group_behavior_basic_c_group_behavior",
+    "question": "Sống theo nhóm là gì?",
+    "answer": "Sống cùng nhau",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_2",
+    "concept_id": "doc_animal_group_behavior_basic_c_group_behavior",
+    "question": "Động vật có sống theo nhóm không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_3",
+    "concept_id": "doc_animal_group_behavior_basic_c_animal",
+    "question": "Động vật là gì?",
+    "answer": "Sinh vật sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_4",
+    "concept_id": "doc_animal_group_behavior_basic_c_animal",
+    "question": "Động vật có thể sống theo nhóm không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_5",
+    "concept_id": "doc_animal_group_behavior_basic_c_group",
+    "question": "Nhóm là gì?",
+    "answer": "Nhiều cá thể cùng sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_6",
+    "concept_id": "doc_animal_group_behavior_basic_c_group",
+    "question": "Nhóm có nhiều cá thể không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_7",
+    "concept_id": "doc_animal_group_behavior_basic_c_protection",
+    "question": "Sống theo nhóm giúp gì?",
+    "answer": "Bảo vệ nhau",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_8",
+    "concept_id": "doc_animal_group_behavior_basic_c_protection",
+    "question": "Nhóm có giúp bảo vệ không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_9",
+    "concept_id": "doc_animal_group_behavior_basic_c_food",
+    "question": "Nhóm giúp tìm gì?",
+    "answer": "Thức ăn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_10",
+    "concept_id": "doc_animal_group_behavior_basic_c_food",
+    "question": "Sống theo nhóm có giúp tìm thức ăn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_11",
+    "concept_id": "doc_animal_group_behavior_basic_c_care",
+    "question": "Chăm sóc là gì?",
+    "answer": "Giúp con non phát triển",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_12",
+    "concept_id": "doc_animal_group_behavior_basic_c_care",
+    "question": "Nhóm có giúp chăm sóc con non không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_13",
+    "concept_id": "doc_animal_group_behavior_basic_c_wolf",
+    "question": "Sói sống như thế nào?",
+    "answer": "Theo đàn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_14",
+    "concept_id": "doc_animal_group_behavior_basic_c_wolf",
+    "question": "Sói có sống một mình không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_15",
+    "concept_id": "doc_animal_group_behavior_basic_c_fish",
+    "question": "Cá có sống theo đàn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_16",
+    "concept_id": "doc_animal_group_behavior_basic_c_fish",
+    "question": "Cá sống theo nhóm để làm gì?",
+    "answer": "An toàn hơn",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_17",
+    "concept_id": "doc_animal_group_behavior_basic_c_group_behavior",
+    "question": "Vì sao động vật sống theo nhóm?",
+    "answer": "Để sống sót tốt hơn",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_animal_group_behavior_basic_qa_18",
+    "concept_id": "doc_animal_group_behavior_basic_c_group_behavior",
+    "question": "Điền từ: Sống theo nhóm giúp động vật ____ nhau.",
+    "answer": "bảo vệ",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_1",
+    "concept_id": "doc_space_earth_layers_c_earth",
+    "question": "Trái Đất có bao nhiêu lớp chính?",
+    "answer": "4 lớp",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_2",
+    "concept_id": "doc_space_earth_layers_c_crust",
+    "question": "Con người sống ở lớp nào của Trái Đất?",
+    "answer": "Vỏ Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_3",
+    "concept_id": "doc_space_earth_layers_c_mantle",
+    "question": "Lớp phủ nằm ở đâu?",
+    "answer": "Dưới vỏ Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_4",
+    "concept_id": "doc_space_earth_layers_c_outer_core",
+    "question": "Lõi ngoài có ở trạng thái gì?",
+    "answer": "Nóng chảy",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_5",
+    "concept_id": "doc_space_earth_layers_c_inner_core",
+    "question": "Lõi trong là rắn hay lỏng?",
+    "answer": "Rắn",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_6",
+    "concept_id": "doc_space_earth_layers_c_heat",
+    "question": "Các lớp bên trong Trái Đất có nóng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_7",
+    "concept_id": "doc_space_earth_layers_c_metal",
+    "question": "Lõi Trái Đất chứa gì?",
+    "answer": "Kim loại",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_8",
+    "concept_id": "doc_space_earth_layers_c_crust",
+    "question": "Vỏ Trái Đất là lớp ngoài cùng đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_9",
+    "concept_id": "doc_space_earth_layers_c_mantle",
+    "question": "Lớp phủ có dày không?",
+    "answer": "Rất dày",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_10",
+    "concept_id": "doc_space_earth_layers_c_outer_core",
+    "question": "Lõi ngoài nằm trên hay dưới lớp phủ?",
+    "answer": "Dưới lớp phủ",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_11",
+    "concept_id": "doc_space_earth_layers_c_inner_core",
+    "question": "Lõi trong có rất nóng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_12",
+    "concept_id": "doc_space_earth_layers_c_earth",
+    "question": "Trái Đất là gì?",
+    "answer": "Hành tinh chúng ta đang sống",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_13",
+    "concept_id": "doc_space_earth_layers_c_crust",
+    "question": "Điền từ: Vỏ Trái Đất là lớp ____ cùng.",
+    "answer": "ngoài",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_14",
+    "concept_id": "doc_space_earth_layers_c_mantle",
+    "question": "Lớp phủ nóng hay lạnh?",
+    "answer": "Nóng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_layers_qa_15",
+    "concept_id": "doc_space_earth_layers_c_outer_core",
+    "question": "Lõi ngoài có phải là kim loại không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_16",
+    "concept_id": "doc_space_earth_layers_c_inner_core",
+    "question": "Lõi trong nằm ở đâu?",
+    "answer": "Trong cùng của Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_17",
+    "concept_id": "doc_space_earth_layers_c_heat",
+    "question": "Nhiệt độ bên trong Trái Đất như thế nào?",
+    "answer": "Rất nóng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_layers_qa_18",
+    "concept_id": "doc_space_earth_layers_c_metal",
+    "question": "Kim loại có trong lõi ngoài không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_sun_basic_qa_1",
+    "concept_id": "doc_space_sun_basic_c_sun",
+    "question": "Mặt Trời là gì?",
+    "answer": "Một ngôi sao",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_2",
+    "concept_id": "doc_space_sun_basic_c_sun",
+    "question": "Mặt Trời nằm ở đâu?",
+    "answer": "Trung tâm Hệ Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_3",
+    "concept_id": "doc_space_sun_basic_c_light",
+    "question": "Mặt Trời cung cấp gì cho Trái Đất?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_4",
+    "concept_id": "doc_space_sun_basic_c_heat",
+    "question": "Mặt Trời có cung cấp nhiệt không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_5",
+    "concept_id": "doc_space_sun_basic_c_earth",
+    "question": "Nhờ Mặt Trời mà chúng ta có thể sống đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_6",
+    "concept_id": "doc_space_sun_basic_c_plants",
+    "question": "Cây cối cần gì để phát triển?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_7",
+    "concept_id": "doc_space_sun_basic_c_gas",
+    "question": "Mặt Trời được tạo thành từ gì?",
+    "answer": "Khí",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_sun_basic_qa_8",
+    "concept_id": "doc_space_sun_basic_c_star",
+    "question": "Ngôi sao là gì?",
+    "answer": "Thiên thể phát ra ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_9",
+    "concept_id": "doc_space_sun_basic_c_solar_system",
+    "question": "Hệ Mặt Trời gồm những gì?",
+    "answer": "Mặt Trời và các hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_10",
+    "concept_id": "doc_space_sun_basic_c_sun",
+    "question": "Mặt Trời có rất nóng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_11",
+    "concept_id": "doc_space_sun_basic_c_light",
+    "question": "Ánh sáng từ Mặt Trời chiếu đến đâu?",
+    "answer": "Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_12",
+    "concept_id": "doc_space_sun_basic_c_heat",
+    "question": "Nhiệt từ Mặt Trời giúp ích gì?",
+    "answer": "Giúp Trái Đất ấm",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_sun_basic_qa_13",
+    "concept_id": "doc_space_sun_basic_c_sun",
+    "question": "Điền từ: Mặt Trời là một ____.",
+    "answer": "ngôi sao",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_14",
+    "concept_id": "doc_space_sun_basic_c_plants",
+    "question": "Cây cối có cần ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_15",
+    "concept_id": "doc_space_sun_basic_c_earth",
+    "question": "Trái Đất nhận ánh sáng từ đâu?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_sun_basic_qa_16",
+    "concept_id": "doc_space_sun_basic_c_star",
+    "question": "Mặt Trời có phải là một ngôi sao không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_sun_basic_qa_17",
+    "concept_id": "doc_space_sun_basic_c_gas",
+    "question": "Khí có phải là thành phần của Mặt Trời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_sun_basic_qa_18",
+    "concept_id": "doc_space_sun_basic_c_solar_system",
+    "question": "Mặt Trời nằm ở trung tâm của cái gì?",
+    "answer": "Hệ Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_1",
+    "concept_id": "doc_space_moon_basic_c_moon",
+    "question": "Mặt Trăng là gì?",
+    "answer": "Vệ tinh tự nhiên của Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_2",
+    "concept_id": "doc_space_moon_basic_c_moon",
+    "question": "Mặt Trăng có tự phát ra ánh sáng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_3",
+    "concept_id": "doc_space_moon_basic_c_sun",
+    "question": "Ánh sáng của Mặt Trăng đến từ đâu?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_4",
+    "concept_id": "doc_space_moon_basic_c_orbit",
+    "question": "Mặt Trăng làm gì quanh Trái Đất?",
+    "answer": "Quay quanh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_5",
+    "concept_id": "doc_space_moon_basic_c_phase",
+    "question": "Hình dạng thay đổi của Mặt Trăng gọi là gì?",
+    "answer": "Pha Mặt Trăng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_moon_basic_qa_6",
+    "concept_id": "doc_space_moon_basic_c_crater",
+    "question": "Bề mặt Mặt Trăng có gì?",
+    "answer": "Nhiều hố lớn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_7",
+    "concept_id": "doc_space_moon_basic_c_satellite",
+    "question": "Vệ tinh là gì?",
+    "answer": "Thiên thể quay quanh hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_8",
+    "concept_id": "doc_space_moon_basic_c_earth",
+    "question": "Mặt Trăng quay quanh hành tinh nào?",
+    "answer": "Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_9",
+    "concept_id": "doc_space_moon_basic_c_light",
+    "question": "Mặt Trăng phản chiếu cái gì?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_10",
+    "concept_id": "doc_space_moon_basic_c_moon",
+    "question": "Điền từ: Mặt Trăng là ____ của Trái Đất.",
+    "answer": "vệ tinh",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_11",
+    "concept_id": "doc_space_moon_basic_c_phase",
+    "question": "Mặt Trăng có thay đổi hình dạng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_12",
+    "concept_id": "doc_space_moon_basic_c_crater",
+    "question": "Hố trên Mặt Trăng có lớn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_13",
+    "concept_id": "doc_space_moon_basic_c_sun",
+    "question": "Mặt Trời có liên quan đến ánh sáng của Mặt Trăng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_14",
+    "concept_id": "doc_space_moon_basic_c_moon",
+    "question": "Mặt Trăng thuộc loại thiên thể nào?",
+    "answer": "Vệ tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_15",
+    "concept_id": "doc_space_moon_basic_c_orbit",
+    "question": "Quay quanh nghĩa là gì?",
+    "answer": "Chuyển động xung quanh",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_moon_basic_qa_16",
+    "concept_id": "doc_space_moon_basic_c_earth",
+    "question": "Trái Đất có Mặt Trăng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_17",
+    "concept_id": "doc_space_moon_basic_c_light",
+    "question": "Ánh sáng giúp chúng ta nhìn thấy Mặt Trăng đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_moon_basic_qa_18",
+    "concept_id": "doc_space_moon_basic_c_satellite",
+    "question": "Mặt Trăng có phải là vệ tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_planets_basic_qa_1",
+    "concept_id": "doc_space_planets_basic_c_planet",
+    "question": "Hành tinh là gì?",
+    "answer": "Thiên thể quay quanh Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_2",
+    "concept_id": "doc_space_planets_basic_c_planet",
+    "question": "Hành tinh có tự phát ra ánh sáng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_3",
+    "concept_id": "doc_space_planets_basic_c_sun",
+    "question": "Mặt Trời là gì?",
+    "answer": "Ngôi sao trung tâm",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_4",
+    "concept_id": "doc_space_planets_basic_c_sun",
+    "question": "Mặt Trời có phát ra ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_5",
+    "concept_id": "doc_space_planets_basic_c_solar_system",
+    "question": "Hệ Mặt Trời gồm những gì?",
+    "answer": "Mặt Trời và các hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_6",
+    "concept_id": "doc_space_planets_basic_c_solar_system",
+    "question": "Hệ Mặt Trời có chứa hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_7",
+    "concept_id": "doc_space_planets_basic_c_earth",
+    "question": "Trái Đất là gì?",
+    "answer": "Một hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_8",
+    "concept_id": "doc_space_planets_basic_c_earth",
+    "question": "Trái Đất có sự sống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_9",
+    "concept_id": "doc_space_planets_basic_c_mars",
+    "question": "Sao Hỏa có màu gì?",
+    "answer": "Màu đỏ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_10",
+    "concept_id": "doc_space_planets_basic_c_mars",
+    "question": "Sao Hỏa có phải là hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_11",
+    "concept_id": "doc_space_planets_basic_c_jupiter",
+    "question": "Sao Mộc là hành tinh như thế nào?",
+    "answer": "Lớn nhất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_12",
+    "concept_id": "doc_space_planets_basic_c_jupiter",
+    "question": "Sao Mộc có phải là hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_13",
+    "concept_id": "doc_space_planets_basic_c_light",
+    "question": "Ánh sáng của hành tinh đến từ đâu?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_14",
+    "concept_id": "doc_space_planets_basic_c_light",
+    "question": "Hành tinh có tự tạo ra ánh sáng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_15",
+    "concept_id": "doc_space_planets_basic_c_orbit",
+    "question": "Quỹ đạo là gì?",
+    "answer": "Đường đi quanh Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_planets_basic_qa_16",
+    "concept_id": "doc_space_planets_basic_c_orbit",
+    "question": "Hành tinh có quay quanh Mặt Trời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_17",
+    "concept_id": "doc_space_planets_basic_c_planet",
+    "question": "Có bao nhiêu hành tinh trong Hệ Mặt Trời?",
+    "answer": "8",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_planets_basic_qa_18",
+    "concept_id": "doc_space_planets_basic_c_planet",
+    "question": "Điền từ: Hành tinh quay quanh ____.",
+    "answer": "Mặt Trời",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_1",
+    "concept_id": "doc_space_earth_rotation_basic_c_earth",
+    "question": "Trái Đất làm gì quanh trục của nó?",
+    "answer": "Quay",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_2",
+    "concept_id": "doc_space_earth_rotation_basic_c_earth",
+    "question": "Trái Đất có đứng yên không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_3",
+    "concept_id": "doc_space_earth_rotation_basic_c_rotation",
+    "question": "Sự quay là gì?",
+    "answer": "Chuyển động quay",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_4",
+    "concept_id": "doc_space_earth_rotation_basic_c_rotation",
+    "question": "Trái Đất có quay không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_5",
+    "concept_id": "doc_space_earth_rotation_basic_c_axis",
+    "question": "Trục là gì?",
+    "answer": "Đường tưởng tượng Trái Đất quay quanh",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_6",
+    "concept_id": "doc_space_earth_rotation_basic_c_axis",
+    "question": "Trái Đất quay quanh cái gì?",
+    "answer": "Trục",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_7",
+    "concept_id": "doc_space_earth_rotation_basic_c_day",
+    "question": "Ban ngày có gì?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_8",
+    "concept_id": "doc_space_earth_rotation_basic_c_day",
+    "question": "Ban ngày có tối không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_9",
+    "concept_id": "doc_space_earth_rotation_basic_c_night",
+    "question": "Ban đêm có ánh sáng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_10",
+    "concept_id": "doc_space_earth_rotation_basic_c_night",
+    "question": "Ban đêm là khi nào?",
+    "answer": "Khi không có ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_11",
+    "concept_id": "doc_space_earth_rotation_basic_c_sun",
+    "question": "Ánh sáng đến từ đâu?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_12",
+    "concept_id": "doc_space_earth_rotation_basic_c_sun",
+    "question": "Mặt Trời có liên quan đến ngày không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_13",
+    "concept_id": "doc_space_earth_rotation_basic_c_light",
+    "question": "Ánh sáng giúp tạo ra cái gì?",
+    "answer": "Ban ngày",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_14",
+    "concept_id": "doc_space_earth_rotation_basic_c_light",
+    "question": "Ban đêm có ánh sáng không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_15",
+    "concept_id": "doc_space_earth_rotation_basic_c_time",
+    "question": "Một vòng quay mất bao lâu?",
+    "answer": "24 giờ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_16",
+    "concept_id": "doc_space_earth_rotation_basic_c_time",
+    "question": "24 giờ là một ngày đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_17",
+    "concept_id": "doc_space_earth_rotation_basic_c_rotation",
+    "question": "Sự quay của Trái Đất tạo ra gì?",
+    "answer": "Ngày và đêm",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_earth_rotation_basic_qa_18",
+    "concept_id": "doc_space_earth_rotation_basic_c_rotation",
+    "question": "Điền từ: Trái Đất ____ quanh trục.",
+    "answer": "quay",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_1",
+    "concept_id": "doc_space_gravity_basic_c_gravity",
+    "question": "Lực hấp dẫn là gì?",
+    "answer": "Lực kéo các vật lại gần nhau",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_2",
+    "concept_id": "doc_space_gravity_basic_c_gravity",
+    "question": "Lực hấp dẫn có kéo vật không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_3",
+    "concept_id": "doc_space_gravity_basic_c_force",
+    "question": "Lực là gì?",
+    "answer": "Tác động làm vật di chuyển",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_4",
+    "concept_id": "doc_space_gravity_basic_c_force",
+    "question": "Lực hấp dẫn có phải là một lực không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_5",
+    "concept_id": "doc_space_gravity_basic_c_earth",
+    "question": "Trái Đất có lực gì?",
+    "answer": "Lực hấp dẫn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_6",
+    "concept_id": "doc_space_gravity_basic_c_earth",
+    "question": "Trái Đất có kéo chúng ta xuống không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_7",
+    "concept_id": "doc_space_gravity_basic_c_object",
+    "question": "Lực hấp dẫn tác dụng lên cái gì?",
+    "answer": "Vật thể",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_8",
+    "concept_id": "doc_space_gravity_basic_c_object",
+    "question": "Mọi vật đều bị lực hấp dẫn kéo không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_9",
+    "concept_id": "doc_space_gravity_basic_c_fall",
+    "question": "Vật rơi xuống là do lực gì?",
+    "answer": "Lực hấp dẫn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_10",
+    "concept_id": "doc_space_gravity_basic_c_fall",
+    "question": "Lực hấp dẫn có làm vật rơi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_11",
+    "concept_id": "doc_space_gravity_basic_c_space",
+    "question": "Không gian là gì?",
+    "answer": "Vùng ngoài Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_12",
+    "concept_id": "doc_space_gravity_basic_c_space",
+    "question": "Chúng ta có bay vào không gian nhờ lực hấp dẫn không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_13",
+    "concept_id": "doc_space_gravity_basic_c_planet",
+    "question": "Hành tinh được giữ bởi lực gì?",
+    "answer": "Lực hấp dẫn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_14",
+    "concept_id": "doc_space_gravity_basic_c_planet",
+    "question": "Hành tinh có quay quanh Mặt Trời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_15",
+    "concept_id": "doc_space_gravity_basic_c_sun",
+    "question": "Mặt Trời có liên quan đến lực hấp dẫn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_16",
+    "concept_id": "doc_space_gravity_basic_c_sun",
+    "question": "Mặt Trời giữ hành tinh bằng lực gì?",
+    "answer": "Lực hấp dẫn",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_17",
+    "concept_id": "doc_space_gravity_basic_c_gravity",
+    "question": "Lực hấp dẫn giúp chúng ta không bay đi đâu?",
+    "answer": "Không gian",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_gravity_basic_qa_18",
+    "concept_id": "doc_space_gravity_basic_c_gravity",
+    "question": "Điền từ: Lực hấp dẫn kéo vật xuống ____.",
+    "answer": "đất",
+    "type": "fill",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_1",
+    "concept_id": "doc_space_seasons_basic_c_earth",
+    "question": "Trái Đất có gì trong năm?",
+    "answer": "Các mùa",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_2",
+    "concept_id": "doc_space_seasons_basic_c_earth",
+    "question": "Trái Đất có mùa không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_3",
+    "concept_id": "doc_space_seasons_basic_c_sun",
+    "question": "Nguồn ánh sáng đến từ đâu?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_4",
+    "concept_id": "doc_space_seasons_basic_c_sun",
+    "question": "Mặt Trời có tạo ra ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_5",
+    "concept_id": "doc_space_seasons_basic_c_season",
+    "question": "Một năm có mấy mùa?",
+    "answer": "4",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_6",
+    "concept_id": "doc_space_seasons_basic_c_season",
+    "question": "Mùa có thay đổi trong năm không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_7",
+    "concept_id": "doc_space_seasons_basic_c_spring",
+    "question": "Mùa xuân là mùa gì?",
+    "answer": "Ấm dần",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_8",
+    "concept_id": "doc_space_seasons_basic_c_spring",
+    "question": "Mùa xuân có ấm hơn mùa đông không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_9",
+    "concept_id": "doc_space_seasons_basic_c_summer",
+    "question": "Mùa hạ như thế nào?",
+    "answer": "Nóng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_10",
+    "concept_id": "doc_space_seasons_basic_c_summer",
+    "question": "Mùa hạ có nóng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_11",
+    "concept_id": "doc_space_seasons_basic_c_autumn",
+    "question": "Mùa thu như thế nào?",
+    "answer": "Mát",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_12",
+    "concept_id": "doc_space_seasons_basic_c_autumn",
+    "question": "Mùa thu có lạnh không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_13",
+    "concept_id": "doc_space_seasons_basic_c_winter",
+    "question": "Mùa đông như thế nào?",
+    "answer": "Lạnh",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_14",
+    "concept_id": "doc_space_seasons_basic_c_winter",
+    "question": "Mùa đông có lạnh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_15",
+    "concept_id": "doc_space_seasons_basic_c_light",
+    "question": "Ánh sáng ảnh hưởng đến mùa như thế nào?",
+    "answer": "Nhiều ánh sáng thì ấm hơn",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_16",
+    "concept_id": "doc_space_seasons_basic_c_light",
+    "question": "Ít ánh sáng thì lạnh hơn đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_17",
+    "concept_id": "doc_space_seasons_basic_c_season",
+    "question": "Kể tên một mùa trong năm",
+    "answer": "Xuân/Hạ/Thu/Đông",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_seasons_basic_qa_18",
+    "concept_id": "doc_space_seasons_basic_c_season",
+    "question": "Điền từ: Một năm có ____ mùa.",
+    "answer": "4",
+    "type": "fill",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_1",
+    "concept_id": "doc_space_stars_basic_c_star",
+    "question": "Ngôi sao là gì?",
+    "answer": "Thiên thể phát ra ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_2",
+    "concept_id": "doc_space_stars_basic_c_star",
+    "question": "Ngôi sao có phát ra ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_3",
+    "concept_id": "doc_space_stars_basic_c_sun",
+    "question": "Mặt Trời là gì?",
+    "answer": "Một ngôi sao",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_4",
+    "concept_id": "doc_space_stars_basic_c_sun",
+    "question": "Mặt Trời có phải là ngôi sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_5",
+    "concept_id": "doc_space_stars_basic_c_light",
+    "question": "Ngôi sao tạo ra gì?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_6",
+    "concept_id": "doc_space_stars_basic_c_light",
+    "question": "Ánh sáng có đến từ sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_7",
+    "concept_id": "doc_space_stars_basic_c_heat",
+    "question": "Ngôi sao có tạo ra nhiệt không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_8",
+    "concept_id": "doc_space_stars_basic_c_heat",
+    "question": "Nhiệt là gì?",
+    "answer": "Độ nóng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_9",
+    "concept_id": "doc_space_stars_basic_c_gas",
+    "question": "Ngôi sao được tạo từ gì?",
+    "answer": "Khí",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_10",
+    "concept_id": "doc_space_stars_basic_c_gas",
+    "question": "Khí có phải là thành phần của sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_11",
+    "concept_id": "doc_space_stars_basic_c_earth",
+    "question": "Chúng ta sống ở đâu?",
+    "answer": "Trái Đất",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_12",
+    "concept_id": "doc_space_stars_basic_c_earth",
+    "question": "Các ngôi sao có ở gần Trái Đất không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_13",
+    "concept_id": "doc_space_stars_basic_c_night",
+    "question": "Khi nào chúng ta thấy sao rõ nhất?",
+    "answer": "Ban đêm",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_14",
+    "concept_id": "doc_space_stars_basic_c_night",
+    "question": "Ban ngày có thấy nhiều sao không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_stars_basic_qa_15",
+    "concept_id": "doc_space_stars_basic_c_universe",
+    "question": "Các ngôi sao nằm ở đâu?",
+    "answer": "Trong vũ trụ",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_16",
+    "concept_id": "doc_space_stars_basic_c_universe",
+    "question": "Vũ trụ có nhiều sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_stars_basic_qa_17",
+    "concept_id": "doc_space_stars_basic_c_star",
+    "question": "Có nhiều ngôi sao không?",
+    "answer": "Có rất nhiều",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_stars_basic_qa_18",
+    "concept_id": "doc_space_stars_basic_c_star",
+    "question": "Điền từ: Ngôi sao là quả cầu ____ nóng.",
+    "answer": "khí",
+    "type": "fill",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_comets_basic_qa_1",
+    "concept_id": "doc_space_comets_basic_c_comet",
+    "question": "Sao chổi là gì?",
+    "answer": "Thiên thể có đuôi sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_comets_basic_qa_2",
+    "concept_id": "doc_space_comets_basic_c_comet",
+    "question": "Sao chổi có đuôi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_comets_basic_qa_3",
+    "concept_id": "doc_space_comets_basic_c_ice",
+    "question": "Sao chổi có chứa gì?",
+    "answer": "Băng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_4",
+    "concept_id": "doc_space_comets_basic_c_ice",
+    "question": "Băng có phải là thành phần của sao chổi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_comets_basic_qa_5",
+    "concept_id": "doc_space_comets_basic_c_dust",
+    "question": "Bụi trong sao chổi là gì?",
+    "answer": "Các hạt nhỏ",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_comets_basic_qa_6",
+    "concept_id": "doc_space_comets_basic_c_dust",
+    "question": "Sao chổi có chứa bụi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_7",
+    "concept_id": "doc_space_comets_basic_c_rock",
+    "question": "Đá là gì trong sao chổi?",
+    "answer": "Chất rắn",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_8",
+    "concept_id": "doc_space_comets_basic_c_rock",
+    "question": "Sao chổi có đá không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_comets_basic_qa_9",
+    "concept_id": "doc_space_comets_basic_c_tail",
+    "question": "Đuôi sao chổi xuất hiện khi nào?",
+    "answer": "Khi gần Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_comets_basic_qa_10",
+    "concept_id": "doc_space_comets_basic_c_tail",
+    "question": "Sao chổi luôn có đuôi không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_space_comets_basic_qa_11",
+    "concept_id": "doc_space_comets_basic_c_sun",
+    "question": "Mặt Trời làm gì với sao chổi?",
+    "answer": "Làm nóng lên",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_12",
+    "concept_id": "doc_space_comets_basic_c_sun",
+    "question": "Sao chổi có liên quan đến Mặt Trời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_comets_basic_qa_13",
+    "concept_id": "doc_space_comets_basic_c_orbit",
+    "question": "Quỹ đạo là gì?",
+    "answer": "Đường đi quanh Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_comets_basic_qa_14",
+    "concept_id": "doc_space_comets_basic_c_orbit",
+    "question": "Sao chổi có quay quanh Mặt Trời không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_15",
+    "concept_id": "doc_space_comets_basic_c_heat",
+    "question": "Nhiệt làm sao chổi thay đổi như thế nào?",
+    "answer": "Tạo đuôi sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_space_comets_basic_qa_16",
+    "concept_id": "doc_space_comets_basic_c_heat",
+    "question": "Nhiệt có làm sao chổi sáng hơn không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_comets_basic_qa_17",
+    "concept_id": "doc_space_comets_basic_c_comet",
+    "question": "Vì sao sao chổi có đuôi?",
+    "answer": "Do nóng lên gần Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 5
+  },
+  {
+    "id": "doc_space_comets_basic_qa_18",
+    "concept_id": "doc_space_comets_basic_c_comet",
+    "question": "Điền từ: Sao chổi được tạo từ băng, ____ và đá.",
+    "answer": "bụi",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_1",
+    "concept_id": "doc_space_asteroids_basic_c_asteroid",
+    "question": "Tiểu hành tinh là gì?",
+    "answer": "Khối đá bay trong không gian",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_2",
+    "concept_id": "doc_space_asteroids_basic_c_asteroid",
+    "question": "Tiểu hành tinh có nhỏ hơn hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_3",
+    "concept_id": "doc_space_asteroids_basic_c_rock",
+    "question": "Tiểu hành tinh được tạo từ gì?",
+    "answer": "Đá",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_4",
+    "concept_id": "doc_space_asteroids_basic_c_rock",
+    "question": "Đá có phải là thành phần chính của tiểu hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_5",
+    "concept_id": "doc_space_asteroids_basic_c_space",
+    "question": "Tiểu hành tinh ở đâu?",
+    "answer": "Trong không gian",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_6",
+    "concept_id": "doc_space_asteroids_basic_c_space",
+    "question": "Tiểu hành tinh có ở trên Trái Đất không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_7",
+    "concept_id": "doc_space_asteroids_basic_c_sun",
+    "question": "Tiểu hành tinh quay quanh cái gì?",
+    "answer": "Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_8",
+    "concept_id": "doc_space_asteroids_basic_c_sun",
+    "question": "Mặt Trời có ảnh hưởng đến tiểu hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_9",
+    "concept_id": "doc_space_asteroids_basic_c_orbit",
+    "question": "Quỹ đạo là gì?",
+    "answer": "Đường đi quanh Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_10",
+    "concept_id": "doc_space_asteroids_basic_c_orbit",
+    "question": "Tiểu hành tinh có quỹ đạo không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_11",
+    "concept_id": "doc_space_asteroids_basic_c_belt",
+    "question": "Vành đai tiểu hành tinh là gì?",
+    "answer": "Khu vực có nhiều tiểu hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_12",
+    "concept_id": "doc_space_asteroids_basic_c_belt",
+    "question": "Có nhiều tiểu hành tinh ở một nơi không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_13",
+    "concept_id": "doc_space_asteroids_basic_c_mars",
+    "question": "Sao Hỏa nằm gần cái gì?",
+    "answer": "Vành đai tiểu hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_14",
+    "concept_id": "doc_space_asteroids_basic_c_mars",
+    "question": "Sao Hỏa có liên quan đến tiểu hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_15",
+    "concept_id": "doc_space_asteroids_basic_c_jupiter",
+    "question": "Sao Mộc là hành tinh như thế nào?",
+    "answer": "Lớn",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_16",
+    "concept_id": "doc_space_asteroids_basic_c_jupiter",
+    "question": "Sao Mộc có gần vành đai tiểu hành tinh không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_17",
+    "concept_id": "doc_space_asteroids_basic_c_asteroid",
+    "question": "Điều gì xảy ra khi tiểu hành tinh va chạm với hành tinh?",
+    "answer": "Có thể gây va chạm mạnh",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_space_asteroids_basic_qa_18",
+    "concept_id": "doc_space_asteroids_basic_c_asteroid",
+    "question": "Điền từ: Tiểu hành tinh là khối ____ trong không gian.",
+    "answer": "đá",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_1",
+    "concept_id": "doc_space_galaxy_basic_c_galaxy",
+    "question": "Thiên hà là gì?",
+    "answer": "Tập hợp lớn của các ngôi sao",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_2",
+    "concept_id": "doc_space_galaxy_basic_c_galaxy",
+    "question": "Thiên hà có chứa sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_3",
+    "concept_id": "doc_space_galaxy_basic_c_star",
+    "question": "Ngôi sao là gì?",
+    "answer": "Thiên thể phát sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_4",
+    "concept_id": "doc_space_galaxy_basic_c_star",
+    "question": "Ngôi sao có phát sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_5",
+    "concept_id": "doc_space_galaxy_basic_c_planet",
+    "question": "Hành tinh là gì?",
+    "answer": "Thiên thể quay quanh sao",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_6",
+    "concept_id": "doc_space_galaxy_basic_c_planet",
+    "question": "Hành tinh có quay quanh sao không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_7",
+    "concept_id": "doc_space_galaxy_basic_c_gas",
+    "question": "Khí là gì trong thiên hà?",
+    "answer": "Thành phần",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_8",
+    "concept_id": "doc_space_galaxy_basic_c_gas",
+    "question": "Thiên hà có chứa khí không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_9",
+    "concept_id": "doc_space_galaxy_basic_c_solar_system",
+    "question": "Hệ Mặt Trời nằm ở đâu?",
+    "answer": "Trong thiên hà",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_10",
+    "concept_id": "doc_space_galaxy_basic_c_solar_system",
+    "question": "Hệ Mặt Trời có nằm trong Dải Ngân Hà không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_11",
+    "concept_id": "doc_space_galaxy_basic_c_milky_way",
+    "question": "Dải Ngân Hà là gì?",
+    "answer": "Thiên hà chứa Hệ Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_12",
+    "concept_id": "doc_space_galaxy_basic_c_milky_way",
+    "question": "Dải Ngân Hà có phải là thiên hà không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_13",
+    "concept_id": "doc_space_galaxy_basic_c_universe",
+    "question": "Vũ trụ chứa gì?",
+    "answer": "Các thiên hà",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_14",
+    "concept_id": "doc_space_galaxy_basic_c_universe",
+    "question": "Vũ trụ có nhiều thiên hà không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_15",
+    "concept_id": "doc_space_galaxy_basic_c_many",
+    "question": "Có bao nhiêu thiên hà trong vũ trụ?",
+    "answer": "Rất nhiều",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_16",
+    "concept_id": "doc_space_galaxy_basic_c_many",
+    "question": "Số lượng thiên hà có ít không?",
+    "answer": "Không",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_17",
+    "concept_id": "doc_space_galaxy_basic_c_galaxy",
+    "question": "Vì sao thiên hà quan trọng?",
+    "answer": "Chứa các ngôi sao và hành tinh",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_space_galaxy_basic_qa_18",
+    "concept_id": "doc_space_galaxy_basic_c_galaxy",
+    "question": "Điền từ: Thiên hà là tập hợp của sao, hành tinh và ____.",
+    "answer": "khí",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_1",
+    "concept_id": "doc_space_eclipse_basic_c_eclipse",
+    "question": "Nhật thực và nguyệt thực là gì?",
+    "answer": "Hiện tượng che ánh sáng giữa các thiên thể",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_2",
+    "concept_id": "doc_space_eclipse_basic_c_eclipse",
+    "question": "Hiện tượng này có liên quan đến ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_3",
+    "concept_id": "doc_space_eclipse_basic_c_solar_eclipse",
+    "question": "Nhật thực là gì?",
+    "answer": "Mặt Trăng che ánh sáng từ Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_4",
+    "concept_id": "doc_space_eclipse_basic_c_solar_eclipse",
+    "question": "Nhật thực xảy ra khi Mặt Trăng đứng giữa Trái Đất và Mặt Trời đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_5",
+    "concept_id": "doc_space_eclipse_basic_c_lunar_eclipse",
+    "question": "Nguyệt thực là gì?",
+    "answer": "Trái Đất che ánh sáng đến Mặt Trăng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_6",
+    "concept_id": "doc_space_eclipse_basic_c_lunar_eclipse",
+    "question": "Nguyệt thực xảy ra khi Trái Đất nằm giữa Mặt Trời và Mặt Trăng đúng không?",
+    "answer": "Đúng",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_7",
+    "concept_id": "doc_space_eclipse_basic_c_sun",
+    "question": "Mặt Trời cung cấp gì?",
+    "answer": "Ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_8",
+    "concept_id": "doc_space_eclipse_basic_c_sun",
+    "question": "Mặt Trời có bị che trong nhật thực không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_9",
+    "concept_id": "doc_space_eclipse_basic_c_moon",
+    "question": "Mặt Trăng làm gì trong nhật thực?",
+    "answer": "Che ánh sáng từ Mặt Trời",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_10",
+    "concept_id": "doc_space_eclipse_basic_c_moon",
+    "question": "Mặt Trăng có bị che trong nguyệt thực không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_11",
+    "concept_id": "doc_space_eclipse_basic_c_earth",
+    "question": "Trái Đất làm gì trong nguyệt thực?",
+    "answer": "Che ánh sáng đến Mặt Trăng",
+    "type": "open",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_12",
+    "concept_id": "doc_space_eclipse_basic_c_earth",
+    "question": "Trái Đất có tham gia vào nguyệt thực không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 1
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_13",
+    "concept_id": "doc_space_eclipse_basic_c_light",
+    "question": "Ánh sáng bị ảnh hưởng như thế nào trong hiện tượng này?",
+    "answer": "Bị che",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_14",
+    "concept_id": "doc_space_eclipse_basic_c_light",
+    "question": "Hiện tượng này có làm giảm ánh sáng không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_15",
+    "concept_id": "doc_space_eclipse_basic_c_alignment",
+    "question": "Thẳng hàng là gì?",
+    "answer": "Các thiên thể nằm trên một đường",
+    "type": "open",
+    "options": [],
+    "difficulty": 3
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_16",
+    "concept_id": "doc_space_eclipse_basic_c_alignment",
+    "question": "Các thiên thể có cần thẳng hàng để xảy ra hiện tượng này không?",
+    "answer": "Có",
+    "type": "yesno",
+    "options": [],
+    "difficulty": 2
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_17",
+    "concept_id": "doc_space_eclipse_basic_c_eclipse",
+    "question": "Vì sao xảy ra nhật thực và nguyệt thực?",
+    "answer": "Do các thiên thể thẳng hàng và che ánh sáng",
+    "type": "open",
+    "options": [],
+    "difficulty": 4
+  },
+  {
+    "id": "doc_space_eclipse_basic_qa_18",
+    "concept_id": "doc_space_eclipse_basic_c_eclipse",
+    "question": "Điền từ: Nhật thực xảy ra khi ____ che Mặt Trời.",
+    "answer": "Mặt Trăng",
+    "type": "fill",
+    "options": [],
+    "difficulty": 2
+  }
+]
