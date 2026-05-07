@@ -74,7 +74,10 @@ edubot/build_manifest.json
 edubot/qa_bank.json
 
 # Vendored / third-party trees and local environments
-nghitts/
+# Keep most of nghitts ignored but include python_tts explicitly
+nghitts/public/
+nghitts/src/
+nghitts/train/
 openWakeWord/
 sherpa-onnx/
 src/
