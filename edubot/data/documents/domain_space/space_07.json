@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_seasons_basic.json",
+  "doc_id": "doc_space_seasons_basic",
+  "topic": "Các mùa trong năm",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 8,
+  "source": {
+    "title": "Seasons for Kids",
+    "url": "https://example.com/seasons_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Trái Đất quay quanh Mặt Trời và có trục nghiêng. Điều này tạo ra các mùa trong năm: xuân, hạ, thu và đông. Khi một nơi nhận nhiều ánh sáng Mặt Trời hơn thì sẽ ấm hơn. Khi nhận ít ánh sáng hơn thì sẽ lạnh hơn.",
+  "concepts": [
+    {"id": "c_earth","name": "Trái Đất","description": "Hành tinh có các mùa.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Nguồn ánh sáng và nhiệt.","difficulty": 1,"parent_id": null},
+    {"id": "c_season","name": "Mùa","description": "Thời gian trong năm với thời tiết khác nhau.","difficulty": 1,"parent_id": null},
+    {"id": "c_spring","name": "Mùa xuân","description": "Mùa ấm dần.","difficulty": 1,"parent_id": "c_season"},
+    {"id": "c_summer","name": "Mùa hạ","description": "Mùa nóng.","difficulty": 1,"parent_id": "c_season"},
+    {"id": "c_autumn","name": "Mùa thu","description": "Mùa mát.","difficulty": 1,"parent_id": "c_season"},
+    {"id": "c_winter","name": "Mùa đông","description": "Mùa lạnh.","difficulty": 1,"parent_id": "c_season"},
+    {"id": "c_light","name": "Ánh sáng","description": "Ánh sáng từ Mặt Trời.","difficulty": 1,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_earth","to_id": "c_sun","relation": "RELATED_TO","weight": 0.9},
+    {"from_id": "c_earth","to_id": "c_season","relation": "HAS","weight": 0.95},
+
+    {"from_id": "c_season","to_id": "c_spring","relation": "HAS","weight": 0.9},
+    {"from_id": "c_season","to_id": "c_summer","relation": "HAS","weight": 0.9},
+    {"from_id": "c_season","to_id": "c_autumn","relation": "HAS","weight": 0.9},
+    {"from_id": "c_season","to_id": "c_winter","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_spring","to_id": "c_season","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_summer","to_id": "c_season","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_autumn","to_id": "c_season","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_winter","to_id": "c_season","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_light","to_id": "c_sun","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_light","to_id": "c_summer","relation": "CAUSES","weight": 0.8},
+    {"from_id": "c_light","to_id": "c_winter","relation": "OPPOSITE_OF","weight": 0.8},
+
+    {"from_id": "c_summer","to_id": "c_winter","relation": "OPPOSITE_OF","weight": 0.9},
+    {"from_id": "c_spring","to_id": "c_autumn","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_earth","to_id": "c_light","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_sun","to_id": "c_light","relation": "HAS","weight": 0.9}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_earth","question": "Trái Đất có gì trong năm?","answer": "Các mùa","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_earth","question": "Trái Đất có mùa không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_sun","question": "Nguồn ánh sáng đến từ đâu?","answer": "Mặt Trời","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_sun","question": "Mặt Trời có tạo ra ánh sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_season","question": "Một năm có mấy mùa?","answer": "4","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_season","question": "Mùa có thay đổi trong năm không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_spring","question": "Mùa xuân là mùa gì?","answer": "Ấm dần","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_spring","question": "Mùa xuân có ấm hơn mùa đông không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_summer","question": "Mùa hạ như thế nào?","answer": "Nóng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_summer","question": "Mùa hạ có nóng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_autumn","question": "Mùa thu như thế nào?","answer": "Mát","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_autumn","question": "Mùa thu có lạnh không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_winter","question": "Mùa đông như thế nào?","answer": "Lạnh","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_winter","question": "Mùa đông có lạnh không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_light","question": "Ánh sáng ảnh hưởng đến mùa như thế nào?","answer": "Nhiều ánh sáng thì ấm hơn","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_16","concept_id": "c_light","question": "Ít ánh sáng thì lạnh hơn đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_season","question": "Kể tên một mùa trong năm","answer": "Xuân/Hạ/Thu/Đông","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_18","concept_id": "c_season","question": "Điền từ: Một năm có ____ mùa.","answer": "4","type": "fill","options": [],"difficulty": 1}
+  ]
+}

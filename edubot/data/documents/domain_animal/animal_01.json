@@ -1,0 +1,255 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_mammals_basic.json",
+  "doc_id": "doc_animal_mammals_basic",
+  "topic": "Động vật có vú",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Mammals for Kids",
+    "url": "https://example.com/mammals_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Động vật có vú là nhóm động vật nuôi con bằng sữa mẹ. Chúng có lông hoặc tóc trên cơ thể. Hầu hết động vật có vú sống trên cạn, nhưng một số sống dưới nước như cá voi. Con người cũng là động vật có vú.",
+  "concepts": [
+    {
+      "id": "c_mammal",
+      "name": "Động vật có vú",
+      "description": "Động vật nuôi con bằng sữa.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_milk",
+      "name": "Sữa mẹ",
+      "description": "Thức ăn nuôi con của động vật có vú.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_fur",
+      "name": "Lông",
+      "description": "Lớp phủ trên cơ thể động vật.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_land",
+      "name": "Đất liền",
+      "description": "Nơi nhiều động vật có vú sống.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_water",
+      "name": "Nước",
+      "description": "Môi trường sống của một số loài.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_whale",
+      "name": "Cá voi",
+      "description": "Động vật có vú sống dưới nước.",
+      "difficulty": 2,
+      "parent_id": "c_mammal"
+    },
+    {
+      "id": "c_human",
+      "name": "Con người",
+      "description": "Một loài động vật có vú.",
+      "difficulty": 1,
+      "parent_id": "c_mammal"
+    }
+  ],
+  "relations": [
+    {"from_id": "c_mammal", "to_id": "c_milk", "relation": "HAS", "weight": 0.95},
+    {"from_id": "c_mammal", "to_id": "c_fur", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_whale", "to_id": "c_mammal", "relation": "IS_A", "weight": 0.95},
+    {"from_id": "c_human", "to_id": "c_mammal", "relation": "IS_A", "weight": 0.95},
+
+    {"from_id": "c_mammal", "to_id": "c_land", "relation": "LIVES_IN", "weight": 0.8},
+    {"from_id": "c_whale", "to_id": "c_water", "relation": "LIVES_IN", "weight": 0.95},
+
+    {"from_id": "c_land", "to_id": "c_water", "relation": "OPPOSITE_OF", "weight": 0.7},
+
+    {"from_id": "c_milk", "to_id": "c_mammal", "relation": "RELATED_TO", "weight": 0.8},
+    {"from_id": "c_fur", "to_id": "c_mammal", "relation": "RELATED_TO", "weight": 0.8},
+
+    {"from_id": "c_whale", "to_id": "c_water", "relation": "RELATED_TO", "weight": 0.8},
+    {"from_id": "c_human", "to_id": "c_land", "relation": "RELATED_TO", "weight": 0.8},
+
+    {"from_id": "c_mammal", "to_id": "c_whale", "relation": "HAS", "weight": 0.6},
+    {"from_id": "c_mammal", "to_id": "c_human", "relation": "HAS", "weight": 0.6},
+
+    {"from_id": "c_whale", "to_id": "c_mammal", "relation": "EXAMPLE_OF", "weight": 0.7},
+    {"from_id": "c_human", "to_id": "c_mammal", "relation": "EXAMPLE_OF", "weight": 0.7}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_mammal",
+      "question": "Động vật có vú nuôi con bằng gì?",
+      "answer": "Sữa mẹ",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_mammal",
+      "question": "Động vật có vú có lông không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_whale",
+      "question": "Cá voi sống ở đâu?",
+      "answer": "Dưới nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_human",
+      "question": "Con người có phải là động vật có vú không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_land",
+      "question": "Nhiều động vật có vú sống ở đâu?",
+      "answer": "Đất liền",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_water",
+      "question": "Một số động vật có vú sống trong nước đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_milk",
+      "question": "Sữa mẹ dùng để làm gì?",
+      "answer": "Nuôi con",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_fur",
+      "question": "Động vật có vú có lớp gì trên cơ thể?",
+      "answer": "Lông",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_whale",
+      "question": "Cá voi có phải là động vật có vú không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_mammal",
+      "question": "Điền từ: Động vật có vú nuôi con bằng ____.",
+      "answer": "sữa",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_human",
+      "question": "Con người thuộc nhóm động vật nào?",
+      "answer": "Động vật có vú",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_land",
+      "question": "Đất liền có phải là nơi sống của nhiều động vật có vú không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_water",
+      "question": "Nước là môi trường sống của cá voi đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_mammal",
+      "question": "Động vật có vú là gì?",
+      "answer": "Động vật nuôi con bằng sữa",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_fur",
+      "question": "Lông có trên cơ thể động vật có vú không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_whale",
+      "question": "Cá voi sống trên cạn hay dưới nước?",
+      "answer": "Dưới nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_milk",
+      "question": "Sữa mẹ có quan trọng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_mammal",
+      "question": "Động vật có vú có thể sống ở nhiều môi trường không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    }
+  ]
+}

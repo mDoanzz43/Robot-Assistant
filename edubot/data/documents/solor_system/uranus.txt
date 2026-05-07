@@ -1,0 +1,22 @@
+Khái niệm:
+Sao Thiên Vương là hành tinh khí băng.
+
+Đặc điểm:
+Quay nghiêng gần 90 độ.
+Có màu xanh do methane.
+Nhiệt độ thấp.
+
+Ví dụ:
+Trục quay của Sao Thiên Vương gần như nằm ngang.
+
+Phản ví dụ:
+Trái Đất quay với trục nghiêng nhỏ hơn.
+
+Quan hệ:
+Uranus IS_A Ice_Giant
+Uranus HAS Methane
+Uranus ORBITS Sun
+
+Câu hỏi gợi mở:
+Tại sao Sao Thiên Vương quay nghiêng?
+Methane ảnh hưởng màu sắc như thế nào?

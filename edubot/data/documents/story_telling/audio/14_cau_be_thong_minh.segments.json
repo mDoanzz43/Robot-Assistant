@@ -1,0 +1,108 @@
+{
+  "id": "14",
+  "title": "Cậu bé thông minh",
+  "source_text_chars": 610,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\14_cau_be_thong_minh.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 34.895,
+  "segments": [
+    {
+      "text": "Với mong muốn tìm ra hiền tài cho đất nước,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "nhà vua đã phái quan viên đi khắp nơi và đặt ra những câu hỏi hóc búa để thử thách",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "mọi người.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Với sự thông minh,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "nhanh trí và tài đối đáp,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "một cậu bé đã giải được câu hỏi “trâu cày được mấy đường” đến thử thách nuôi trâu",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "đực đẻ con,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "một con chim sẻ dọn ba mâm cỗ hay mưu mẹo xâu sợi chỉ qua ruột ốc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ tài trí hơn người, nhà vua đã phong cậu làm trạng nguyên.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cậu bé thông minh là truyện cổ tích cho bé ca ngợi sự thông minh,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "trí tuệ của con người.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện cũng nhắc nhở các bé phải chăm chỉ học tập,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "không ngừng sáng tạo để trở thành người tài giỏi,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "có ích.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.941,
+      "paragraph_end": true
+    }
+  ]
+}

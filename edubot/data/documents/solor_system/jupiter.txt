@@ -1,0 +1,23 @@
+Khái niệm:
+Sao Mộc là hành tinh lớn nhất trong Hệ Mặt Trời.
+
+Đặc điểm:
+Chủ yếu là khí.
+Có nhiều vệ tinh.
+Có vết đỏ lớn là một cơn bão.
+
+Ví dụ:
+Ganymede là vệ tinh lớn của Sao Mộc.
+
+Phản ví dụ:
+Trái Đất là hành tinh rắn.
+
+Quan hệ:
+Jupiter IS_A Gas_Giant
+Jupiter HAS Many_Moons
+Jupiter HAS Strong_Gravity
+Jupiter ORBITS Sun
+
+Câu hỏi gợi mở:
+Tại sao Sao Mộc có nhiều vệ tinh?
+Trọng lực lớn ảnh hưởng gì đến các vật xung quanh?

@@ -1,0 +1,79 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_food_chain_basic.json",
+  "doc_id": "doc_animal_food_chain_basic",
+  "topic": "Chuỗi thức ăn",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 8,
+  "source": {
+    "title": "Food Chain for Kids",
+    "url": "https://example.com/food_chain_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Chuỗi thức ăn là cách các sinh vật ăn lẫn nhau để sống. Cây tạo ra thức ăn từ ánh sáng Mặt Trời. Động vật ăn cỏ ăn cây, và động vật ăn thịt ăn động vật khác. Ví dụ: cỏ → thỏ → cáo.",
+  "concepts": [
+    {"id": "c_food_chain","name": "Chuỗi thức ăn","description": "Cách sinh vật ăn lẫn nhau.","difficulty": 1,"parent_id": null},
+    {"id": "c_plant","name": "Cây","description": "Sinh vật tạo ra thức ăn.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Nguồn năng lượng cho cây.","difficulty": 1,"parent_id": null},
+    {"id": "c_herbivore","name": "Động vật ăn cỏ","description": "Ăn thực vật.","difficulty": 1,"parent_id": null},
+    {"id": "c_carnivore","name": "Động vật ăn thịt","description": "Ăn động vật khác.","difficulty": 1,"parent_id": null},
+    {"id": "c_grass","name": "Cỏ","description": "Một loại cây.","difficulty": 1,"parent_id": "c_plant"},
+    {"id": "c_rabbit","name": "Thỏ","description": "Động vật ăn cỏ.","difficulty": 1,"parent_id": "c_herbivore"},
+    {"id": "c_fox","name": "Cáo","description": "Động vật ăn thịt.","difficulty": 1,"parent_id": "c_carnivore"}
+  ],
+  "relations": [
+    {"from_id": "c_food_chain","to_id": "c_plant","relation": "HAS","weight": 0.9},
+    {"from_id": "c_food_chain","to_id": "c_herbivore","relation": "HAS","weight": 0.9},
+    {"from_id": "c_food_chain","to_id": "c_carnivore","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_plant","to_id": "c_sun","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_herbivore","to_id": "c_plant","relation": "RELATED_TO","weight": 0.9},
+    {"from_id": "c_carnivore","to_id": "c_herbivore","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_grass","to_id": "c_plant","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_rabbit","to_id": "c_herbivore","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_fox","to_id": "c_carnivore","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_grass","to_id": "c_rabbit","relation": "CAUSES","weight": 0.8},
+    {"from_id": "c_rabbit","to_id": "c_fox","relation": "CAUSES","weight": 0.8},
+
+    {"from_id": "c_food_chain","to_id": "c_grass","relation": "HAS","weight": 0.7},
+    {"from_id": "c_food_chain","to_id": "c_rabbit","relation": "HAS","weight": 0.7},
+    {"from_id": "c_food_chain","to_id": "c_fox","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_grass","to_id": "c_plant","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_rabbit","to_id": "c_herbivore","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_fox","to_id": "c_carnivore","relation": "EXAMPLE_OF","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_food_chain","question": "Chuỗi thức ăn là gì?","answer": "Cách sinh vật ăn lẫn nhau","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_food_chain","question": "Chuỗi thức ăn có liên quan đến ăn uống không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_plant","question": "Cây làm gì để sống?","answer": "Tạo thức ăn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_plant","question": "Cây có cần ánh sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_sun","question": "Nguồn năng lượng cho cây là gì?","answer": "Mặt Trời","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_sun","question": "Mặt Trời giúp cây phát triển không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_herbivore","question": "Động vật ăn cỏ ăn gì?","answer": "Cây","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_herbivore","question": "Thỏ có ăn cỏ không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_carnivore","question": "Động vật ăn thịt ăn gì?","answer": "Động vật khác","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_carnivore","question": "Cáo có ăn thỏ không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_11","concept_id": "c_grass","question": "Cỏ là gì?","answer": "Một loại cây","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_grass","question": "Cỏ có phải là thực vật không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_rabbit","question": "Thỏ là loại động vật gì?","answer": "Ăn cỏ","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_rabbit","question": "Thỏ có phải là động vật ăn cỏ không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_fox","question": "Cáo là loại động vật gì?","answer": "Ăn thịt","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_fox","question": "Cáo có phải là động vật ăn thịt không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_food_chain","question": "Ví dụ chuỗi thức ăn là gì?","answer": "Cỏ → thỏ → cáo","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_18","concept_id": "c_food_chain","question": "Điền từ: Chuỗi thức ăn là cách sinh vật ____ lẫn nhau.","answer": "ăn","type": "fill","options": [],"difficulty": 3}
+  ]
+}

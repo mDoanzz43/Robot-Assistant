@@ -1,0 +1,22 @@
+Khái niệm:
+Cơ học quỹ đạo nghiên cứu chuyển động của vật trong không gian.
+
+Đặc điểm:
+Quỹ đạo thường là elip.
+Tốc độ thay đổi theo vị trí.
+Phụ thuộc vào trọng lực.
+
+Ví dụ:
+Trái Đất chuyển động nhanh hơn khi gần Mặt Trời.
+
+Phản ví dụ:
+Một vật đứng yên không có quỹ đạo.
+
+Quan hệ:
+Orbit IS_A Motion_Path
+Orbit CAUSED_BY Gravity
+Orbit HAS Velocity
+
+Câu hỏi gợi mở:
+Tại sao tốc độ quỹ đạo không đều?
+Điều gì xảy ra nếu tốc độ tăng quá lớn?

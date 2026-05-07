@@ -1,0 +1,129 @@
+{
+  "id": "08",
+  "title": "Sự tích dưa hấu",
+  "source_text_chars": 809,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\08_s_t_ch_d_a_h_u.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 49.596,
+  "segments": [
+    {
+      "text": "Sự tích dưa hấu kể về Mai An Tiêm bị vua đày ra hoang đảo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cuộc sống trên đảo hoang rất khó khăn,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "vất vả,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "gia đình Mai An Tiêm phải dựa vào sức mình để tìm kiếm đồ ăn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, An Tiêm nhặt được một miếng mồi màu đỏ có hạt lạ do chim ăn dở.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "An Tiêm đã lấy hạt mang đi gieo và chăm sóc cẩn thận.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hạt nảy mầm, mọc lá, phủ khắp một vùng đất rồi đơm hoa, kết quả.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thấy quả có vị thanh ngọt, An Tiêm đã đặt tên là dưa hấu rồi thả trôi ra biển.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "có thuyền ghé vào đảo,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "ngỏ ý đổi lương thực lấy loại quả này để mang vào đất liền.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau khi biết được dưa do An Tiêm trồng, nhà vua cho đón gia đình chàng trở về.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện Sự tích dưa hấu dạy cho bé đức tính kiên trì,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "chăm chỉ,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "chịu khó,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "dám nghĩ dám làm để vượt qua mọi khó khăn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Chỉ cần bản thân có sự cố gắng, nỗ lực sẽ nhận lại được những kết quả xứng đáng.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

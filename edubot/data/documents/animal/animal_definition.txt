@@ -1,0 +1,23 @@
+Khái niệm:
+Động vật là sinh vật sống có khả năng di chuyển và tiêu thụ năng lượng từ sinh vật khác.
+
+Đặc điểm:
+Không tự tạo thức ăn như thực vật.
+Có hệ thần kinh.
+Phản ứng với môi trường.
+
+Ví dụ:
+Con chó là một động vật.
+
+Phản ví dụ:
+Cây xanh không phải động vật vì tự quang hợp.
+
+Quan hệ:
+Animal IS_A Living_Organism
+Animal REQUIRES Food
+Animal HAS Nervous_System
+Animal CAN Move
+
+Câu hỏi gợi mở:
+Tại sao động vật cần ăn?
+Điều gì xảy ra nếu động vật không có hệ thần kinh?

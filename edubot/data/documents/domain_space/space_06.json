@@ -1,0 +1,84 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_gravity_basic.json",
+  "doc_id": "doc_space_gravity_basic",
+  "topic": "Lực hấp dẫn",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 8,
+  "source": {
+    "title": "Gravity for Kids",
+    "url": "https://example.com/gravity_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Lực hấp dẫn là lực kéo các vật lại gần nhau. Trái Đất có lực hấp dẫn kéo mọi thứ xuống đất. Nhờ lực hấp dẫn, chúng ta không bị bay vào không gian. Lực hấp dẫn cũng giữ các hành tinh quay quanh Mặt Trời.",
+  "concepts": [
+    {"id": "c_gravity","name": "Lực hấp dẫn","description": "Lực kéo các vật lại gần nhau.","difficulty": 1,"parent_id": null},
+    {"id": "c_force","name": "Lực","description": "Tác động làm vật di chuyển.","difficulty": 1,"parent_id": null},
+    {"id": "c_earth","name": "Trái Đất","description": "Hành tinh có lực hấp dẫn.","difficulty": 1,"parent_id": null},
+    {"id": "c_object","name": "Vật thể","description": "Mọi thứ có thể bị kéo.","difficulty": 1,"parent_id": null},
+    {"id": "c_fall","name": "Rơi","description": "Chuyển động xuống đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_space","name": "Không gian","description": "Vùng ngoài Trái Đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_planet","name": "Hành tinh","description": "Thiên thể quay quanh Mặt Trời.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Ngôi sao trung tâm.","difficulty": 1,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_gravity","to_id": "c_force","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_gravity","to_id": "c_object","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_earth","to_id": "c_gravity","relation": "HAS","weight": 0.95},
+    {"from_id": "c_gravity","to_id": "c_fall","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_gravity","to_id": "c_space","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_gravity","to_id": "c_planet","relation": "CAUSES","weight": 0.9},
+    {"from_id": "c_planet","to_id": "c_sun","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_gravity","to_id": "c_earth","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_object","to_id": "c_fall","relation": "CAN","weight": 0.8},
+
+    {"from_id": "c_earth","to_id": "c_object","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_gravity","to_id": "c_planet","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_planet","to_id": "c_gravity","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_force","to_id": "c_gravity","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_fall","to_id": "c_earth","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_sun","to_id": "c_gravity","relation": "HAS","weight": 0.8},
+
+    {"from_id": "c_gravity","to_id": "c_object","relation": "CAUSES","weight": 0.8}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_gravity","question": "Lực hấp dẫn là gì?","answer": "Lực kéo các vật lại gần nhau","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_gravity","question": "Lực hấp dẫn có kéo vật không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_force","question": "Lực là gì?","answer": "Tác động làm vật di chuyển","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_force","question": "Lực hấp dẫn có phải là một lực không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_earth","question": "Trái Đất có lực gì?","answer": "Lực hấp dẫn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_earth","question": "Trái Đất có kéo chúng ta xuống không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_object","question": "Lực hấp dẫn tác dụng lên cái gì?","answer": "Vật thể","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_object","question": "Mọi vật đều bị lực hấp dẫn kéo không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_fall","question": "Vật rơi xuống là do lực gì?","answer": "Lực hấp dẫn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_fall","question": "Lực hấp dẫn có làm vật rơi không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_space","question": "Không gian là gì?","answer": "Vùng ngoài Trái Đất","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_space","question": "Chúng ta có bay vào không gian nhờ lực hấp dẫn không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_planet","question": "Hành tinh được giữ bởi lực gì?","answer": "Lực hấp dẫn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_planet","question": "Hành tinh có quay quanh Mặt Trời không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_sun","question": "Mặt Trời có liên quan đến lực hấp dẫn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_sun","question": "Mặt Trời giữ hành tinh bằng lực gì?","answer": "Lực hấp dẫn","type": "open","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_gravity","question": "Lực hấp dẫn giúp chúng ta không bay đi đâu?","answer": "Không gian","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_18","concept_id": "c_gravity","question": "Điền từ: Lực hấp dẫn kéo vật xuống ____.","answer": "đất","type": "fill","options": [],"difficulty": 3}
+  ]
+}

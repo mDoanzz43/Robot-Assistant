@@ -1,0 +1,108 @@
+{
+  "id": "07",
+  "title": "Sự tích bánh chưng bánh dày",
+  "source_text_chars": 657,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\07_s_t_ch_b_nh_ch_ng_b_nh_d_y.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 35.999,
+  "segments": [
+    {
+      "text": "kể về Hoàng tử Lang Liêu - người con thứ tám của vua Hùng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhân lễ cúng Tiên Vương,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "nhà vua chỉ thị hoàng tử nào dâng được món ăn ngon nhất sẽ được kế vị ngôi vua.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lang Liêu vốn nghèo khó nên đã dùng gạo nếp,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đậu xanh và thịt làm nên bánh hình vuông (bánh chưng) và hình tròn (bánh giầy) tượng",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "trưng cho đất và trời.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vua Hùng rất hài lòng nên đã chọn Lang Liêu làm người kế vị.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, bánh chưng bánh giầy cũng trở thành món ăn truyền thống của người Việt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện giải thích nguồn gốc của hai loại bánh truyền thống trong ngày Tết Nguyên",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Đán của người Việt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Đồng thời,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "đây cũng là bài học về tấm lòng hiếu thảo,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "lòng yêu nước,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "không coi trọng vật chất.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

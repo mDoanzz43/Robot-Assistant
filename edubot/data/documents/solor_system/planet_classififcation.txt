@@ -1,0 +1,24 @@
+Khái niệm:
+Hành tinh là thiên thể quay quanh sao và không tự phát sáng.
+
+Đặc điểm:
+Chia thành hành tinh đất đá và hành tinh khí.
+Hành tinh đất đá nhỏ và đặc.
+Hành tinh khí lớn và có khí quyển dày.
+
+Ví dụ:
+Trái Đất là hành tinh đất đá.
+Sao Mộc là hành tinh khí.
+
+Phản ví dụ:
+Mặt Trăng không phải hành tinh vì nó quay quanh Trái Đất.
+
+Quan hệ:
+Planet IS_A Celestial_Object
+Planet ORBITS Star
+Planet HAS Gravity
+Planet HAS Mass
+
+Câu hỏi gợi mở:
+Tại sao hành tinh khí lại lớn hơn?
+Điều gì phân biệt hành tinh và vệ tinh?

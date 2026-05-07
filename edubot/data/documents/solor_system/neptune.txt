@@ -1,0 +1,22 @@
+Khái niệm:
+Sao Hải Vương là hành tinh xa nhất trong Hệ Mặt Trời.
+
+Đặc điểm:
+Có gió mạnh nhất.
+Nhiệt độ rất thấp.
+Màu xanh đậm.
+
+Ví dụ:
+Gió trên Sao Hải Vương rất mạnh.
+
+Phản ví dụ:
+Trái Đất có khí hậu ổn định hơn nhiều.
+
+Quan hệ:
+Neptune IS_A Ice_Giant
+Neptune HAS Strong_Wind
+Neptune ORBITS Sun
+
+Câu hỏi gợi mở:
+Tại sao Sao Hải Vương có gió mạnh?
+Khoảng cách ảnh hưởng gì đến nhiệt độ?

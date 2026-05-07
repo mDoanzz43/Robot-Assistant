@@ -1,0 +1,77 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_life_cycle_basic.json",
+  "doc_id": "doc_animal_life_cycle_basic",
+  "topic": "Vòng đời của động vật",
+  "domain": "animal",
+  "lesson_level": "hieu",
+  "age": 8,
+  "source": {
+    "title": "Animal Life Cycle for Kids",
+    "url": "https://example.com/animal_life_cycle",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Vòng đời của động vật là các giai đoạn phát triển từ khi sinh ra đến khi trưởng thành. Một số động vật có biến thái như bướm: trứng → sâu → nhộng → bướm. Vòng đời giúp động vật phát triển và sinh sản.",
+  "concepts": [
+    {"id": "c_life_cycle","name": "Vòng đời","description": "Các giai đoạn phát triển của động vật.","difficulty": 2,"parent_id": null},
+    {"id": "c_stage","name": "Giai đoạn","description": "Mỗi bước trong vòng đời.","difficulty": 2,"parent_id": null},
+    {"id": "c_growth","name": "Phát triển","description": "Quá trình lớn lên.","difficulty": 1,"parent_id": null},
+    {"id": "c_reproduction","name": "Sinh sản","description": "Tạo ra thế hệ mới.","difficulty": 2,"parent_id": null},
+    {"id": "c_egg","name": "Trứng","description": "Giai đoạn đầu.","difficulty": 1,"parent_id": "c_stage"},
+    {"id": "c_larva","name": "Sâu","description": "Giai đoạn sau trứng.","difficulty": 2,"parent_id": "c_stage"},
+    {"id": "c_pupa","name": "Nhộng","description": "Giai đoạn biến đổi.","difficulty": 3,"parent_id": "c_stage"},
+    {"id": "c_butterfly","name": "Bướm","description": "Giai đoạn trưởng thành.","difficulty": 1,"parent_id": "c_stage"}
+  ],
+  "relations": [
+    {"from_id": "c_life_cycle","to_id": "c_stage","relation": "HAS","weight": 0.95},
+    {"from_id": "c_life_cycle","to_id": "c_growth","relation": "CAUSES","weight": 0.9},
+    {"from_id": "c_life_cycle","to_id": "c_reproduction","relation": "CAUSES","weight": 0.9},
+
+    {"from_id": "c_stage","to_id": "c_egg","relation": "HAS","weight": 0.9},
+    {"from_id": "c_stage","to_id": "c_larva","relation": "HAS","weight": 0.9},
+    {"from_id": "c_stage","to_id": "c_pupa","relation": "HAS","weight": 0.9},
+    {"from_id": "c_stage","to_id": "c_butterfly","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_egg","to_id": "c_larva","relation": "CAUSES","weight": 0.95},
+    {"from_id": "c_larva","to_id": "c_pupa","relation": "CAUSES","weight": 0.95},
+    {"from_id": "c_pupa","to_id": "c_butterfly","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_egg","to_id": "c_stage","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_larva","to_id": "c_stage","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_pupa","to_id": "c_stage","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_butterfly","to_id": "c_stage","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_butterfly","to_id": "c_life_cycle","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_growth","to_id": "c_life_cycle","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_life_cycle","question": "Vòng đời là gì?","answer": "Các giai đoạn phát triển","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_2","concept_id": "c_life_cycle","question": "Động vật có vòng đời không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_stage","question": "Giai đoạn là gì?","answer": "Một bước trong vòng đời","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_4","concept_id": "c_stage","question": "Vòng đời có nhiều giai đoạn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_growth","question": "Phát triển là gì?","answer": "Quá trình lớn lên","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_growth","question": "Vòng đời có liên quan đến phát triển không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_reproduction","question": "Sinh sản là gì?","answer": "Tạo ra thế hệ mới","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_reproduction","question": "Động vật có sinh sản không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_egg","question": "Trứng là giai đoạn nào?","answer": "Giai đoạn đầu","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_egg","question": "Trứng có phải là giai đoạn đầu không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_larva","question": "Sâu là giai đoạn nào?","answer": "Sau trứng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_larva","question": "Sâu có phải là giai đoạn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_pupa","question": "Nhộng là gì?","answer": "Giai đoạn biến đổi","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_14","concept_id": "c_pupa","question": "Nhộng có phải là giai đoạn không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_butterfly","question": "Bướm là giai đoạn nào?","answer": "Trưởng thành","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_butterfly","question": "Bướm có phải là giai đoạn cuối không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_life_cycle","question": "Tại sao vòng đời quan trọng?","answer": "Giúp phát triển và sinh sản","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_life_cycle","question": "Điền từ: Vòng đời gồm nhiều ____ phát triển.","answer": "giai đoạn","type": "fill","options": [],"difficulty": 2}
+  ]
+}

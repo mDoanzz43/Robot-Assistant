@@ -1,0 +1,143 @@
+{
+  "id": "10",
+  "title": "Sơn Tinh và Thủy Tinh",
+  "source_text_chars": 863,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\10_s_n_tinh_v_th_y_tinh.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 50.52,
+  "segments": [
+    {
+      "text": "Chuyện kể rằng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "vua Hùng thứ 18 có một người con gái hiền hậu,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "xinh đẹp tên là Mỵ Nương.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nàng được hai chàng trai là Sơn Tinh và Thủy Tinh đến cầu hôn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vua Hùng đặt ra điều kiện,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "ai mang các lễ vật voi chín ngà,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "gà chín cựa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "ngựa chín hồng mao,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "một trăm ván cơm nếp,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "hai trăm nệp bánh chưng đến trước sẽ gả con gái cho.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hôm sau, Sơn Tinh mang lễ vật đến từ sáng sớm.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thủy Tinh đến sau nên tức giận dâng nước sông lên rồi kéo quân đánh Sơn Tinh.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sơn Tinh đã dùng phép đắp đồi, dựng núi để chống lại nước.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cuộc chiến kéo dài nhiều tháng, cuối cùng Thủy Tinh thất bại.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vì uất hận, hàng năm, Thủy Tinh vẫn gây mưa gió, bão lụt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện Sơn Tinh Thủy Tinh giải thích hiện tượng thiên nhiên mưa bão,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "lũ lụt đồng thời ca ngợi sức mạnh của con người khi đối mặt với thiên tai.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Truyện cũng nhấn mạnh ý nghĩa của sự kiên trì,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "sáng tạo và lòng dũng cảm trong cuộc sống.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

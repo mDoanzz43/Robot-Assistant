@@ -1,0 +1,122 @@
+{
+  "id": "19",
+  "title": "Cây bút thần",
+  "source_text_chars": 779,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\19_cay_but_than.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 47.023,
+  "segments": [
+    {
+      "text": "Cây bút thần nhắc đến cậu bé mồ côi tên Mã Lương.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Dù cuộc sống nghèo khổ nhưng Mã Lương có tấm lòng nhân hậu và có tài vẽ tranh.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cậu nuôi dưỡng ước mơ vẽ tranh để giúp đỡ người nghèo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một đêm nọ,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Mã Lương ngủ và mơ thấy ông tiên trao cho cậu cây bút thần,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "có thể biến mọi hình vẽ thành thật,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "nhưng chỉ được dùng để giúp người nghèo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, Mã Lương vẽ trâu, vẽ cày, vẽ thóc, vẽ cá, vẽ chim,…",
+      "punctuation": "…",
+      "pause_ms": 420,
+      "length_scale": 1.018,
+      "paragraph_end": false
+    },
+    {
+      "text": "để giúp dân nghèo có cuộc sống ấm no.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng, tên quan huyện đến nhà vua đều tham lam bắt cậu vẽ vàng bạc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Bằng trí thông minh và lòng chính nghĩa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "Mã Lương đã dùng cây bút thần để trừng trị kẻ xấu,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "bảo vệ công lý.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cây bút thần là câu chuyện ý nghĩa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "mang đến cho các bé bài học về sức mạnh của sự sáng tạo và lòng nhân ái.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Đồng thời, truyện cũng lên án những kẻ tham lam, độc ác.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

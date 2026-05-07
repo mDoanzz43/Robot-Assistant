@@ -1,0 +1,26 @@
+Khái niệm:
+Hệ Mặt Trời là một hệ gồm Mặt Trời và các thiên thể quay quanh nó.
+Các thiên thể gồm hành tinh, vệ tinh, tiểu hành tinh, sao chổi.
+
+Đặc điểm:
+Mặt Trời nằm ở trung tâm.
+Các hành tinh quay quanh theo quỹ đạo elip.
+Trọng lực giữ các vật trong hệ.
+
+Ví dụ:
+Trái Đất là một hành tinh trong Hệ Mặt Trời.
+
+Phản ví dụ:
+Một thiên hà không phải là Hệ Mặt Trời.
+Thiên hà chứa nhiều hệ sao khác nhau.
+
+Quan hệ:
+Solar_System IS_A Planetary_System
+Solar_System HAS Sun
+Solar_System HAS Planet
+Solar_System HAS Asteroid
+Solar_System HAS Comet
+
+Câu hỏi gợi mở:
+Tại sao các hành tinh không bay ra khỏi hệ?
+Nếu Mặt Trời biến mất thì chuyện gì xảy ra?

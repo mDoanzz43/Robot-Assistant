@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_galaxy_basic.json",
+  "doc_id": "doc_space_galaxy_basic",
+  "topic": "Thiên hà",
+  "domain": "space",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Galaxy for Kids",
+    "url": "https://example.com/galaxy_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Thiên hà là một tập hợp rất lớn gồm các ngôi sao, hành tinh và khí. Hệ Mặt Trời của chúng ta nằm trong một thiên hà gọi là Dải Ngân Hà. Trong vũ trụ có rất nhiều thiên hà khác nhau.",
+  "concepts": [
+    {"id": "c_galaxy","name": "Thiên hà","description": "Tập hợp lớn của các ngôi sao.","difficulty": 1,"parent_id": null},
+    {"id": "c_star","name": "Ngôi sao","description": "Thiên thể phát sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_planet","name": "Hành tinh","description": "Thiên thể quay quanh sao.","difficulty": 1,"parent_id": null},
+    {"id": "c_gas","name": "Khí","description": "Thành phần trong thiên hà.","difficulty": 2,"parent_id": null},
+    {"id": "c_solar_system","name": "Hệ Mặt Trời","description": "Hệ có Trái Đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_milky_way","name": "Dải Ngân Hà","description": "Thiên hà chứa Hệ Mặt Trời.","difficulty": 2,"parent_id": "c_galaxy"},
+    {"id": "c_universe","name": "Vũ trụ","description": "Nơi chứa các thiên hà.","difficulty": 1,"parent_id": null},
+    {"id": "c_many","name": "Số lượng lớn","description": "Có rất nhiều.","difficulty": 3,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_galaxy","to_id": "c_star","relation": "HAS","weight": 0.95},
+    {"from_id": "c_galaxy","to_id": "c_planet","relation": "HAS","weight": 0.9},
+    {"from_id": "c_galaxy","to_id": "c_gas","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_solar_system","to_id": "c_galaxy","relation": "PART_OF","weight": 0.95},
+    {"from_id": "c_solar_system","to_id": "c_milky_way","relation": "PART_OF","weight": 0.95},
+
+    {"from_id": "c_milky_way","to_id": "c_galaxy","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_galaxy","to_id": "c_universe","relation": "PART_OF","weight": 0.95},
+    {"from_id": "c_universe","to_id": "c_galaxy","relation": "HAS","weight": 0.95},
+
+    {"from_id": "c_galaxy","to_id": "c_many","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_star","to_id": "c_galaxy","relation": "PART_OF","weight": 0.8},
+    {"from_id": "c_planet","to_id": "c_galaxy","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_gas","to_id": "c_galaxy","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_milky_way","to_id": "c_solar_system","relation": "HAS","weight": 0.85},
+
+    {"from_id": "c_galaxy","to_id": "c_milky_way","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_universe","to_id": "c_many","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_galaxy","question": "Thiên hà là gì?","answer": "Tập hợp lớn của các ngôi sao","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_galaxy","question": "Thiên hà có chứa sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_star","question": "Ngôi sao là gì?","answer": "Thiên thể phát sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_star","question": "Ngôi sao có phát sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_planet","question": "Hành tinh là gì?","answer": "Thiên thể quay quanh sao","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_6","concept_id": "c_planet","question": "Hành tinh có quay quanh sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_gas","question": "Khí là gì trong thiên hà?","answer": "Thành phần","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_gas","question": "Thiên hà có chứa khí không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_solar_system","question": "Hệ Mặt Trời nằm ở đâu?","answer": "Trong thiên hà","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_10","concept_id": "c_solar_system","question": "Hệ Mặt Trời có nằm trong Dải Ngân Hà không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_11","concept_id": "c_milky_way","question": "Dải Ngân Hà là gì?","answer": "Thiên hà chứa Hệ Mặt Trời","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_milky_way","question": "Dải Ngân Hà có phải là thiên hà không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_universe","question": "Vũ trụ chứa gì?","answer": "Các thiên hà","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_14","concept_id": "c_universe","question": "Vũ trụ có nhiều thiên hà không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_many","question": "Có bao nhiêu thiên hà trong vũ trụ?","answer": "Rất nhiều","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_16","concept_id": "c_many","question": "Số lượng thiên hà có ít không?","answer": "Không","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_galaxy","question": "Vì sao thiên hà quan trọng?","answer": "Chứa các ngôi sao và hành tinh","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_galaxy","question": "Điền từ: Thiên hà là tập hợp của sao, hành tinh và ____.","answer": "khí","type": "fill","options": [],"difficulty": 2}
+  ]
+}

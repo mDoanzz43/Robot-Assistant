@@ -1,0 +1,206 @@
+{
+  "id": "12",
+  "title": "Sọ Dừa",
+  "source_text_chars": 1195,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\12_so_dua.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 72.422,
+  "segments": [
+    {
+      "text": "Sọ Dừa là một truyện cổ tích cho bé kể về một chàng trai được sinh ra trong hình hài",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "kỳ lạ,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "tròn vo như quả dừa nên được đặt tên là Sọ Dừa.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lớn lên, Sọ Dừa vẫn không biết làm việc gì.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thương mẹ vất vả, Sọ Dừa xin mẹ cho mình đến chăn bò cho nhà phú ông.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sọ Dừa chăn bò rất giỏi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hằng ngày,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "ba cô con gái của phú ông thay nhau mang cơm cho Sọ Dừa nhưng chỉ có cô út là đối xử",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "tốt với chàng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "trong lúc mang cơm cho Sọ Dừa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "cô út thấy một chàng trai tuấn tú đang ngồi chăn bò,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "thổi sáo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau nhiều lần, cô út biết chàng trai đó chính là Sọ Dừa rồi đem lòng yêu quý.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ chuẩn bị đủ đồ thách cưới, phú ông đã gả con gái út cho Sọ Dừa.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vào ngày cưới, chàng xuất hiện trong diện mạo một chàng trai khôi ngô tuấn tú.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ chăm chỉ đèn sách, Sọ Dừa thi đỗ Trạng Nguyên.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hai cho chị ghen tị nên đã bày mưu đẩy em gái xuống nước.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ được Sọ Dừa chuẩn bị sẵn một hòn đá lửa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "một con dao và hai quả trứng gà nên cô em thoát chết,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đoàn tụ với chồng còn hai cô chị thì bỏ đi biệt xứ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Qua câu chuyện Sọ Dừa nhắc nhở các bé không bên đánh giá người khác bằng vẻ bên",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "ngoài.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Không chỉ vậy,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "truyện còn giáo dục cho các bé về lòng nhân ái,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "hiếu thảo,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "biết yêu thương và luôn chăm chỉ học tập,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "làm việc.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.941,
+      "paragraph_end": true
+    }
+  ]
+}

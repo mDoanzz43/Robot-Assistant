@@ -1,0 +1,263 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_fish_basic.json",
+  "doc_id": "doc_animal_fish_basic",
+  "topic": "Cá",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 6,
+  "source": {
+    "title": "Fish for Kids",
+    "url": "https://example.com/fish_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Cá là động vật sống dưới nước. Cá thở bằng mang và bơi bằng vây. Cơ thể cá thường có vảy. Có nhiều loại cá sống ở sông, hồ và biển.",
+  "concepts": [
+    {
+      "id": "c_fish",
+      "name": "Cá",
+      "description": "Động vật sống dưới nước.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_water",
+      "name": "Nước",
+      "description": "Môi trường sống của cá.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_gill",
+      "name": "Mang",
+      "description": "Bộ phận giúp cá thở.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_fin",
+      "name": "Vây",
+      "description": "Bộ phận giúp cá bơi.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_swim",
+      "name": "Bơi",
+      "description": "Cách cá di chuyển.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_scale",
+      "name": "Vảy",
+      "description": "Lớp phủ trên cơ thể cá.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_river",
+      "name": "Sông",
+      "description": "Nơi một số cá sinh sống.",
+      "difficulty": 1,
+      "parent_id": "c_water"
+    },
+    {
+      "id": "c_sea",
+      "name": "Biển",
+      "description": "Nơi nhiều cá sinh sống.",
+      "difficulty": 1,
+      "parent_id": "c_water"
+    }
+  ],
+  "relations": [
+    {"from_id": "c_fish", "to_id": "c_water", "relation": "LIVES_IN", "weight": 0.95},
+    {"from_id": "c_fish", "to_id": "c_gill", "relation": "HAS", "weight": 0.95},
+    {"from_id": "c_fish", "to_id": "c_fin", "relation": "HAS", "weight": 0.95},
+    {"from_id": "c_fish", "to_id": "c_scale", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_gill", "to_id": "c_fish", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_fin", "to_id": "c_fish", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_scale", "to_id": "c_fish", "relation": "PART_OF", "weight": 0.9},
+
+    {"from_id": "c_fin", "to_id": "c_swim", "relation": "CAN", "weight": 0.9},
+    {"from_id": "c_fish", "to_id": "c_swim", "relation": "CAN", "weight": 0.9},
+
+    {"from_id": "c_river", "to_id": "c_water", "relation": "PART_OF", "weight": 0.8},
+    {"from_id": "c_sea", "to_id": "c_water", "relation": "PART_OF", "weight": 0.8},
+
+    {"from_id": "c_fish", "to_id": "c_river", "relation": "LIVES_IN", "weight": 0.7},
+    {"from_id": "c_fish", "to_id": "c_sea", "relation": "LIVES_IN", "weight": 0.8},
+
+    {"from_id": "c_water", "to_id": "c_fish", "relation": "RELATED_TO", "weight": 0.7},
+
+    {"from_id": "c_fish", "to_id": "c_gill", "relation": "CAUSES", "weight": 0.6},
+
+    {"from_id": "c_river", "to_id": "c_sea", "relation": "RELATED_TO", "weight": 0.6}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_fish",
+      "question": "Cá sống ở đâu?",
+      "answer": "Dưới nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_gill",
+      "question": "Cá thở bằng gì?",
+      "answer": "Mang",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_fin",
+      "question": "Cá bơi bằng gì?",
+      "answer": "Vây",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_scale",
+      "question": "Cơ thể cá có gì?",
+      "answer": "Vảy",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_water",
+      "question": "Cá có sống trên cạn không?",
+      "answer": "Không",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_river",
+      "question": "Một số cá sống ở đâu?",
+      "answer": "Sông",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_sea",
+      "question": "Nhiều cá sống ở đâu?",
+      "answer": "Biển",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_swim",
+      "question": "Cá di chuyển bằng cách nào?",
+      "answer": "Bơi",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_fish",
+      "question": "Điền từ: Cá sống dưới ____.",
+      "answer": "nước",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_gill",
+      "question": "Mang có phải là bộ phận của cá không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_fin",
+      "question": "Vây giúp cá làm gì?",
+      "answer": "Bơi",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_scale",
+      "question": "Vảy có trên cơ thể cá không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_water",
+      "question": "Nước có quan trọng với cá không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_fish",
+      "question": "Cá là động vật sống ở đâu?",
+      "answer": "Dưới nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_river",
+      "question": "Sông có phải là nơi cá sống không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_sea",
+      "question": "Biển có phải là nơi cá sống không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_swim",
+      "question": "Bơi nghĩa là gì?",
+      "answer": "Di chuyển trong nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_fish",
+      "question": "Cá có thể bay không?",
+      "answer": "Không",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    }
+  ]
+}

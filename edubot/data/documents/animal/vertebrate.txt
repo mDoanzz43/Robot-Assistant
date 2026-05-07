@@ -1,0 +1,22 @@
+Khái niệm:
+Động vật có xương sống là động vật có cột sống.
+
+Đặc điểm:
+Có bộ xương bên trong.
+Hệ thần kinh phát triển.
+Kích thước đa dạng.
+
+Ví dụ:
+Cá, chim, thú đều là động vật có xương sống.
+
+Phản ví dụ:
+Côn trùng không có xương sống.
+
+Quan hệ:
+Vertebrate IS_A Animal
+Vertebrate HAS Spine
+Vertebrate HAS Skeleton
+
+Câu hỏi gợi mở:
+Cột sống giúp ích gì cho động vật?
+Tại sao động vật có xương sống thường lớn hơn?

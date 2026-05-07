@@ -1,0 +1,40 @@
+# ============================================================
+# EduRobot — requirements.txt
+# Jetson Nano 4GB / Ubuntu 18.04 / JetPack 4.6
+#
+# Cài đặt:
+#   pip install -r requirements.txt
+#
+# QUAN TRỌNG: llama-cpp-python cần build riêng (xem scripts/setup.sh)
+# ============================================================
+
+# ── Vector DB ────────────────────────────────────────────────
+chromadb>=0.5.0
+posthog<3
+sentence-transformers>=2.7.0
+
+# ── Graph ────────────────────────────────────────────────────
+networkx>=3.1
+
+# ── ML / Math ────────────────────────────────────────────────
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# ── Web API (optional) ───────────────────────────────────────
+fastapi>=0.111.0
+uvicorn>=0.29.0
+pydantic>=2.7.0
+
+# ── HTTP ─────────────────────────────────────────────────────
+httpx>=0.27.0
+aiofiles>=23.2.1
+
+# ── Hardware ─────────────────────────────────────────────────
+pyserial>=3.5
+sounddevice>=0.4.6
+Pillow>=10.0.0
+
+# ── Utilities ────────────────────────────────────────────────
+python-dotenv>=1.0.1
+loguru>=0.7.2
+orjson>=3.10.0

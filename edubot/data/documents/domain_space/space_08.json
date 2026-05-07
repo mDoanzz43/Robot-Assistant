@@ -1,0 +1,82 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_stars_basic.json",
+  "doc_id": "doc_space_stars_basic",
+  "topic": "Các ngôi sao",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Stars for Kids",
+    "url": "https://example.com/stars_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Các ngôi sao là những quả cầu khí nóng phát ra ánh sáng. Mặt Trời cũng là một ngôi sao. Các ngôi sao ở rất xa Trái Đất và chúng ta nhìn thấy chúng vào ban đêm. Có rất nhiều ngôi sao trong vũ trụ.",
+  "concepts": [
+    {"id": "c_star","name": "Ngôi sao","description": "Thiên thể phát ra ánh sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Một ngôi sao gần Trái Đất.","difficulty": 1,"parent_id": "c_star"},
+    {"id": "c_light","name": "Ánh sáng","description": "Ánh sáng do sao phát ra.","difficulty": 1,"parent_id": null},
+    {"id": "c_heat","name": "Nhiệt","description": "Nhiệt do sao tạo ra.","difficulty": 1,"parent_id": null},
+    {"id": "c_gas","name": "Khí","description": "Chất tạo nên ngôi sao.","difficulty": 1,"parent_id": null},
+    {"id": "c_earth","name": "Trái Đất","description": "Nơi chúng ta sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_night","name": "Ban đêm","description": "Thời gian thấy sao rõ nhất.","difficulty": 1,"parent_id": null},
+    {"id": "c_universe","name": "Vũ trụ","description": "Nơi có rất nhiều ngôi sao.","difficulty": 1,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_star","to_id": "c_light","relation": "HAS","weight": 0.95},
+    {"from_id": "c_star","to_id": "c_heat","relation": "HAS","weight": 0.9},
+    {"from_id": "c_star","to_id": "c_gas","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_sun","to_id": "c_star","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_star","to_id": "c_universe","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_star","to_id": "c_earth","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_night","to_id": "c_star","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_light","to_id": "c_star","relation": "RELATED_TO","weight": 0.7},
+    {"from_id": "c_heat","to_id": "c_star","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_universe","to_id": "c_star","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_sun","to_id": "c_light","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_star","to_id": "c_sun","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_gas","to_id": "c_star","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_star","to_id": "c_night","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_star","to_id": "c_universe","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_star","question": "Ngôi sao là gì?","answer": "Thiên thể phát ra ánh sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_star","question": "Ngôi sao có phát ra ánh sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_sun","question": "Mặt Trời là gì?","answer": "Một ngôi sao","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_sun","question": "Mặt Trời có phải là ngôi sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_light","question": "Ngôi sao tạo ra gì?","answer": "Ánh sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_light","question": "Ánh sáng có đến từ sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_heat","question": "Ngôi sao có tạo ra nhiệt không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_heat","question": "Nhiệt là gì?","answer": "Độ nóng","type": "open","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_gas","question": "Ngôi sao được tạo từ gì?","answer": "Khí","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_gas","question": "Khí có phải là thành phần của sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_earth","question": "Chúng ta sống ở đâu?","answer": "Trái Đất","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_earth","question": "Các ngôi sao có ở gần Trái Đất không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_night","question": "Khi nào chúng ta thấy sao rõ nhất?","answer": "Ban đêm","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_night","question": "Ban ngày có thấy nhiều sao không?","answer": "Không","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_universe","question": "Các ngôi sao nằm ở đâu?","answer": "Trong vũ trụ","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_universe","question": "Vũ trụ có nhiều sao không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_star","question": "Có nhiều ngôi sao không?","answer": "Có rất nhiều","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_18","concept_id": "c_star","question": "Điền từ: Ngôi sao là quả cầu ____ nóng.","answer": "khí","type": "fill","options": [],"difficulty": 3}
+  ]
+}

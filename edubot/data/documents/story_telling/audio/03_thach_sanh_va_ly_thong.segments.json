@@ -1,0 +1,192 @@
+{
+  "id": "03",
+  "title": "Thạch Sanh và Lý Thông",
+  "source_text_chars": 1305,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\03_th_ch_sanh_v_l_th_ng.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 74.748,
+  "segments": [
+    {
+      "text": "Thạch Sanh là một cậu bé mồ côi cha mẹ,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "sống nghèo khó với tài sản duy nhất mà cha mẹ để lại là chiếc rìu đốn củi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lý Thông lại là một kẻ tham lam, gian xảo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vì hiền lành,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thạch Sanh bị Lý Thông lừa kết nghĩa anh em và lợi dụng Thạch Sanh kiếm tiền cho mẹ",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "con hắn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lúc bấy giờ, trong làng xuất hiện chằn tinh, chuyên ăn thịt người.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Để cứu dân, Thạch Sanh đã anh dũng chiến đấu, tiêu diệt chằn tinh.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lý Thông lại một lần nữa lừa gạt Thạch Sanh,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "cướp công tiêu diệt chằn tinh để nhận thưởng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, công chúa bị đại bàng cắp đi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thạch Sanh đã tìm ra hang đại bàng, cứu được công chúa ra ngoài.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi Thạch Sanh còn ở trong hang, Lý Thông lại lấy đá lấp cửa hang lại.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau khi giết được đại bàng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thạch Sanh cứu được con vua Thuỷ Tề nên được tặng một cây đàn và niêu cơm thần.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau này, Thạch Sanh lại tiếp tục bị vu oan ăn cắp châu báu nên bị bắt giam.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Trong ngục, chàng lấy đàn ra gảy.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ tiếng đàn, công chúa gặp được Thạch Sanh, Lý Thông bị vạch tội.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhà vua liền gả công chúa cho Thạch Sanh còn mẹ con Lý Thông thì bị sét đánh chết.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện Thạch Sanh đề cao lòng nhân hậu,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "trung thực và dũng cảm đồng thời phê phán sự tham lam,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "giả dối.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Đây là truyện giàu ý nghĩa giáo dục,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "giúp trẻ hiểu rằng người lương thiện chắc chắn sẽ gặp những điều tốt đẹp còn kẻ gian",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "ác nhất định phải trả giá.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

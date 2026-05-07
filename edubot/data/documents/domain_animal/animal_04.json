@@ -1,0 +1,78 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_reptiles_basic.json",
+  "doc_id": "doc_animal_reptiles_basic",
+  "topic": "Bò sát",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Reptiles for Kids",
+    "url": "https://example.com/reptiles_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Bò sát là nhóm động vật có da khô và có vảy. Chúng thường bò hoặc trườn để di chuyển. Bò sát đẻ trứng và sống ở nhiều nơi như đất liền và nước. Ví dụ như rắn, thằn lằn và cá sấu.",
+  "concepts": [
+    {"id": "c_reptile","name": "Bò sát","description": "Động vật có da khô và vảy.","difficulty": 1,"parent_id": null},
+    {"id": "c_skin","name": "Da khô","description": "Đặc điểm da của bò sát.","difficulty": 1,"parent_id": null},
+    {"id": "c_scale","name": "Vảy","description": "Lớp phủ trên da bò sát.","difficulty": 1,"parent_id": null},
+    {"id": "c_crawl","name": "Bò/trườn","description": "Cách bò sát di chuyển.","difficulty": 1,"parent_id": null},
+    {"id": "c_egg","name": "Trứng","description": "Cách sinh sản của bò sát.","difficulty": 1,"parent_id": null},
+    {"id": "c_snake","name": "Rắn","description": "Một loài bò sát.","difficulty": 1,"parent_id": "c_reptile"},
+    {"id": "c_lizard","name": "Thằn lằn","description": "Một loài bò sát.","difficulty": 1,"parent_id": "c_reptile"},
+    {"id": "c_crocodile","name": "Cá sấu","description": "Một loài bò sát lớn.","difficulty": 2,"parent_id": "c_reptile"}
+  ],
+  "relations": [
+    {"from_id": "c_reptile","to_id": "c_skin","relation": "HAS","weight": 0.95},
+    {"from_id": "c_reptile","to_id": "c_scale","relation": "HAS","weight": 0.95},
+    {"from_id": "c_reptile","to_id": "c_crawl","relation": "CAN","weight": 0.9},
+    {"from_id": "c_reptile","to_id": "c_egg","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_snake","to_id": "c_reptile","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_lizard","to_id": "c_reptile","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_crocodile","to_id": "c_reptile","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_scale","to_id": "c_reptile","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_reptile","to_id": "c_snake","relation": "HAS","weight": 0.7},
+    {"from_id": "c_reptile","to_id": "c_lizard","relation": "HAS","weight": 0.7},
+    {"from_id": "c_reptile","to_id": "c_crocodile","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_snake","to_id": "c_reptile","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_lizard","to_id": "c_reptile","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_crocodile","to_id": "c_reptile","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_skin","to_id": "c_scale","relation": "RELATED_TO","weight": 0.6},
+    {"from_id": "c_crawl","to_id": "c_reptile","relation": "RELATED_TO","weight": 0.6},
+    {"from_id": "c_egg","to_id": "c_reptile","relation": "CAUSES","weight": 0.6}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_reptile","question": "Bò sát là gì?","answer": "Động vật có da khô và vảy","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_reptile","question": "Bò sát có da ướt không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_skin","question": "Da của bò sát như thế nào?","answer": "Khô","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_skin","question": "Da bò sát có ướt không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_scale","question": "Bò sát có gì trên da?","answer": "Vảy","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_scale","question": "Vảy có phải đặc điểm của bò sát không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_crawl","question": "Bò sát di chuyển như thế nào?","answer": "Bò hoặc trườn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_crawl","question": "Bò sát có bay được không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_egg","question": "Bò sát sinh sản bằng gì?","answer": "Trứng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_egg","question": "Bò sát có đẻ trứng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_snake","question": "Rắn là động vật gì?","answer": "Bò sát","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_snake","question": "Rắn có phải là bò sát không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_lizard","question": "Thằn lằn là động vật gì?","answer": "Bò sát","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_lizard","question": "Thằn lằn có phải là bò sát không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_crocodile","question": "Cá sấu là động vật gì?","answer": "Bò sát","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_crocodile","question": "Cá sấu có phải là bò sát không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_reptile","question": "Bò sát sống ở đâu?","answer": "Đất liền và nước","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_18","concept_id": "c_reptile","question": "Điền từ: Bò sát có da ____.","answer": "khô","type": "fill","options": [],"difficulty": 3}
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "05",
+  "title": "Cây tre trăm đốt",
+  "source_text_chars": 921,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\05_c_y_tre_tr_m_t.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 53.666,
+  "segments": [
+    {
+      "text": "Truyện nói về chàng trai tên Khoai hiền lành, chất phác, làm thuê cho phú ông.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Anh được phú ông hứa gả con gái cho nếu làm việc chăm chỉ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau 3 năm không ngại khó, ngại khổ làm việc, chàng cũng hết hạn làm thuê.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng, phú ông trở mặt bắt chàng tìm cây tre trăm đốt về làm đũa ăn cỗ cưới.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Tin lời phú ông, Khoai vào rừng tìm tre trăm đốt nhưng tìm mãi vẫn không thấy.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nhờ được Bụt giúp đỡ, Khoai đã chặt 100 đốt tre với thần chú “Khắc nhập!",
+      "punctuation": "!",
+      "pause_ms": 240,
+      "length_scale": 0.912,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khắc nhập!” để gắn các đốt tre và “Khắc xuất!",
+      "punctuation": "!",
+      "pause_ms": 240,
+      "length_scale": 0.912,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khắc xuất!” để tách các đốt tre.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau khi biết mình bị lừa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khoai đã đọc “Khắc nhập” để phú ông bị dính luôn vào cây tre.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Quá sợ hãi, phú ông buộc phải gã con gái cho chàng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, Khoai cưới được con gái phú ông và sống hạnh phúc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện giúp bé hiểu rằng:",
+      "punctuation": ":",
+      "pause_ms": 200,
+      "length_scale": 0.931,
+      "paragraph_end": false
+    },
+    {
+      "text": "những người thật thà,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "chăm chỉ sẽ được đền đáp xứng đáng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "còn kẻ ác sẽ bị trừng phạt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Chỉ với một câu chuyện đơn giản nhưng giúp bé học được rất nhiều điều hay lẽ phải.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

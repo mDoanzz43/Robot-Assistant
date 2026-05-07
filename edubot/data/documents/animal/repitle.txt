@@ -1,0 +1,22 @@
+Khái niệm:
+Bò sát là động vật có da vảy.
+
+Đặc điểm:
+Thường sống trên cạn.
+Đẻ trứng.
+Máu lạnh.
+
+Ví dụ:
+Rắn là bò sát.
+
+Phản ví dụ:
+Ếch không phải bò sát mà là lưỡng cư.
+
+Quan hệ:
+Reptile IS_A Vertebrate
+Reptile HAS Scale
+Reptile IS Cold_Blooded
+
+Câu hỏi gợi mở:
+Máu lạnh nghĩa là gì?
+Tại sao bò sát thích môi trường ấm?

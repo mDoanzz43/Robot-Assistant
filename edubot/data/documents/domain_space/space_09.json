@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_comets_basic.json",
+  "doc_id": "doc_space_comets_basic",
+  "topic": "Sao chổi",
+  "domain": "space",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Comets for Kids",
+    "url": "https://example.com/comets_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Sao chổi là thiên thể làm từ băng, bụi và đá. Khi sao chổi đến gần Mặt Trời, nó nóng lên và tạo thành đuôi sáng. Sao chổi di chuyển quanh Mặt Trời theo quỹ đạo dài. Chúng thường xuất hiện sau nhiều năm.",
+  "concepts": [
+    {"id": "c_comet","name": "Sao chổi","description": "Thiên thể có đuôi sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_ice","name": "Băng","description": "Thành phần của sao chổi.","difficulty": 1,"parent_id": null},
+    {"id": "c_dust","name": "Bụi","description": "Thành phần nhỏ trong sao chổi.","difficulty": 2,"parent_id": null},
+    {"id": "c_rock","name": "Đá","description": "Chất rắn trong sao chổi.","difficulty": 1,"parent_id": null},
+    {"id": "c_tail","name": "Đuôi","description": "Phần sáng phía sau sao chổi.","difficulty": 2,"parent_id": "c_comet"},
+    {"id": "c_sun","name": "Mặt Trời","description": "Nguồn nhiệt làm sao chổi sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_orbit","name": "Quỹ đạo","description": "Đường đi quanh Mặt Trời.","difficulty": 3,"parent_id": null},
+    {"id": "c_heat","name": "Nhiệt","description": "Làm sao chổi nóng lên.","difficulty": 2,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_comet","to_id": "c_ice","relation": "HAS","weight": 0.95},
+    {"from_id": "c_comet","to_id": "c_dust","relation": "HAS","weight": 0.9},
+    {"from_id": "c_comet","to_id": "c_rock","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_comet","to_id": "c_tail","relation": "HAS","weight": 0.95},
+    {"from_id": "c_tail","to_id": "c_comet","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_comet","to_id": "c_sun","relation": "RELATED_TO","weight": 0.9},
+    {"from_id": "c_sun","to_id": "c_heat","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_heat","to_id": "c_tail","relation": "CAUSES","weight": 0.85},
+
+    {"from_id": "c_comet","to_id": "c_orbit","relation": "HAS","weight": 0.9},
+    {"from_id": "c_orbit","to_id": "c_sun","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_ice","to_id": "c_comet","relation": "PART_OF","weight": 0.8},
+    {"from_id": "c_dust","to_id": "c_comet","relation": "PART_OF","weight": 0.8},
+    {"from_id": "c_rock","to_id": "c_comet","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_comet","to_id": "c_tail","relation": "CAUSES","weight": 0.7},
+
+    {"from_id": "c_comet","to_id": "c_orbit","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_tail","to_id": "c_sun","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_comet","question": "Sao chổi là gì?","answer": "Thiên thể có đuôi sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_comet","question": "Sao chổi có đuôi không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_ice","question": "Sao chổi có chứa gì?","answer": "Băng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_4","concept_id": "c_ice","question": "Băng có phải là thành phần của sao chổi không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_dust","question": "Bụi trong sao chổi là gì?","answer": "Các hạt nhỏ","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_6","concept_id": "c_dust","question": "Sao chổi có chứa bụi không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_7","concept_id": "c_rock","question": "Đá là gì trong sao chổi?","answer": "Chất rắn","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_rock","question": "Sao chổi có đá không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_tail","question": "Đuôi sao chổi xuất hiện khi nào?","answer": "Khi gần Mặt Trời","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_10","concept_id": "c_tail","question": "Sao chổi luôn có đuôi không?","answer": "Không","type": "yesno","options": [],"difficulty": 4},
+
+    {"id": "qa_11","concept_id": "c_sun","question": "Mặt Trời làm gì với sao chổi?","answer": "Làm nóng lên","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_sun","question": "Sao chổi có liên quan đến Mặt Trời không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_orbit","question": "Quỹ đạo là gì?","answer": "Đường đi quanh Mặt Trời","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_14","concept_id": "c_orbit","question": "Sao chổi có quay quanh Mặt Trời không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_heat","question": "Nhiệt làm sao chổi thay đổi như thế nào?","answer": "Tạo đuôi sáng","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_16","concept_id": "c_heat","question": "Nhiệt có làm sao chổi sáng hơn không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_comet","question": "Vì sao sao chổi có đuôi?","answer": "Do nóng lên gần Mặt Trời","type": "open","options": [],"difficulty": 5},
+    {"id": "qa_18","concept_id": "c_comet","question": "Điền từ: Sao chổi được tạo từ băng, ____ và đá.","answer": "bụi","type": "fill","options": [],"difficulty": 2}
+  ]
+}

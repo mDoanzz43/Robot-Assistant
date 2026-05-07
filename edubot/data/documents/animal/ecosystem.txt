@@ -1,0 +1,21 @@
+Khái niệm:
+Hệ sinh thái là tập hợp sinh vật và môi trường sống.
+
+Đặc điểm:
+Có tương tác giữa sinh vật và môi trường.
+Bao gồm yếu tố sống và không sống.
+
+Ví dụ:
+Rừng là một hệ sinh thái.
+
+Phản ví dụ:
+Một sinh vật đơn lẻ không phải hệ sinh thái.
+
+Quan hệ:
+Ecosystem HAS Organism
+Ecosystem HAS Environment
+Organism INTERACTS Environment
+
+Câu hỏi gợi mở:
+Môi trường ảnh hưởng sinh vật như thế nào?
+Hệ sinh thái thay đổi ra sao khi khí hậu thay đổi?

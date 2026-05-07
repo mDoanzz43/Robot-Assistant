@@ -1,0 +1,265 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_moon_basic.json",
+  "doc_id": "doc_space_moon_basic",
+  "topic": "Mặt Trăng",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Moon for Kids",
+    "url": "https://example.com/moon_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.93
+  },
+  "text": "Mặt Trăng là vệ tinh tự nhiên của Trái Đất. Mặt Trăng không tự phát ra ánh sáng mà phản chiếu ánh sáng từ Mặt Trời. Nó quay quanh Trái Đất và có hình dạng thay đổi gọi là các pha Mặt Trăng. Bề mặt Mặt Trăng có nhiều hố lớn.",
+  "concepts": [
+    {
+      "id": "c_moon",
+      "name": "Mặt Trăng",
+      "description": "Vệ tinh tự nhiên của Trái Đất.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh mà Mặt Trăng quay quanh.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_satellite",
+      "name": "Vệ tinh",
+      "description": "Thiên thể quay quanh hành tinh.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_sun",
+      "name": "Mặt Trời",
+      "description": "Nguồn ánh sáng cho Mặt Trăng.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng được phản chiếu từ Mặt Trăng.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_phase",
+      "name": "Pha Mặt Trăng",
+      "description": "Hình dạng thay đổi của Mặt Trăng.",
+      "difficulty": 2,
+      "parent_id": "c_moon"
+    },
+    {
+      "id": "c_crater",
+      "name": "Hố va chạm",
+      "description": "Các hố lớn trên bề mặt Mặt Trăng.",
+      "difficulty": 2,
+      "parent_id": "c_moon"
+    },
+    {
+      "id": "c_orbit",
+      "name": "Quay quanh",
+      "description": "Chuyển động của Mặt Trăng quanh Trái Đất.",
+      "difficulty": 1,
+      "parent_id": null
+    }
+  ],
+  "relations": [
+    {"from_id": "c_moon", "to_id": "c_satellite", "relation": "IS_A", "weight": 0.95},
+    {"from_id": "c_moon", "to_id": "c_earth", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_moon", "to_id": "c_orbit", "relation": "CAN", "weight": 0.9},
+    {"from_id": "c_orbit", "to_id": "c_earth", "relation": "RELATED_TO", "weight": 0.8},
+
+    {"from_id": "c_moon", "to_id": "c_light", "relation": "HAS", "weight": 0.7},
+    {"from_id": "c_light", "to_id": "c_sun", "relation": "CAUSES", "weight": 0.9},
+    {"from_id": "c_moon", "to_id": "c_sun", "relation": "RELATED_TO", "weight": 0.8},
+
+    {"from_id": "c_moon", "to_id": "c_phase", "relation": "HAS", "weight": 0.85},
+    {"from_id": "c_moon", "to_id": "c_crater", "relation": "HAS", "weight": 0.85},
+
+    {"from_id": "c_phase", "to_id": "c_moon", "relation": "PART_OF", "weight": 0.8},
+    {"from_id": "c_crater", "to_id": "c_moon", "relation": "PART_OF", "weight": 0.8},
+
+    {"from_id": "c_satellite", "to_id": "c_moon", "relation": "EXAMPLE_OF", "weight": 0.7},
+
+    {"from_id": "c_earth", "to_id": "c_moon", "relation": "HAS", "weight": 0.85},
+    {"from_id": "c_moon", "to_id": "c_earth", "relation": "RELATED_TO", "weight": 0.8},
+
+    {"from_id": "c_phase", "to_id": "c_light", "relation": "RELATED_TO", "weight": 0.6},
+    {"from_id": "c_crater", "to_id": "c_moon", "relation": "RELATED_TO", "weight": 0.6},
+
+    {"from_id": "c_moon", "to_id": "c_phase", "relation": "CAUSES", "weight": 0.6},
+    {"from_id": "c_sun", "to_id": "c_light", "relation": "HAS", "weight": 0.8}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_moon",
+      "question": "Mặt Trăng là gì?",
+      "answer": "Vệ tinh tự nhiên của Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_moon",
+      "question": "Mặt Trăng có tự phát ra ánh sáng không?",
+      "answer": "Không",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_sun",
+      "question": "Ánh sáng của Mặt Trăng đến từ đâu?",
+      "answer": "Mặt Trời",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_orbit",
+      "question": "Mặt Trăng làm gì quanh Trái Đất?",
+      "answer": "Quay quanh",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_phase",
+      "question": "Hình dạng thay đổi của Mặt Trăng gọi là gì?",
+      "answer": "Pha Mặt Trăng",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_crater",
+      "question": "Bề mặt Mặt Trăng có gì?",
+      "answer": "Nhiều hố lớn",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_satellite",
+      "question": "Vệ tinh là gì?",
+      "answer": "Thiên thể quay quanh hành tinh",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_earth",
+      "question": "Mặt Trăng quay quanh hành tinh nào?",
+      "answer": "Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_light",
+      "question": "Mặt Trăng phản chiếu cái gì?",
+      "answer": "Ánh sáng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_moon",
+      "question": "Điền từ: Mặt Trăng là ____ của Trái Đất.",
+      "answer": "vệ tinh",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_phase",
+      "question": "Mặt Trăng có thay đổi hình dạng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_crater",
+      "question": "Hố trên Mặt Trăng có lớn không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_sun",
+      "question": "Mặt Trời có liên quan đến ánh sáng của Mặt Trăng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_moon",
+      "question": "Mặt Trăng thuộc loại thiên thể nào?",
+      "answer": "Vệ tinh",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_orbit",
+      "question": "Quay quanh nghĩa là gì?",
+      "answer": "Chuyển động xung quanh",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_earth",
+      "question": "Trái Đất có Mặt Trăng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_light",
+      "question": "Ánh sáng giúp chúng ta nhìn thấy Mặt Trăng đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_satellite",
+      "question": "Mặt Trăng có phải là vệ tinh không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    }
+  ]
+}

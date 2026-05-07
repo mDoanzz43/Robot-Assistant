@@ -1,0 +1,81 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_adaptation_basic.json",
+  "doc_id": "doc_animal_adaptation_basic",
+  "topic": "Sự thích nghi của động vật",
+  "domain": "animal",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Animal Adaptation for Kids",
+    "url": "https://example.com/animal_adaptation",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Sự thích nghi là cách động vật thay đổi để sống tốt trong môi trường của mình. Ví dụ, gấu Bắc Cực có lông dày để giữ ấm trong lạnh. Lạc đà có thể sống lâu mà không cần nước. Thích nghi giúp động vật sống sót và tìm thức ăn.",
+  "concepts": [
+    {"id": "c_adaptation","name": "Thích nghi","description": "Cách động vật thay đổi để sống tốt.","difficulty": 2,"parent_id": null},
+    {"id": "c_animal","name": "Động vật","description": "Sinh vật sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_environment","name": "Môi trường","description": "Nơi động vật sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_survive","name": "Sống sót","description": "Tiếp tục sống.","difficulty": 2,"parent_id": null},
+    {"id": "c_food","name": "Thức ăn","description": "Nguồn năng lượng cho động vật.","difficulty": 1,"parent_id": null},
+    {"id": "c_polar_bear","name": "Gấu Bắc Cực","description": "Động vật sống ở vùng lạnh.","difficulty": 2,"parent_id": "c_animal"},
+    {"id": "c_camel","name": "Lạc đà","description": "Động vật sống ở sa mạc.","difficulty": 1,"parent_id": "c_animal"},
+    {"id": "c_fur","name": "Lông dày","description": "Giúp giữ ấm.","difficulty": 2,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_animal","to_id": "c_adaptation","relation": "HAS","weight": 0.9},
+    {"from_id": "c_adaptation","to_id": "c_environment","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_adaptation","to_id": "c_survive","relation": "CAUSES","weight": 0.95},
+    {"from_id": "c_adaptation","to_id": "c_food","relation": "CAUSES","weight": 0.85},
+
+    {"from_id": "c_polar_bear","to_id": "c_animal","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_camel","to_id": "c_animal","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_polar_bear","to_id": "c_fur","relation": "HAS","weight": 0.9},
+    {"from_id": "c_fur","to_id": "c_polar_bear","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_fur","to_id": "c_environment","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_camel","to_id": "c_environment","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_animal","to_id": "c_polar_bear","relation": "HAS","weight": 0.7},
+    {"from_id": "c_animal","to_id": "c_camel","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_polar_bear","to_id": "c_animal","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_camel","to_id": "c_animal","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_environment","to_id": "c_animal","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_adaptation","to_id": "c_animal","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_adaptation","question": "Thích nghi là gì?","answer": "Cách động vật thay đổi để sống tốt","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_2","concept_id": "c_adaptation","question": "Động vật có cần thích nghi không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_animal","question": "Động vật là gì?","answer": "Sinh vật sống","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_animal","question": "Động vật có sống trong môi trường không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_environment","question": "Môi trường là gì?","answer": "Nơi sống","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_environment","question": "Động vật có sống trong môi trường không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_survive","question": "Sống sót là gì?","answer": "Tiếp tục sống","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_survive","question": "Thích nghi có giúp sống sót không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_9","concept_id": "c_food","question": "Thức ăn dùng để làm gì?","answer": "Cung cấp năng lượng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_10","concept_id": "c_food","question": "Động vật cần thức ăn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_polar_bear","question": "Gấu Bắc Cực sống ở đâu?","answer": "Nơi lạnh","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_polar_bear","question": "Gấu Bắc Cực có lông dày không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_camel","question": "Lạc đà sống ở đâu?","answer": "Sa mạc","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_14","concept_id": "c_camel","question": "Lạc đà có cần nhiều nước không?","answer": "Không","type": "yesno","options": [],"difficulty": 3},
+
+    {"id": "qa_15","concept_id": "c_fur","question": "Lông dày giúp làm gì?","answer": "Giữ ấm","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_16","concept_id": "c_fur","question": "Lông dày có giúp chống lạnh không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_adaptation","question": "Vì sao động vật cần thích nghi?","answer": "Để sống sót","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_adaptation","question": "Điền từ: Thích nghi giúp động vật ____ sót.","answer": "sống","type": "fill","options": [],"difficulty": 2}
+  ]
+}

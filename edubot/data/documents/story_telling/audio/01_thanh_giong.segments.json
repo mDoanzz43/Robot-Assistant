@@ -1,0 +1,171 @@
+{
+  "id": "01",
+  "title": "Thánh Gióng",
+  "source_text_chars": 965,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\01_th_nh_gi_ng.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 57.109,
+  "segments": [
+    {
+      "text": "Thánh Gióng là câu chuyện quen thuộc gắn liền với nhiều thế hệ người Việt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu truyện kể rằng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "dưới thời vua Hùng thứ sáu,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "một đôi vợ chồng già hiền lành không có con.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, người vợ ướm chân vào dấu chân lạ rồi thụ thai và sinh ra bé Gióng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lên ba tuổi,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Gióng vẫn không biết nói,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "không biết đi nhưng khi nghe tin giặc sứ giả của nhà vua đang đi tìm người tài để",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "đánh đuổi giặc Ân,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "cậu bỗng lên tiếng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "xin mẹ mời sứ giả để giúp vua cứu nước.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Gióng yêu cầu nhà vua rèn cho mình áo giáp sắt, ngựa sắt, gươm sắt.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cũng từ đó, Gióng lớn rất nhanh, ăn bao nhiêu cũng không đủ no.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi vũ khí được mang đến,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "Gióng mặc giáp,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "cưỡi ngựa phun lửa ra trận,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đánh tan giặc Ân.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi gươm gãy, Gióng nhổ tre quật giặc tan tành.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau chiến thắng, cưỡi ngựa bay về trời.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vua Hùng phong Gióng là Phù Đổng Thiên Vương.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện Thánh Gióng ca ngợi lòng yêu nước,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "tinh thần dũng cảm và ý chí quật cường,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đồng thời khơi dậy trong các bé niềm tự hào dân tộc và ý thức bảo vệ đất nước.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

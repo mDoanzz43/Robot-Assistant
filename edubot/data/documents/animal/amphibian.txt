@@ -1,0 +1,22 @@
+Khái niệm:
+Lưỡng cư là động vật sống cả dưới nước và trên cạn.
+
+Đặc điểm:
+Da ẩm.
+Thường trải qua biến thái.
+Sống trong môi trường ẩm.
+
+Ví dụ:
+Ếch sống ở ao hồ và trên đất.
+
+Phản ví dụ:
+Cá chỉ sống trong nước.
+
+Quan hệ:
+Amphibian IS_A Vertebrate
+Amphibian LIVES_IN Water
+Amphibian LIVES_ON Land
+
+Câu hỏi gợi mở:
+Tại sao lưỡng cư cần môi trường ẩm?
+Biến thái giúp ích gì?

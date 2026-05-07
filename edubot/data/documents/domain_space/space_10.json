@@ -1,0 +1,81 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_asteroids_basic.json",
+  "doc_id": "doc_space_asteroids_basic",
+  "topic": "Tiểu hành tinh",
+  "domain": "space",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Asteroids for Kids",
+    "url": "https://example.com/asteroids_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Tiểu hành tinh là những khối đá lớn bay trong không gian. Chúng quay quanh Mặt Trời giống như hành tinh nhưng nhỏ hơn. Nhiều tiểu hành tinh nằm trong vành đai giữa Sao Hỏa và Sao Mộc. Một số tiểu hành tinh có thể va chạm với hành tinh.",
+  "concepts": [
+    {"id": "c_asteroid","name": "Tiểu hành tinh","description": "Khối đá bay trong không gian.","difficulty": 1,"parent_id": null},
+    {"id": "c_rock","name": "Đá","description": "Chất tạo nên tiểu hành tinh.","difficulty": 1,"parent_id": null},
+    {"id": "c_space","name": "Không gian","description": "Nơi tiểu hành tinh tồn tại.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Trung tâm quỹ đạo.","difficulty": 1,"parent_id": null},
+    {"id": "c_orbit","name": "Quỹ đạo","description": "Đường đi quanh Mặt Trời.","difficulty": 3,"parent_id": null},
+    {"id": "c_belt","name": "Vành đai tiểu hành tinh","description": "Khu vực có nhiều tiểu hành tinh.","difficulty": 3,"parent_id": null},
+    {"id": "c_mars","name": "Sao Hỏa","description": "Hành tinh gần vành đai.","difficulty": 2,"parent_id": null},
+    {"id": "c_jupiter","name": "Sao Mộc","description": "Hành tinh lớn gần vành đai.","difficulty": 2,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_asteroid","to_id": "c_rock","relation": "HAS","weight": 0.95},
+    {"from_id": "c_rock","to_id": "c_asteroid","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_asteroid","to_id": "c_space","relation": "LIVES_IN","weight": 0.95},
+
+    {"from_id": "c_asteroid","to_id": "c_sun","relation": "RELATED_TO","weight": 0.9},
+    {"from_id": "c_asteroid","to_id": "c_orbit","relation": "HAS","weight": 0.9},
+    {"from_id": "c_orbit","to_id": "c_sun","relation": "RELATED_TO","weight": 0.85},
+
+    {"from_id": "c_asteroid","to_id": "c_belt","relation": "LIVES_IN","weight": 0.9},
+
+    {"from_id": "c_belt","to_id": "c_mars","relation": "RELATED_TO","weight": 0.85},
+    {"from_id": "c_belt","to_id": "c_jupiter","relation": "RELATED_TO","weight": 0.85},
+
+    {"from_id": "c_mars","to_id": "c_sun","relation": "RELATED_TO","weight": 0.7},
+    {"from_id": "c_jupiter","to_id": "c_sun","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_asteroid","to_id": "c_mars","relation": "RELATED_TO","weight": 0.7},
+    {"from_id": "c_asteroid","to_id": "c_jupiter","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_asteroid","to_id": "c_asteroid","relation": "RELATED_TO","weight": 0.6},
+
+    {"from_id": "c_asteroid","to_id": "c_rock","relation": "IS_A","weight": 0.6},
+
+    {"from_id": "c_asteroid","to_id": "c_orbit","relation": "CAUSES","weight": 0.6}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_asteroid","question": "Tiểu hành tinh là gì?","answer": "Khối đá bay trong không gian","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_asteroid","question": "Tiểu hành tinh có nhỏ hơn hành tinh không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_rock","question": "Tiểu hành tinh được tạo từ gì?","answer": "Đá","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_rock","question": "Đá có phải là thành phần chính của tiểu hành tinh không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_space","question": "Tiểu hành tinh ở đâu?","answer": "Trong không gian","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_space","question": "Tiểu hành tinh có ở trên Trái Đất không?","answer": "Không","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_7","concept_id": "c_sun","question": "Tiểu hành tinh quay quanh cái gì?","answer": "Mặt Trời","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_sun","question": "Mặt Trời có ảnh hưởng đến tiểu hành tinh không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_9","concept_id": "c_orbit","question": "Quỹ đạo là gì?","answer": "Đường đi quanh Mặt Trời","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_10","concept_id": "c_orbit","question": "Tiểu hành tinh có quỹ đạo không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_11","concept_id": "c_belt","question": "Vành đai tiểu hành tinh là gì?","answer": "Khu vực có nhiều tiểu hành tinh","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_12","concept_id": "c_belt","question": "Có nhiều tiểu hành tinh ở một nơi không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_13","concept_id": "c_mars","question": "Sao Hỏa nằm gần cái gì?","answer": "Vành đai tiểu hành tinh","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_14","concept_id": "c_mars","question": "Sao Hỏa có liên quan đến tiểu hành tinh không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_jupiter","question": "Sao Mộc là hành tinh như thế nào?","answer": "Lớn","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_16","concept_id": "c_jupiter","question": "Sao Mộc có gần vành đai tiểu hành tinh không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_asteroid","question": "Điều gì xảy ra khi tiểu hành tinh va chạm với hành tinh?","answer": "Có thể gây va chạm mạnh","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_asteroid","question": "Điền từ: Tiểu hành tinh là khối ____ trong không gian.","answer": "đá","type": "fill","options": [],"difficulty": 2}
+  ]
+}

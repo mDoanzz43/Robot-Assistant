@@ -1,0 +1,21 @@
+Khái niệm:
+Vành đai tiểu hành tinh là vùng chứa nhiều tiểu hành tinh.
+
+Đặc điểm:
+Nằm giữa Sao Hỏa và Sao Mộc.
+Gồm các khối đá nhỏ.
+
+Ví dụ:
+Nhiều tiểu hành tinh quay quanh trong vùng này.
+
+Phản ví dụ:
+Hành tinh không nằm trong vành đai.
+
+Quan hệ:
+Asteroid_Belt HAS Asteroid
+Asteroid ORBITS Sun
+Asteroid_Belt LOCATED_BETWEEN Mars Jupiter
+
+Câu hỏi gợi mở:
+Tại sao tiểu hành tinh không hợp lại thành hành tinh?
+Sao Mộc ảnh hưởng gì đến vành đai?

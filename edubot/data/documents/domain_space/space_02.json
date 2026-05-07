@@ -1,0 +1,264 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_sun_basic.json",
+  "doc_id": "doc_space_sun_basic",
+  "topic": "Mặt Trời",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "The Sun for Kids",
+    "url": "https://example.com/sun_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.93
+  },
+  "text": "Mặt Trời là một ngôi sao nằm ở trung tâm Hệ Mặt Trời. Mặt Trời cung cấp ánh sáng và nhiệt cho Trái Đất. Nhờ có Mặt Trời, cây cối có thể phát triển và con người có thể sống. Mặt Trời rất nóng và được tạo thành từ khí.",
+  "concepts": [
+    {
+      "id": "c_sun",
+      "name": "Mặt Trời",
+      "description": "Ngôi sao ở trung tâm Hệ Mặt Trời.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_star",
+      "name": "Ngôi sao",
+      "description": "Thiên thể phát ra ánh sáng.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_solar_system",
+      "name": "Hệ Mặt Trời",
+      "description": "Hệ gồm Mặt Trời và các hành tinh.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_light",
+      "name": "Ánh sáng",
+      "description": "Ánh sáng từ Mặt Trời chiếu đến Trái Đất.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_heat",
+      "name": "Nhiệt",
+      "description": "Nhiệt lượng từ Mặt Trời.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta sống.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_plants",
+      "name": "Cây cối",
+      "description": "Sinh vật cần ánh sáng để phát triển.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_gas",
+      "name": "Khí",
+      "description": "Chất tạo nên Mặt Trời.",
+      "difficulty": 2,
+      "parent_id": null
+    }
+  ],
+  "relations": [
+    {"from_id": "c_sun", "to_id": "c_star", "relation": "IS_A", "weight": 0.95},
+    {"from_id": "c_sun", "to_id": "c_solar_system", "relation": "PART_OF", "weight": 0.95},
+    {"from_id": "c_solar_system", "to_id": "c_sun", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_sun", "to_id": "c_light", "relation": "HAS", "weight": 0.9},
+    {"from_id": "c_sun", "to_id": "c_heat", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_sun", "to_id": "c_earth", "relation": "RELATED_TO", "weight": 0.85},
+    {"from_id": "c_light", "to_id": "c_earth", "relation": "CAUSES", "weight": 0.8},
+    {"from_id": "c_heat", "to_id": "c_earth", "relation": "CAUSES", "weight": 0.8},
+
+    {"from_id": "c_light", "to_id": "c_plants", "relation": "CAUSES", "weight": 0.85},
+    {"from_id": "c_plants", "to_id": "c_earth", "relation": "LIVES_IN", "weight": 0.8},
+
+    {"from_id": "c_sun", "to_id": "c_gas", "relation": "HAS", "weight": 0.85},
+
+    {"from_id": "c_star", "to_id": "c_sun", "relation": "EXAMPLE_OF", "weight": 0.7},
+    {"from_id": "c_solar_system", "to_id": "c_star", "relation": "RELATED_TO", "weight": 0.6},
+
+    {"from_id": "c_light", "to_id": "c_heat", "relation": "RELATED_TO", "weight": 0.6},
+    {"from_id": "c_heat", "to_id": "c_light", "relation": "RELATED_TO", "weight": 0.6},
+
+    {"from_id": "c_sun", "to_id": "c_plants", "relation": "CAUSES", "weight": 0.8},
+    {"from_id": "c_sun", "to_id": "c_earth", "relation": "CAUSES", "weight": 0.75}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_sun",
+      "question": "Mặt Trời là gì?",
+      "answer": "Một ngôi sao",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_sun",
+      "question": "Mặt Trời nằm ở đâu?",
+      "answer": "Trung tâm Hệ Mặt Trời",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_light",
+      "question": "Mặt Trời cung cấp gì cho Trái Đất?",
+      "answer": "Ánh sáng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_heat",
+      "question": "Mặt Trời có cung cấp nhiệt không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_earth",
+      "question": "Nhờ Mặt Trời mà chúng ta có thể sống đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_plants",
+      "question": "Cây cối cần gì để phát triển?",
+      "answer": "Ánh sáng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_gas",
+      "question": "Mặt Trời được tạo thành từ gì?",
+      "answer": "Khí",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_star",
+      "question": "Ngôi sao là gì?",
+      "answer": "Thiên thể phát ra ánh sáng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_solar_system",
+      "question": "Hệ Mặt Trời gồm những gì?",
+      "answer": "Mặt Trời và các hành tinh",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_sun",
+      "question": "Mặt Trời có rất nóng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_light",
+      "question": "Ánh sáng từ Mặt Trời chiếu đến đâu?",
+      "answer": "Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_heat",
+      "question": "Nhiệt từ Mặt Trời giúp ích gì?",
+      "answer": "Giúp Trái Đất ấm",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_sun",
+      "question": "Điền từ: Mặt Trời là một ____.",
+      "answer": "ngôi sao",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_plants",
+      "question": "Cây cối có cần ánh sáng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_earth",
+      "question": "Trái Đất nhận ánh sáng từ đâu?",
+      "answer": "Mặt Trời",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_star",
+      "question": "Mặt Trời có phải là một ngôi sao không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_gas",
+      "question": "Khí có phải là thành phần của Mặt Trời không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_solar_system",
+      "question": "Mặt Trời nằm ở trung tâm của cái gì?",
+      "answer": "Hệ Mặt Trời",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    }
+  ]
+}

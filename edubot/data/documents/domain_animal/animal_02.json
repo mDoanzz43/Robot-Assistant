@@ -1,0 +1,266 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_birds_basic.json",
+  "doc_id": "doc_animal_birds_basic",
+  "topic": "Chim",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 6,
+  "source": {
+    "title": "Birds for Kids",
+    "url": "https://example.com/birds_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Chim là loài động vật có lông vũ và có cánh. Hầu hết chim có thể bay, nhưng một số loài như đà điểu thì không. Chim đẻ trứng và sống ở nhiều nơi như rừng, cây và nước. Chim dùng mỏ để ăn.",
+  "concepts": [
+    {
+      "id": "c_bird",
+      "name": "Chim",
+      "description": "Động vật có lông vũ và cánh.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_feather",
+      "name": "Lông vũ",
+      "description": "Lớp phủ đặc trưng của chim.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_wing",
+      "name": "Cánh",
+      "description": "Bộ phận giúp chim bay.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_fly",
+      "name": "Bay",
+      "description": "Khả năng di chuyển trên không.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_egg",
+      "name": "Trứng",
+      "description": "Cách sinh sản của chim.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_beak",
+      "name": "Mỏ",
+      "description": "Bộ phận dùng để ăn.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_ostrich",
+      "name": "Đà điểu",
+      "description": "Loài chim không biết bay.",
+      "difficulty": 2,
+      "parent_id": "c_bird"
+    },
+    {
+      "id": "c_habitat",
+      "name": "Môi trường sống",
+      "description": "Nơi chim sinh sống.",
+      "difficulty": 1,
+      "parent_id": null
+    }
+  ],
+  "relations": [
+    {"from_id": "c_bird", "to_id": "c_feather", "relation": "HAS", "weight": 0.95},
+    {"from_id": "c_bird", "to_id": "c_wing", "relation": "HAS", "weight": 0.95},
+    {"from_id": "c_bird", "to_id": "c_egg", "relation": "HAS", "weight": 0.9},
+    {"from_id": "c_bird", "to_id": "c_beak", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_wing", "to_id": "c_fly", "relation": "CAN", "weight": 0.9},
+    {"from_id": "c_bird", "to_id": "c_fly", "relation": "CAN", "weight": 0.85},
+
+    {"from_id": "c_ostrich", "to_id": "c_bird", "relation": "IS_A", "weight": 0.95},
+    {"from_id": "c_ostrich", "to_id": "c_fly", "relation": "OPPOSITE_OF", "weight": 0.8},
+
+    {"from_id": "c_bird", "to_id": "c_habitat", "relation": "LIVES_IN", "weight": 0.8},
+
+    {"from_id": "c_feather", "to_id": "c_bird", "relation": "RELATED_TO", "weight": 0.7},
+    {"from_id": "c_wing", "to_id": "c_bird", "relation": "RELATED_TO", "weight": 0.7},
+    {"from_id": "c_beak", "to_id": "c_bird", "relation": "RELATED_TO", "weight": 0.7},
+
+    {"from_id": "c_egg", "to_id": "c_bird", "relation": "CAUSES", "weight": 0.6},
+
+    {"from_id": "c_bird", "to_id": "c_ostrich", "relation": "HAS", "weight": 0.6},
+
+    {"from_id": "c_ostrich", "to_id": "c_bird", "relation": "EXAMPLE_OF", "weight": 0.7},
+
+    {"from_id": "c_habitat", "to_id": "c_bird", "relation": "RELATED_TO", "weight": 0.6},
+
+    {"from_id": "c_bird", "to_id": "c_feather", "relation": "PART_OF", "weight": 0.6}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_bird",
+      "question": "Chim là động vật có gì?",
+      "answer": "Lông vũ và cánh",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_fly",
+      "question": "Hầu hết chim có thể làm gì?",
+      "answer": "Bay",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_ostrich",
+      "question": "Đà điểu có bay được không?",
+      "answer": "Không",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_egg",
+      "question": "Chim sinh sản bằng gì?",
+      "answer": "Trứng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_beak",
+      "question": "Chim dùng gì để ăn?",
+      "answer": "Mỏ",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_habitat",
+      "question": "Chim sống ở đâu?",
+      "answer": "Nhiều nơi như rừng, cây, nước",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_feather",
+      "question": "Lông vũ có trên cơ thể chim không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_wing",
+      "question": "Cánh giúp chim làm gì?",
+      "answer": "Bay",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_bird",
+      "question": "Điền từ: Chim có ____ để bay.",
+      "answer": "cánh",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_ostrich",
+      "question": "Đà điểu là chim đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_bird",
+      "question": "Chim có phải là động vật không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_beak",
+      "question": "Mỏ dùng để làm gì?",
+      "answer": "Ăn",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_fly",
+      "question": "Tất cả chim đều bay được đúng không?",
+      "answer": "Không",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_egg",
+      "question": "Trứng là gì?",
+      "answer": "Cách chim sinh sản",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_feather",
+      "question": "Chim có tóc hay lông vũ?",
+      "answer": "Lông vũ",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_habitat",
+      "question": "Chim có sống ở nhiều nơi không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_wing",
+      "question": "Cánh có phải là bộ phận của chim không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_bird",
+      "question": "Chim thuộc nhóm động vật nào?",
+      "answer": "Động vật",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    }
+  ]
+}

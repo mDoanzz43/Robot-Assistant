@@ -1,0 +1,360 @@
+### LCD display and hand (CODE PHẦN ESP32)
+
+#include <TFT_eSPI.h>
+#include <SPI.h>
+#include <ESP32Servo.h>
+
+Servo servoL;
+Servo servoR;
+
+#define MIRROR_L(x) (180 - (x))
+#define MIRROR_R(x) (180 - (x))
+
+
+const int pinL = 18;
+const int pinR = 17;
+
+// góc hiện tại & target
+float curL = 90, curR = 90;
+float targetL = 90, targetR = 90;
+
+// easing
+float easing = 0.08;
+
+// timing
+unsigned long lastServoUpdate = 0;
+const int interval = 40;
+
+// Include bitmap 
+#include "thinking_01_rgb565.cpp"
+#include "thinking_02_rgb565.cpp"
+#include "thinking_03_rgb565.cpp"
+#include "thinking_04_rgb565.cpp"
+#include "speaking_01_rgb565.cpp"
+#include "speaking_02_rgb565.cpp"
+#include "speaking_03_rgb565.cpp"
+#include "listening_01_rgb565.cpp"
+#include "listening_02_rgb565.cpp"
+#include "heart_eyes_rgb565.cpp"
+#include "laughing_rgb565.cpp"
+
+#define IMG_W 320
+#define IMG_H 240
+
+TFT_eSPI tft = TFT_eSPI();
+
+// ========================
+// STATE
+// ========================
+enum RobotState {
+  LISTENING,
+  THINKING,
+  SPEAKING,
+  HEART_EYES,
+  LAUGHING
+};
+RobotState currentState = HEART_EYES;
+
+// ========================
+// ACTION
+// ========================
+enum Action {
+  IDLE,
+  RIGHT_WAVE,
+  LEFT_WAVE,
+  BOTH_SWING,
+  HANDSHAKE
+};
+Action currentAction = IDLE;
+
+int stepCount = 0;
+unsigned long actionTime = 0;
+
+// ========================
+// FRAMES
+// ========================
+const uint16_t* listeningFrames[2] = {listening_01_565, listening_02_565};
+const uint16_t* thinkingFrames[4]  = {thinking_01_565, thinking_02_565, thinking_03_565, thinking_04_565};
+const uint16_t* speakingFrames[3]  = {speaking_01_565, speaking_02_565, speaking_03_565};
+const uint16_t* heartFrame         = heart_eyes_565;
+const uint16_t* laughingFrame      = laughing_565;
+
+// animation
+int currentFrame = 0;
+unsigned long lastAnimUpdate = 0;
+
+// timing
+const unsigned long LISTEN_INTERVAL = 420;
+const unsigned long THINK_INTERVAL  = 180;
+const unsigned long SPEAK_INTERVAL  = 140;
+const unsigned long BOB_INTERVAL    = 40;
+
+// bob
+int yOffset = 0;
+int prevYOffset = 0;
+float bobPhase = 0.0;
+
+// ========================
+// DRAW (NO FLICKER)
+// ========================
+void drawImageNoFlicker(const uint16_t* bitmap, int yOff = 0) {
+  tft.startWrite();
+
+  int dy = yOff - prevYOffset;
+
+  if (dy > 0) {
+    tft.fillRect(0, 0, IMG_W, dy, TFT_BLACK);
+  } 
+  else if (dy < 0) {
+    tft.fillRect(0, IMG_H + dy, IMG_W, -dy, TFT_BLACK);
+  }
+
+  tft.pushImage(0, yOff, IMG_W, IMG_H, bitmap);
+  tft.endWrite();
+
+  prevYOffset = yOff;
+}
+
+// ========================
+// SET STATE
+// ========================
+void setState(RobotState newState) {
+  if (newState == currentState) return;
+
+  currentState = newState;
+  currentFrame = 0;
+  lastAnimUpdate = millis();
+
+  bobPhase = 0;
+  yOffset = 0;
+  prevYOffset = 0;
+
+  tft.fillScreen(TFT_BLACK);
+
+  switch (newState) {
+    case LISTENING:
+      drawImageNoFlicker(listeningFrames[0]);
+      break;
+
+    case THINKING:
+      drawImageNoFlicker(thinkingFrames[0]);
+      break;
+
+    case SPEAKING:
+      drawImageNoFlicker(speakingFrames[0]);
+      break;
+
+    case HEART_EYES:
+      drawImageNoFlicker(heartFrame);
+      break;
+
+    case LAUGHING:
+      drawImageNoFlicker(laughingFrame);
+      break;
+  }
+}
+
+// ========================
+// UPDATE ANIMATION
+// ========================
+void updateAnimation() {
+  unsigned long now = millis();
+
+  switch (currentState) {
+
+    case LISTENING:
+      if (now - lastAnimUpdate >= LISTEN_INTERVAL) {
+        lastAnimUpdate = now;
+        currentFrame = (currentFrame + 1) % 2;
+        drawImageNoFlicker(listeningFrames[currentFrame]);
+      }
+      break;
+
+    case THINKING:
+      if (now - lastAnimUpdate >= THINK_INTERVAL) {
+        lastAnimUpdate = now;
+        currentFrame = (currentFrame + 1) % 4;
+        drawImageNoFlicker(thinkingFrames[currentFrame]);
+      }
+      break;
+
+    case SPEAKING:
+      if (now - lastAnimUpdate >= SPEAK_INTERVAL) {
+        lastAnimUpdate = now;
+        currentFrame = (currentFrame + 1) % 3;
+        drawImageNoFlicker(speakingFrames[currentFrame]);
+      }
+      break;
+
+    case HEART_EYES:
+      if (now - lastAnimUpdate >= BOB_INTERVAL) {
+        lastAnimUpdate = now;
+        bobPhase += 0.18f;
+        yOffset = (int)(sin(bobPhase) * 6);
+        drawImageNoFlicker(heartFrame, yOffset);
+      }
+      break;
+
+    case LAUGHING:
+      if (now - lastAnimUpdate >= BOB_INTERVAL) {
+        lastAnimUpdate = now;
+        bobPhase += 0.22f;
+        yOffset = (int)(sin(bobPhase) * 8);
+        drawImageNoFlicker(laughingFrame, yOffset);
+      }
+      break;
+  }
+}
+
+// ========================
+// SET ACTION
+// ========================
+void setAction(Action a) {
+  currentAction = a;
+  stepCount = 0;
+  actionTime = millis();
+}
+
+// ========================
+// UPDATE ACTION
+// ========================
+void updateAction() {
+  unsigned long now = millis();
+
+  switch (currentAction) {
+
+    case RIGHT_WAVE:
+      if (stepCount == 0) {
+        targetR = 140;
+        stepCount++;
+      } 
+      else if (stepCount == 1 && abs(curR - targetR) < 2) {
+        targetR = 90;
+        stepCount++;
+      } 
+      else if (stepCount == 2 && abs(curR - targetR) < 2) {
+        currentAction = IDLE;
+      }
+      break;
+
+    case LEFT_WAVE:
+      if (stepCount == 0) {
+        targetL = 40;
+        stepCount++;
+      } 
+      else if (stepCount == 1 && abs(curL - targetL) < 2) {
+        targetL = 90;
+        stepCount++;
+      } 
+      else if (stepCount == 2 && abs(curL - targetL) < 2) {
+        currentAction = IDLE;
+      }
+      break;
+
+    case BOTH_SWING:
+      if (stepCount == 0) {
+        targetL = 40;
+        targetR = 140;
+        stepCount++;
+      } 
+      else if (stepCount == 1 && abs(curL - targetL) < 2) {
+        targetL = 90;
+        targetR = 90;
+        stepCount++;
+      } 
+      else if (stepCount == 2 && abs(curL - targetL) < 2) {
+        currentAction = IDLE;
+      }
+      break;
+
+    case HANDSHAKE:
+      if (stepCount == 0) {
+        targetR = 150;
+        stepCount++;
+      } 
+      else if (stepCount == 1 && abs(curR - targetR) < 2) {
+        actionTime = now;
+        stepCount++;
+      } 
+      else if (stepCount == 2 && now - actionTime > 5000) {
+        targetR = 90;
+        stepCount++;
+      } 
+      else if (stepCount == 3 && abs(curR - targetR) < 2) {
+        currentAction = IDLE;
+      }
+      break;
+
+    case IDLE:
+      targetL = 90;
+      targetR = 90;
+      break;
+  }
+}
+
+// ========================
+// UPDATE SERVO
+// ========================
+void updateServo() {
+  unsigned long now = millis();
+
+  if (now - lastServoUpdate >= interval) {
+    lastServoUpdate = now;
+
+    curL += (targetL - curL) * easing;
+    curR += (targetR - curR) * easing;
+
+    servoL.write(MIRROR_L((int)curL));
+    servoR.write(MIRROR_R((int)curR));
+  }
+}
+
+// ========================
+// SETUP
+// ========================
+void setup() {
+  Serial.begin(115200);
+
+  servoL.attach(pinL, 500, 2400);
+  servoR.attach(pinR, 500, 2400);
+
+  tft.init();
+  tft.setRotation(1);
+  tft.setSwapBytes(true);
+
+  tft.fillScreen(TFT_BLACK);
+
+  Serial.println("🚀 Robot Ready");
+  Serial.println("L/T/S/H/A + r/l/b/g");
+
+  setState(HEART_EYES);
+}
+
+// ========================
+// LOOP
+// ========================
+void loop() {
+
+  while (Serial.available()) {
+    char c = Serial.read();
+
+    if (c == '\n' || c == '\r') continue;
+
+    switch (c) {
+      case 'L': setState(LISTENING); break;
+      case 'T': setState(THINKING); break;
+      case 'S': setState(SPEAKING); break;
+      case 'H': setState(HEART_EYES); break;
+      case 'A': setState(LAUGHING); break;
+
+      case 'r': setAction(RIGHT_WAVE); break;
+      case 'l': setAction(LEFT_WAVE); break;
+      case 'b': setAction(BOTH_SWING); break;
+      case 'g': setAction(HANDSHAKE); break;
+    }
+  }
+
+  updateAnimation();
+  updateAction();
+  updateServo();
+}

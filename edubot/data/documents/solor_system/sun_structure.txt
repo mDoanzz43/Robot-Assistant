@@ -1,0 +1,25 @@
+
+Khái niệm:
+Mặt Trời là một ngôi sao dạng cầu khí nóng.
+
+Đặc điểm:
+Thành phần chủ yếu là hydro và heli.
+Năng lượng sinh ra từ phản ứng nhiệt hạch.
+Có nhiều lớp như lõi, vùng bức xạ, quang quyển.
+
+Ví dụ:
+Ánh sáng mặt trời đến Trái Đất sau khoảng 8 phút.
+
+Phản ví dụ:
+Một hành tinh không tạo ra năng lượng bằng nhiệt hạch.
+
+Quan hệ:
+Sun IS_A Star
+Sun HAS Core
+Sun HAS Radiation_Zone
+Sun HAS Photosphere
+Sun GENERATES Energy
+
+Câu hỏi gợi mở:
+Tại sao phản ứng nhiệt hạch tạo ra năng lượng?
+Nếu lõi Mặt Trời nguội đi thì chuyện gì xảy ra?

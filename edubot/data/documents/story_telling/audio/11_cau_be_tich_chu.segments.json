@@ -1,0 +1,129 @@
+{
+  "id": "11",
+  "title": "Cậu bé Tích Chu",
+  "source_text_chars": 844,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\11_cau_be_tich_chu.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 49.865,
+  "segments": [
+    {
+      "text": "Tích Chu là một cậu bé mồ côi cha mẹ và sống cùng bà.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hằng ngày, bà phải làm việc rất vất vả để nuôi Tích Chu khôn lớn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng, Tích Chu lại rất ham chơi, không quan tâm đến bà.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, bà bị ốm nhưng không ai chăm sóc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Bà khát nước nhưng gọi mãi cũng không thấy Tích Chu ở đâu.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cuối cùng, bà của cậu mất và hóa thành một con chim.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Tích Chu thương bà và òa lên khóc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lúc này,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "cô Tiên hiện lên bảo Tích Chu lấy nước suối Tiên cho bà uống thì bà sẽ sống lại.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Nghe lời bà Tiên,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Tích Chu lên đường,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "vượt qua núi rừng hiểm trở để lấy nước suối về cho bà.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau khi uống nước suối Tiên, bà sống lại.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, Tích Chu luôn yêu thương, chăm sóc và vâng lời bà.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cậu bé Tích Chu là câu chuyện ý nghĩa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "để lại nhiều bài học quý giá về tình cảm gia đình và lòng hiếu thảo.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện nhắc nhở các bé phải luôn yêu thương, hiếu nghĩa với ông bà, cha mẹ.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

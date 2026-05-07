@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "files": {
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\adaptation.txt": {
+      "hash": "850c962388cc693b",
+      "doc_id": "doc_adaptation",
+      "topic": "thế giới động vật",
+      "updated_at": 1775036039
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\amphibian.txt": {
+      "hash": "7c1a0080e0599265",
+      "doc_id": "doc_amphibian",
+      "topic": "thế giới động vật",
+      "updated_at": 1775036258
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\animal_definition.txt": {
+      "hash": "65b1e08fd8456c57",
+      "doc_id": "doc_animal_definition",
+      "topic": "thế giới động vật",
+      "updated_at": 1775036448
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\bird.txt": {
+      "hash": "03fd6605a3611ac2",
+      "doc_id": "doc_bird",
+      "topic": "thế giới động vật",
+      "updated_at": 1775036644
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\ecosystem.txt": {
+      "hash": "bca48a4f1565e28e",
+      "doc_id": "doc_ecosystem",
+      "topic": "thế giới động vật",
+      "updated_at": 1775036853
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\evolution.txt": {
+      "hash": "497dc3e67ef16e99",
+      "doc_id": "doc_evolution",
+      "topic": "thế giới động vật",
+      "updated_at": 1775037045
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\fish.txt": {
+      "hash": "917b1ab6cc3bc98a",
+      "doc_id": "doc_fish",
+      "topic": "thế giới động vật",
+      "updated_at": 1775037393
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\food_chain.txt": {
+      "hash": "70c0245001782549",
+      "doc_id": "doc_food_chain",
+      "topic": "thế giới động vật",
+      "updated_at": 1775038035
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\invertebrate.txt": {
+      "hash": "2731eb04628da555",
+      "doc_id": "doc_invertebrate",
+      "topic": "thế giới động vật",
+      "updated_at": 1775038389
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\mamal.txt": {
+      "hash": "17bc51b895e25e01",
+      "doc_id": "doc_mamal",
+      "topic": "thế giới động vật",
+      "updated_at": 1775038746
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\repitle.txt": {
+      "hash": "5d6a9b04b02e456a",
+      "doc_id": "doc_repitle",
+      "topic": "thế giới động vật",
+      "updated_at": 1775039125
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\animal\\vertebrate.txt": {
+      "hash": "827febd18c1f2cb6",
+      "doc_id": "doc_vertebrate",
+      "topic": "thế giới động vật",
+      "updated_at": 1775039490
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\asteroid_belt.txt": {
+      "hash": "14f234fe1ce53bc8",
+      "doc_id": "doc_asteroid_belt",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775039864
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\comet_tail.txt": {
+      "hash": "b0b584ef8a573817",
+      "doc_id": "doc_comet_tail",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775040226
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\conseravtion.txt": {
+      "hash": "e3b0c44298fc1c14",
+      "doc_id": "doc_conseravtion",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775040910
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\earth_atmosphere.txt": {
+      "hash": "15f8c079c4e5beb2",
+      "doc_id": "doc_earth_atmosphere",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775041293
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\earth_habitability.txt": {
+      "hash": "822cfa1ab7cf6ae7",
+      "doc_id": "doc_earth_habitability",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775041678
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\earth_structure.txt": {
+      "hash": "64507f98a9a1fd21",
+      "doc_id": "doc_earth_structure",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775042048
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\gravity_deep.txt": {
+      "hash": "c20b640da34ae499",
+      "doc_id": "doc_gravity_deep",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775042446
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\he_mat_troi_ebook.txt": {
+      "hash": "74c3c7a71acab325",
+      "doc_id": "doc_he_mat_troi_ebook",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775042792
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\jupiter.txt": {
+      "hash": "754eb27059596115",
+      "doc_id": "doc_jupiter",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775043082
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\kuiper_belt.txt": {
+      "hash": "e1d32360887cbeb4",
+      "doc_id": "doc_kuiper_belt",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775043269
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\life_on_earth.txt": {
+      "hash": "b61f94cac59ae8a0",
+      "doc_id": "doc_life_on_earth",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775043439
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\mars_surface.txt": {
+      "hash": "e6b639e42be5ba1d",
+      "doc_id": "doc_mars_surface",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775043631
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\mercury.txt": {
+      "hash": "e3b0c44298fc1c14",
+      "doc_id": "doc_mercury",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775043823
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\moon_phases.txt": {
+      "hash": "92c3da694a44db16",
+      "doc_id": "doc_moon_phases",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044031
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\neptune.txt": {
+      "hash": "ceeea20206c29232",
+      "doc_id": "doc_neptune",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044253
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\oort_cloud.txt": {
+      "hash": "13ff31f885718b57",
+      "doc_id": "doc_oort_cloud",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044440
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\orbit_mechanics.txt": {
+      "hash": "9b4e5bfd2de49b82",
+      "doc_id": "doc_orbit_mechanics",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044614
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\planet_classififcation.txt": {
+      "hash": "dac46e6697637e85",
+      "doc_id": "doc_planet_classififcation",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044812
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\saturn.txt": {
+      "hash": "598680319fbc9c14",
+      "doc_id": "doc_saturn",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775044995
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\solar_system.txt": {
+      "hash": "276de5631963ae53",
+      "doc_id": "doc_solar_system",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775045180
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\sun_structure.txt": {
+      "hash": "74538e0da977d41a",
+      "doc_id": "doc_sun_structure",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775045375
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\uranus.txt": {
+      "hash": "e6d391b7195086f1",
+      "doc_id": "doc_uranus",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775045557
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\venus.txt": {
+      "hash": "2cbd54b4229fc557",
+      "doc_id": "doc_venus",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775045740
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\solor_system\\water_cycle.txt": {
+      "hash": "52bd57615d053336",
+      "doc_id": "doc_water_cycle",
+      "topic": "hệ mặt trời và khoa học vũ trụ",
+      "updated_at": 1775045906
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_01.json": {
+      "hash": "0207b22b8ab1aa20",
+      "doc_id": "doc_animal_mammals_basic",
+      "topic": "Động vật có vú",
+      "updated_at": 1775533153
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_02.json": {
+      "hash": "8a18790f891a08b7",
+      "doc_id": "doc_animal_birds_basic",
+      "topic": "Chim",
+      "updated_at": 1775533160
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_03.json": {
+      "hash": "028cb52c1e18dbb0",
+      "doc_id": "doc_animal_fish_basic",
+      "topic": "Cá",
+      "updated_at": 1775533166
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_04.json": {
+      "hash": "729a3ddbdad34de4",
+      "doc_id": "doc_animal_reptiles_basic",
+      "topic": "Bò sát",
+      "updated_at": 1775533174
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_05.json": {
+      "hash": "82811bc0c74ca5cb",
+      "doc_id": "doc_animal_amphibians_basic",
+      "topic": "Lưỡng cư",
+      "updated_at": 1775533180
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_06.json": {
+      "hash": "073d168ff0be9751",
+      "doc_id": "doc_animal_insects_basic",
+      "topic": "Côn trùng",
+      "updated_at": 1775533186
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_07.json": {
+      "hash": "5d666b7e45078976",
+      "doc_id": "doc_animal_food_chain_basic",
+      "topic": "Chuỗi thức ăn",
+      "updated_at": 1775533192
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_08.json": {
+      "hash": "e1188b18b53d5c5b",
+      "doc_id": "doc_animal_habitats_basic",
+      "topic": "Môi trường sống của động vật",
+      "updated_at": 1775533199
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_09.json": {
+      "hash": "bef7f95b7caa5514",
+      "doc_id": "doc_animal_predator_prey_basic",
+      "topic": "Động vật săn mồi và con mồi",
+      "updated_at": 1775533205
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_10.json": {
+      "hash": "047fceabc14bfb7c",
+      "doc_id": "doc_animal_adaptation_basic",
+      "topic": "Sự thích nghi của động vật",
+      "updated_at": 1775533211
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_11.json": {
+      "hash": "71fca8ff79c67087",
+      "doc_id": "doc_animal_life_cycle_basic",
+      "topic": "Vòng đời của động vật",
+      "updated_at": 1775533217
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_animal\\animal_12.json": {
+      "hash": "971267deaf4d927b",
+      "doc_id": "doc_animal_group_behavior_basic",
+      "topic": "Hành vi sống theo nhóm của động vật",
+      "updated_at": 1775533223
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_01.json": {
+      "hash": "aae27c3d97c1a9df",
+      "doc_id": "doc_space_earth_layers",
+      "topic": "Các lớp của Trái Đất",
+      "updated_at": 1775533229
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_02.json": {
+      "hash": "2cf2329e3f8ad372",
+      "doc_id": "doc_space_sun_basic",
+      "topic": "Mặt Trời",
+      "updated_at": 1775533235
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_03.json": {
+      "hash": "451ddd4571acbf8d",
+      "doc_id": "doc_space_moon_basic",
+      "topic": "Mặt Trăng",
+      "updated_at": 1775533241
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_04.json": {
+      "hash": "0206b26f69863c6d",
+      "doc_id": "doc_space_planets_basic",
+      "topic": "Các hành tinh",
+      "updated_at": 1775533247
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_05.json": {
+      "hash": "f2754e90878cb414",
+      "doc_id": "doc_space_earth_rotation_basic",
+      "topic": "Sự quay của Trái Đất",
+      "updated_at": 1775533253
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_06.json": {
+      "hash": "0cdbeeece732389d",
+      "doc_id": "doc_space_gravity_basic",
+      "topic": "Lực hấp dẫn",
+      "updated_at": 1775533259
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_07.json": {
+      "hash": "e95d93e99997d4e1",
+      "doc_id": "doc_space_seasons_basic",
+      "topic": "Các mùa trong năm",
+      "updated_at": 1775533265
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_08.json": {
+      "hash": "fcfa9afa7d50c6f3",
+      "doc_id": "doc_space_stars_basic",
+      "topic": "Các ngôi sao",
+      "updated_at": 1775533271
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_09.json": {
+      "hash": "525a86c28abcdf9a",
+      "doc_id": "doc_space_comets_basic",
+      "topic": "Sao chổi",
+      "updated_at": 1775533277
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_10.json": {
+      "hash": "94110c7676206efe",
+      "doc_id": "doc_space_asteroids_basic",
+      "topic": "Tiểu hành tinh",
+      "updated_at": 1775533283
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_11.json": {
+      "hash": "a2e95596601bcf11",
+      "doc_id": "doc_space_galaxy_basic",
+      "topic": "Thiên hà",
+      "updated_at": 1775533289
+    },
+    "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\domain_space\\space_12.json": {
+      "hash": "1db88e2f973ec2ae",
+      "doc_id": "doc_space_eclipse_basic",
+      "topic": "Nhật thực và nguyệt thực",
+      "updated_at": 1775533295
+    }
+  }
+}

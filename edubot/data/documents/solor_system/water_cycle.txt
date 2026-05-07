@@ -1,0 +1,23 @@
+Khái niệm:
+Chu trình nước là quá trình nước di chuyển trong tự nhiên.
+
+Đặc điểm:
+Gồm bay hơi, ngưng tụ và mưa.
+Nước tồn tại ở dạng rắn, lỏng và khí.
+Chu trình liên tục.
+
+Ví dụ:
+Nước biển bốc hơi tạo mây rồi mưa xuống đất.
+
+Phản ví dụ:
+Một hành tinh không có nước lỏng sẽ không có chu trình nước.
+
+Quan hệ:
+Water_Cycle IS_A Natural_Process
+Water_Cycle HAS Evaporation
+Water_Cycle HAS Condensation
+Water_Cycle HAS Precipitation
+
+Câu hỏi gợi mở:
+Tại sao nước có thể chuyển trạng thái?
+Chu trình nước ảnh hưởng đến khí hậu như thế nào?

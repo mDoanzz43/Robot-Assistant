@@ -1,0 +1,256 @@
+{
+  "doc_id": "doc_space_earth_layers",
+  "topic": "Các lớp của Trái Đất",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 8,
+  "source": {
+    "title": "Earth Layers for Kids",
+    "url": "https://example.com/earth_layers",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.92
+  },
+  "text": "Trái Đất có 4 lớp chính: vỏ Trái Đất, lớp phủ, lõi ngoài và lõi trong. Vỏ là lớp ngoài cùng nơi con người sinh sống. Lớp phủ rất dày và nóng. Lõi ngoài là kim loại nóng chảy. Lõi trong rất nóng và rắn.",
+  "concepts": [
+    {
+      "id": "c_earth",
+      "name": "Trái Đất",
+      "description": "Hành tinh chúng ta đang sống.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_crust",
+      "name": "Vỏ Trái Đất",
+      "description": "Lớp ngoài cùng của Trái Đất.",
+      "difficulty": 1,
+      "parent_id": "c_earth"
+    },
+    {
+      "id": "c_mantle",
+      "name": "Lớp phủ",
+      "description": "Lớp dày nằm dưới vỏ Trái Đất.",
+      "difficulty": 2,
+      "parent_id": "c_earth"
+    },
+    {
+      "id": "c_outer_core",
+      "name": "Lõi ngoài",
+      "description": "Lớp kim loại nóng chảy.",
+      "difficulty": 2,
+      "parent_id": "c_earth"
+    },
+    {
+      "id": "c_inner_core",
+      "name": "Lõi trong",
+      "description": "Lớp trong cùng, rất nóng và rắn.",
+      "difficulty": 2,
+      "parent_id": "c_earth"
+    },
+    {
+      "id": "c_heat",
+      "name": "Nhiệt độ",
+      "description": "Độ nóng của các lớp.",
+      "difficulty": 1,
+      "parent_id": null
+    },
+    {
+      "id": "c_metal",
+      "name": "Kim loại",
+      "description": "Chất tạo nên lõi Trái Đất.",
+      "difficulty": 2,
+      "parent_id": null
+    }
+  ],
+  "relations": [
+    {"from_id": "c_crust", "to_id": "c_earth", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_mantle", "to_id": "c_earth", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_outer_core", "to_id": "c_earth", "relation": "PART_OF", "weight": 0.9},
+    {"from_id": "c_inner_core", "to_id": "c_earth", "relation": "PART_OF", "weight": 0.9},
+
+    {"from_id": "c_crust", "to_id": "c_mantle", "relation": "RELATED_TO", "weight": 0.7},
+    {"from_id": "c_mantle", "to_id": "c_outer_core", "relation": "RELATED_TO", "weight": 0.7},
+    {"from_id": "c_outer_core", "to_id": "c_inner_core", "relation": "RELATED_TO", "weight": 0.7},
+
+    {"from_id": "c_outer_core", "to_id": "c_metal", "relation": "HAS", "weight": 0.8},
+    {"from_id": "c_inner_core", "to_id": "c_metal", "relation": "HAS", "weight": 0.8},
+
+    {"from_id": "c_mantle", "to_id": "c_heat", "relation": "HAS", "weight": 0.7},
+    {"from_id": "c_outer_core", "to_id": "c_heat", "relation": "HAS", "weight": 0.8},
+    {"from_id": "c_inner_core", "to_id": "c_heat", "relation": "HAS", "weight": 0.9},
+
+    {"from_id": "c_crust", "to_id": "c_mantle", "relation": "PREREQUISITE_OF", "weight": 0.6},
+    {"from_id": "c_mantle", "to_id": "c_outer_core", "relation": "PREREQUISITE_OF", "weight": 0.6},
+    {"from_id": "c_outer_core", "to_id": "c_inner_core", "relation": "PREREQUISITE_OF", "weight": 0.6},
+
+    {"from_id": "c_crust", "to_id": "c_earth", "relation": "IS_A", "weight": 0.6},
+    {"from_id": "c_mantle", "to_id": "c_earth", "relation": "IS_A", "weight": 0.6},
+    {"from_id": "c_outer_core", "to_id": "c_earth", "relation": "IS_A", "weight": 0.6},
+    {"from_id": "c_inner_core", "to_id": "c_earth", "relation": "IS_A", "weight": 0.6}
+  ],
+  "qa_bank": [
+    {
+      "id": "qa_1",
+      "concept_id": "c_earth",
+      "question": "Trái Đất có bao nhiêu lớp chính?",
+      "answer": "4 lớp",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_2",
+      "concept_id": "c_crust",
+      "question": "Con người sống ở lớp nào của Trái Đất?",
+      "answer": "Vỏ Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_3",
+      "concept_id": "c_mantle",
+      "question": "Lớp phủ nằm ở đâu?",
+      "answer": "Dưới vỏ Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_4",
+      "concept_id": "c_outer_core",
+      "question": "Lõi ngoài có ở trạng thái gì?",
+      "answer": "Nóng chảy",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_5",
+      "concept_id": "c_inner_core",
+      "question": "Lõi trong là rắn hay lỏng?",
+      "answer": "Rắn",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_6",
+      "concept_id": "c_heat",
+      "question": "Các lớp bên trong Trái Đất có nóng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_7",
+      "concept_id": "c_metal",
+      "question": "Lõi Trái Đất chứa gì?",
+      "answer": "Kim loại",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_8",
+      "concept_id": "c_crust",
+      "question": "Vỏ Trái Đất là lớp ngoài cùng đúng không?",
+      "answer": "Đúng",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_9",
+      "concept_id": "c_mantle",
+      "question": "Lớp phủ có dày không?",
+      "answer": "Rất dày",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_10",
+      "concept_id": "c_outer_core",
+      "question": "Lõi ngoài nằm trên hay dưới lớp phủ?",
+      "answer": "Dưới lớp phủ",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_11",
+      "concept_id": "c_inner_core",
+      "question": "Lõi trong có rất nóng không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_12",
+      "concept_id": "c_earth",
+      "question": "Trái Đất là gì?",
+      "answer": "Hành tinh chúng ta đang sống",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_13",
+      "concept_id": "c_crust",
+      "question": "Điền từ: Vỏ Trái Đất là lớp ____ cùng.",
+      "answer": "ngoài",
+      "type": "fill",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_14",
+      "concept_id": "c_mantle",
+      "question": "Lớp phủ nóng hay lạnh?",
+      "answer": "Nóng",
+      "type": "open",
+      "options": [],
+      "difficulty": 1
+    },
+    {
+      "id": "qa_15",
+      "concept_id": "c_outer_core",
+      "question": "Lõi ngoài có phải là kim loại không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_16",
+      "concept_id": "c_inner_core",
+      "question": "Lõi trong nằm ở đâu?",
+      "answer": "Trong cùng của Trái Đất",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_17",
+      "concept_id": "c_heat",
+      "question": "Nhiệt độ bên trong Trái Đất như thế nào?",
+      "answer": "Rất nóng",
+      "type": "open",
+      "options": [],
+      "difficulty": 2
+    },
+    {
+      "id": "qa_18",
+      "concept_id": "c_metal",
+      "question": "Kim loại có trong lõi ngoài không?",
+      "answer": "Có",
+      "type": "yesno",
+      "options": [],
+      "difficulty": 2
+    }
+  ]
+}

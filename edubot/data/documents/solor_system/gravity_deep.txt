@@ -1,0 +1,23 @@
+Khái niệm:
+Trọng lực là lực hút giữa các vật có khối lượng.
+
+Đặc điểm:
+Phụ thuộc vào khối lượng và khoảng cách.
+Là lực yếu nhưng tác động xa.
+Điều khiển chuyển động của hành tinh.
+
+Ví dụ:
+Trái Đất giữ Mặt Trăng quay quanh.
+
+Phản ví dụ:
+Lực điện từ mạnh hơn nhưng không chi phối quỹ đạo hành tinh.
+
+Quan hệ:
+Gravity IS_A Fundamental_Force
+Gravity DEPENDS_ON Mass
+Gravity DEPENDS_ON Distance
+Gravity CONTROLS Orbit
+
+Câu hỏi gợi mở:
+Tại sao trọng lực yếu nhưng vẫn giữ được hành tinh?
+Điều gì xảy ra nếu trọng lực tăng gấp đôi?

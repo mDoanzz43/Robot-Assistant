@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_predator_prey_basic.json",
+  "doc_id": "doc_animal_predator_prey_basic",
+  "topic": "Động vật săn mồi và con mồi",
+  "domain": "animal",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Predator and Prey for Kids",
+    "url": "https://example.com/predator_prey",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Động vật săn mồi là những con vật săn và ăn con khác để sống. Con mồi là động vật bị săn. Ví dụ: sư tử săn hươu. Động vật săn mồi thường có răng sắc và nhanh, còn con mồi thường chạy nhanh hoặc ẩn nấp để tránh bị bắt.",
+  "concepts": [
+    {"id": "c_predator","name": "Động vật săn mồi","description": "Động vật săn và ăn con khác.","difficulty": 1,"parent_id": null},
+    {"id": "c_prey","name": "Con mồi","description": "Động vật bị săn.","difficulty": 1,"parent_id": null},
+    {"id": "c_hunt","name": "Săn","description": "Hành động bắt con mồi.","difficulty": 2,"parent_id": null},
+    {"id": "c_eat","name": "Ăn","description": "Cách lấy năng lượng.","difficulty": 1,"parent_id": null},
+    {"id": "c_speed","name": "Tốc độ","description": "Khả năng chạy nhanh.","difficulty": 2,"parent_id": null},
+    {"id": "c_hide","name": "Ẩn nấp","description": "Cách tránh bị phát hiện.","difficulty": 2,"parent_id": null},
+    {"id": "c_lion","name": "Sư tử","description": "Một động vật săn mồi.","difficulty": 1,"parent_id": "c_predator"},
+    {"id": "c_deer","name": "Hươu","description": "Một con mồi.","difficulty": 1,"parent_id": "c_prey"}
+  ],
+  "relations": [
+    {"from_id": "c_predator","to_id": "c_prey","relation": "RELATED_TO","weight": 0.95},
+    {"from_id": "c_predator","to_id": "c_hunt","relation": "CAN","weight": 0.95},
+    {"from_id": "c_predator","to_id": "c_eat","relation": "CAN","weight": 0.9},
+
+    {"from_id": "c_prey","to_id": "c_hide","relation": "CAN","weight": 0.9},
+    {"from_id": "c_prey","to_id": "c_speed","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_hunt","to_id": "c_prey","relation": "CAUSES","weight": 0.85},
+
+    {"from_id": "c_lion","to_id": "c_predator","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_deer","to_id": "c_prey","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_lion","to_id": "c_deer","relation": "CAUSES","weight": 0.8},
+
+    {"from_id": "c_predator","to_id": "c_lion","relation": "HAS","weight": 0.7},
+    {"from_id": "c_prey","to_id": "c_deer","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_lion","to_id": "c_predator","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_deer","to_id": "c_prey","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_speed","to_id": "c_prey","relation": "RELATED_TO","weight": 0.7},
+    {"from_id": "c_hide","to_id": "c_prey","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_predator","to_id": "c_prey","relation": "OPPOSITE_OF","weight": 0.6}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_predator","question": "Động vật săn mồi là gì?","answer": "Động vật săn và ăn con khác","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_predator","question": "Động vật săn mồi có ăn động vật khác không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_prey","question": "Con mồi là gì?","answer": "Động vật bị săn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_prey","question": "Con mồi có bị săn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_hunt","question": "Săn là gì?","answer": "Bắt con mồi","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_6","concept_id": "c_hunt","question": "Động vật săn mồi có săn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_eat","question": "Động vật ăn để làm gì?","answer": "Lấy năng lượng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_eat","question": "Động vật săn mồi có ăn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_speed","question": "Tốc độ giúp con mồi làm gì?","answer": "Chạy nhanh để thoát","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_10","concept_id": "c_speed","question": "Con mồi có cần chạy nhanh không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_11","concept_id": "c_hide","question": "Ẩn nấp là gì?","answer": "Trốn để không bị thấy","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_12","concept_id": "c_hide","question": "Con mồi có thể ẩn nấp không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_13","concept_id": "c_lion","question": "Sư tử là loại gì?","answer": "Động vật săn mồi","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_lion","question": "Sư tử có săn hươu không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_deer","question": "Hươu là loại gì?","answer": "Con mồi","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_deer","question": "Hươu có bị săn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_predator","question": "Vì sao động vật săn mồi phải săn?","answer": "Để sống","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_predator","question": "Điền từ: Động vật săn mồi ____ con khác để sống.","answer": "săn","type": "fill","options": [],"difficulty": 2}
+  ]
+}

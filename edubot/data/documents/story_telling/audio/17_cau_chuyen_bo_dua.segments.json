@@ -1,0 +1,108 @@
+{
+  "id": "17",
+  "title": "Câu chuyện bó đũa",
+  "source_text_chars": 622,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\17_cau_chuyen_bo_dua.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 36.638,
+  "segments": [
+    {
+      "text": "Câu chuyện bó đũa cũng là câu chuyện gần gũi, quen thuộc với nhiều bé.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một người cha vì muốn dạy cho các con bài học quý giá liền đưa cho mỗi người một bó",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "đũa và bảo bẻ gãy.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng, không ai có thể làm được.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau đó, ông tách bó đũa ra và bẻ từng chiếc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Qua câu chuyện này,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "người cha nhắc nhở các con phải sống hòa thuận,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đoàn kết,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "giúp đỡ nhau.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau khi cha mất, ba anh em tranh nhau, chia rẽ nhau và cuối cùng mất hết tài sản.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện bó đũa gửi gắm cho các bé bài học về lòng yêu thương,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đùm bọc và tinh thần đoàn kết.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Không chỉ vậy,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "câu chuyện còn nhắc nhở các bé nên biết trân trọng tình cảm gia đình ruột thịt.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

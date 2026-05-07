@@ -1,0 +1,78 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_eclipse_basic.json",
+  "doc_id": "doc_space_eclipse_basic",
+  "topic": "Nhật thực và nguyệt thực",
+  "domain": "space",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Eclipses for Kids",
+    "url": "https://example.com/eclipse_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Nhật thực xảy ra khi Mặt Trăng nằm giữa Trái Đất và Mặt Trời, che ánh sáng từ Mặt Trời. Nguyệt thực xảy ra khi Trái Đất nằm giữa Mặt Trời và Mặt Trăng, che ánh sáng đến Mặt Trăng. Các hiện tượng này xảy ra khi các thiên thể thẳng hàng.",
+  "concepts": [
+    {"id": "c_eclipse","name": "Nhật thực và nguyệt thực","description": "Hiện tượng che ánh sáng giữa các thiên thể.","difficulty": 2,"parent_id": null},
+    {"id": "c_solar_eclipse","name": "Nhật thực","description": "Mặt Trăng che ánh sáng từ Mặt Trời.","difficulty": 2,"parent_id": "c_eclipse"},
+    {"id": "c_lunar_eclipse","name": "Nguyệt thực","description": "Trái Đất che ánh sáng đến Mặt Trăng.","difficulty": 2,"parent_id": "c_eclipse"},
+    {"id": "c_sun","name": "Mặt Trời","description": "Nguồn ánh sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_moon","name": "Mặt Trăng","description": "Vệ tinh của Trái Đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_earth","name": "Trái Đất","description": "Hành tinh chúng ta sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_light","name": "Ánh sáng","description": "Ánh sáng từ Mặt Trời.","difficulty": 1,"parent_id": null},
+    {"id": "c_alignment","name": "Thẳng hàng","description": "Các thiên thể nằm trên một đường.","difficulty": 3,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_solar_eclipse","to_id": "c_eclipse","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_lunar_eclipse","to_id": "c_eclipse","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_moon","to_id": "c_solar_eclipse","relation": "CAUSES","weight": 0.95},
+    {"from_id": "c_earth","to_id": "c_lunar_eclipse","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_alignment","to_id": "c_solar_eclipse","relation": "CAUSES","weight": 0.9},
+    {"from_id": "c_alignment","to_id": "c_lunar_eclipse","relation": "CAUSES","weight": 0.9},
+
+    {"from_id": "c_sun","to_id": "c_light","relation": "HAS","weight": 0.95},
+
+    {"from_id": "c_sun","to_id": "c_solar_eclipse","relation": "RELATED_TO","weight": 0.8},
+    {"from_id": "c_moon","to_id": "c_lunar_eclipse","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_earth","to_id": "c_moon","relation": "RELATED_TO","weight": 0.8},
+    {"from_id": "c_moon","to_id": "c_sun","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_eclipse","to_id": "c_light","relation": "CAUSES","weight": 0.7},
+
+    {"from_id": "c_solar_eclipse","to_id": "c_lunar_eclipse","relation": "OPPOSITE_OF","weight": 0.8},
+
+    {"from_id": "c_eclipse","to_id": "c_alignment","relation": "PREREQUISITE_OF","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_eclipse","question": "Nhật thực và nguyệt thực là gì?","answer": "Hiện tượng che ánh sáng giữa các thiên thể","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_2","concept_id": "c_eclipse","question": "Hiện tượng này có liên quan đến ánh sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_solar_eclipse","question": "Nhật thực là gì?","answer": "Mặt Trăng che ánh sáng từ Mặt Trời","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_4","concept_id": "c_solar_eclipse","question": "Nhật thực xảy ra khi Mặt Trăng đứng giữa Trái Đất và Mặt Trời đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 3},
+
+    {"id": "qa_5","concept_id": "c_lunar_eclipse","question": "Nguyệt thực là gì?","answer": "Trái Đất che ánh sáng đến Mặt Trăng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_6","concept_id": "c_lunar_eclipse","question": "Nguyệt thực xảy ra khi Trái Đất nằm giữa Mặt Trời và Mặt Trăng đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 3},
+
+    {"id": "qa_7","concept_id": "c_sun","question": "Mặt Trời cung cấp gì?","answer": "Ánh sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_sun","question": "Mặt Trời có bị che trong nhật thực không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_9","concept_id": "c_moon","question": "Mặt Trăng làm gì trong nhật thực?","answer": "Che ánh sáng từ Mặt Trời","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_10","concept_id": "c_moon","question": "Mặt Trăng có bị che trong nguyệt thực không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_11","concept_id": "c_earth","question": "Trái Đất làm gì trong nguyệt thực?","answer": "Che ánh sáng đến Mặt Trăng","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_earth","question": "Trái Đất có tham gia vào nguyệt thực không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_light","question": "Ánh sáng bị ảnh hưởng như thế nào trong hiện tượng này?","answer": "Bị che","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_14","concept_id": "c_light","question": "Hiện tượng này có làm giảm ánh sáng không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_alignment","question": "Thẳng hàng là gì?","answer": "Các thiên thể nằm trên một đường","type": "open","options": [],"difficulty": 3},
+    {"id": "qa_16","concept_id": "c_alignment","question": "Các thiên thể có cần thẳng hàng để xảy ra hiện tượng này không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_17","concept_id": "c_eclipse","question": "Vì sao xảy ra nhật thực và nguyệt thực?","answer": "Do các thiên thể thẳng hàng và che ánh sáng","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_eclipse","question": "Điền từ: Nhật thực xảy ra khi ____ che Mặt Trời.","answer": "Mặt Trăng","type": "fill","options": [],"difficulty": 2}
+  ]
+}

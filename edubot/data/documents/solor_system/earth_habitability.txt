@@ -1,0 +1,23 @@
+Khái niệm:
+Khả năng sống được là điều kiện cho sự sống tồn tại.
+
+Đặc điểm:
+Có nước lỏng.
+Có khí quyển ổn định.
+Khoảng cách phù hợp với Mặt Trời.
+
+Ví dụ:
+Trái Đất nằm trong vùng có thể sống được.
+
+Phản ví dụ:
+Sao Thủy quá nóng và không có nước.
+
+Quan hệ:
+Earth HAS Habitability
+Habitability REQUIRES Water
+Habitability REQUIRES Temperature
+Earth LOCATED_IN Habitable_Zone
+
+Câu hỏi gợi mở:
+Vùng sống được là gì?
+Nếu Trái Đất gần Mặt Trời hơn thì sao?

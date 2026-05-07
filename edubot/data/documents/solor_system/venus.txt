@@ -1,0 +1,23 @@
+Khái niệm:
+Sao Kim là hành tinh thứ hai từ Mặt Trời.
+
+Đặc điểm:
+Nhiệt độ rất cao.
+Khí quyển dày chứa CO2.
+Hiệu ứng nhà kính mạnh.
+
+Ví dụ:
+Sao Kim nóng hơn cả Sao Thủy.
+
+Phản ví dụ:
+Sao Hỏa có khí quyển mỏng nên lạnh hơn nhiều.
+
+Quan hệ:
+Venus IS_A Planet
+Venus HAS Thick_Atmosphere
+Venus HAS Greenhouse_Effect
+Venus ORBITS Sun
+
+Câu hỏi gợi mở:
+Tại sao Sao Kim nóng hơn Sao Thủy?
+Hiệu ứng nhà kính hoạt động như thế nào?

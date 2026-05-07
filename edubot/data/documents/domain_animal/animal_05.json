@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_amphibians_basic.json",
+  "doc_id": "doc_animal_amphibians_basic",
+  "topic": "Lưỡng cư",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Amphibians for Kids",
+    "url": "https://example.com/amphibians_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Lưỡng cư là động vật có thể sống cả dưới nước và trên cạn. Khi còn nhỏ, chúng sống trong nước và thở bằng mang. Khi lớn lên, chúng có thể sống trên cạn và thở bằng phổi. Ví dụ như ếch và cóc.",
+  "concepts": [
+    {"id": "c_amphibian","name": "Lưỡng cư","description": "Động vật sống được cả dưới nước và trên cạn.","difficulty": 1,"parent_id": null},
+    {"id": "c_water","name": "Nước","description": "Môi trường sống ban đầu của lưỡng cư.","difficulty": 1,"parent_id": null},
+    {"id": "c_land","name": "Đất liền","description": "Môi trường sống khi trưởng thành.","difficulty": 1,"parent_id": null},
+    {"id": "c_gill","name": "Mang","description": "Cách thở khi còn nhỏ.","difficulty": 1,"parent_id": null},
+    {"id": "c_lung","name": "Phổi","description": "Cách thở khi trưởng thành.","difficulty": 1,"parent_id": null},
+    {"id": "c_frog","name": "Ếch","description": "Một loài lưỡng cư.","difficulty": 1,"parent_id": "c_amphibian"},
+    {"id": "c_toad","name": "Cóc","description": "Một loài lưỡng cư.","difficulty": 1,"parent_id": "c_amphibian"},
+    {"id": "c_growth","name": "Phát triển","description": "Quá trình thay đổi khi lớn lên.","difficulty": 2,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_amphibian","to_id": "c_water","relation": "LIVES_IN","weight": 0.9},
+    {"from_id": "c_amphibian","to_id": "c_land","relation": "LIVES_IN","weight": 0.9},
+
+    {"from_id": "c_amphibian","to_id": "c_gill","relation": "HAS","weight": 0.8},
+    {"from_id": "c_amphibian","to_id": "c_lung","relation": "HAS","weight": 0.8},
+
+    {"from_id": "c_gill","to_id": "c_water","relation": "RELATED_TO","weight": 0.8},
+    {"from_id": "c_lung","to_id": "c_land","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_growth","to_id": "c_gill","relation": "CAUSES","weight": 0.7},
+    {"from_id": "c_growth","to_id": "c_lung","relation": "CAUSES","weight": 0.7},
+
+    {"from_id": "c_frog","to_id": "c_amphibian","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_toad","to_id": "c_amphibian","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_amphibian","to_id": "c_frog","relation": "HAS","weight": 0.7},
+    {"from_id": "c_amphibian","to_id": "c_toad","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_frog","to_id": "c_amphibian","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_toad","to_id": "c_amphibian","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_water","to_id": "c_land","relation": "OPPOSITE_OF","weight": 0.7},
+
+    {"from_id": "c_amphibian","to_id": "c_growth","relation": "RELATED_TO","weight": 0.7}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_amphibian","question": "Lưỡng cư là gì?","answer": "Động vật sống cả dưới nước và trên cạn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_amphibian","question": "Lưỡng cư có sống được trên cạn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_water","question": "Lưỡng cư sống ở đâu khi còn nhỏ?","answer": "Dưới nước","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_water","question": "Nước có phải là môi trường của lưỡng cư không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_land","question": "Lưỡng cư sống ở đâu khi lớn?","answer": "Trên cạn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_land","question": "Lưỡng cư có sống trên cạn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_gill","question": "Lưỡng cư thở bằng gì khi còn nhỏ?","answer": "Mang","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_gill","question": "Mang giúp lưỡng cư thở trong nước đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_lung","question": "Lưỡng cư thở bằng gì khi lớn?","answer": "Phổi","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_lung","question": "Phổi dùng để thở trên cạn đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_frog","question": "Ếch là loại động vật gì?","answer": "Lưỡng cư","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_frog","question": "Ếch có phải là lưỡng cư không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_toad","question": "Cóc là loại động vật gì?","answer": "Lưỡng cư","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_toad","question": "Cóc có phải là lưỡng cư không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_growth","question": "Lưỡng cư thay đổi khi lớn lên gọi là gì?","answer": "Phát triển","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_16","concept_id": "c_growth","question": "Lưỡng cư có thay đổi khi lớn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_amphibian","question": "Lưỡng cư có thể sống ở mấy môi trường?","answer": "Hai môi trường","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_18","concept_id": "c_amphibian","question": "Điền từ: Lưỡng cư sống ở ____ và trên cạn.","answer": "nước","type": "fill","options": [],"difficulty": 1}
+  ]
+}

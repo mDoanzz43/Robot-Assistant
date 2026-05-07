@@ -1,0 +1,23 @@
+Khái niệm:
+Cá là động vật sống trong nước.
+
+Đặc điểm:
+Có mang để thở.
+Có vây để bơi.
+Thân thường phủ vảy.
+
+Ví dụ:
+Cá mập sống trong đại dương.
+
+Phản ví dụ:
+Cá voi sống trong nước nhưng là động vật có vú.
+
+Quan hệ:
+Fish IS_A Vertebrate
+Fish HAS Gill
+Fish HAS Fin
+Fish LIVES_IN Water
+
+Câu hỏi gợi mở:
+Mang hoạt động như thế nào?
+Tại sao cá không thể sống trên cạn?

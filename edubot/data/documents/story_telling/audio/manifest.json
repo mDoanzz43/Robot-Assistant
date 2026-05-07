@@ -1,0 +1,1298 @@
+{
+  "input": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\fairy_tales.json",
+  "model_path": "D:\\STUDY\\At_school\\asr_zipformer\\nghitts\\public\\tts-model\\vi\\ngochuyennew.onnx",
+  "max_clause_chars": 84,
+  "base_length_scale": 0.97,
+  "stories": [
+    {
+      "id": "11",
+      "title": "Cậu bé Tích Chu",
+      "source_text_chars": 844,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\11_cau_be_tich_chu.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 49.865,
+      "segments": [
+        {
+          "text": "Tích Chu là một cậu bé mồ côi cha mẹ và sống cùng bà.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hằng ngày, bà phải làm việc rất vất vả để nuôi Tích Chu khôn lớn.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thế nhưng, Tích Chu lại rất ham chơi, không quan tâm đến bà.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một hôm, bà bị ốm nhưng không ai chăm sóc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Bà khát nước nhưng gọi mãi cũng không thấy Tích Chu ở đâu.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cuối cùng, bà của cậu mất và hóa thành một con chim.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Tích Chu thương bà và òa lên khóc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Lúc này,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "cô Tiên hiện lên bảo Tích Chu lấy nước suối Tiên cho bà uống thì bà sẽ sống lại.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Nghe lời bà Tiên,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "Tích Chu lên đường,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "vượt qua núi rừng hiểm trở để lấy nước suối về cho bà.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sau khi uống nước suối Tiên, bà sống lại.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Từ đó, Tích Chu luôn yêu thương, chăm sóc và vâng lời bà.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cậu bé Tích Chu là câu chuyện ý nghĩa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "để lại nhiều bài học quý giá về tình cảm gia đình và lòng hiếu thảo.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Câu chuyện nhắc nhở các bé phải luôn yêu thương, hiếu nghĩa với ông bà, cha mẹ.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Sọ Dừa",
+      "source_text_chars": 1195,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\12_so_dua.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 72.422,
+      "segments": [
+        {
+          "text": "Sọ Dừa là một truyện cổ tích cho bé kể về một chàng trai được sinh ra trong hình hài",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "kỳ lạ,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "tròn vo như quả dừa nên được đặt tên là Sọ Dừa.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Lớn lên, Sọ Dừa vẫn không biết làm việc gì.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thương mẹ vất vả, Sọ Dừa xin mẹ cho mình đến chăn bò cho nhà phú ông.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sọ Dừa chăn bò rất giỏi.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hằng ngày,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "ba cô con gái của phú ông thay nhau mang cơm cho Sọ Dừa nhưng chỉ có cô út là đối xử",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "tốt với chàng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một hôm,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "trong lúc mang cơm cho Sọ Dừa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "cô út thấy một chàng trai tuấn tú đang ngồi chăn bò,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "thổi sáo.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sau nhiều lần, cô út biết chàng trai đó chính là Sọ Dừa rồi đem lòng yêu quý.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Nhờ chuẩn bị đủ đồ thách cưới, phú ông đã gả con gái út cho Sọ Dừa.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Vào ngày cưới, chàng xuất hiện trong diện mạo một chàng trai khôi ngô tuấn tú.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Nhờ chăm chỉ đèn sách, Sọ Dừa thi đỗ Trạng Nguyên.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hai cho chị ghen tị nên đã bày mưu đẩy em gái xuống nước.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Nhờ được Sọ Dừa chuẩn bị sẵn một hòn đá lửa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "một con dao và hai quả trứng gà nên cô em thoát chết,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "đoàn tụ với chồng còn hai cô chị thì bỏ đi biệt xứ.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Qua câu chuyện Sọ Dừa nhắc nhở các bé không bên đánh giá người khác bằng vẻ bên",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "ngoài.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Không chỉ vậy,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "truyện còn giáo dục cho các bé về lòng nhân ái,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "hiếu thảo,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "biết yêu thương và luôn chăm chỉ học tập,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "làm việc.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.941,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Hòn Vọng Phu, Truyền thuyết nàng Tô Thị",
+      "source_text_chars": 875,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\13_hon_vong_phu_truyen_thuyet_nang_to_thi.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 51.114,
+      "segments": [
+        {
+          "text": "Hòn Vọng Phu kể về nàng Tô Thị hiền lành, xinh đẹp, được nhiều chàng trai để ý.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Về sau, một chàng thanh niên tuấn tú xuất hiện và được Tô Thị đem lòng yêu thương.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hai người lấy nhau và sinh được 2 đứa con.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một hôm, trong lúc vợ đang gội đầu, chàng trai nhìn thấy vết sẹo ở đầu vợ.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Chàng hỏi ra mới biết Tô Thị chính là người em gái năm xưa của mình.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Vì quá rối bời, chàng đã xin đi lính biền biệt không về.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hằng ngày, Tô Thị bế con lên chùa Tam Thanh cầu bình yên cho chồng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Rồi một ngày trời nổi mưa giông,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "sấm sét như rung chuyển cả quả núi,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "nàng vẫn bế con đứng trơ trên mỏm đá rồi dẫn hóa đá.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sau này, người dân trong vùng đặt tên cho hòn đá đó là Đá Vọng Phu.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hòn Vọng Phu là truyện cổ tích cho bé rất cảm động nói về lòng sắt son,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "chung thuỷ và sự hy sinh của người vợ.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Từ đó,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "trẻ cũng được tìm hiểu thêm về tên gọi Hòn Vọng Phu trong đời sống văn hóa của người",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Việt.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.941,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Cậu bé thông minh",
+      "source_text_chars": 610,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\14_cau_be_thong_minh.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 34.895,
+      "segments": [
+        {
+          "text": "Với mong muốn tìm ra hiền tài cho đất nước,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "nhà vua đã phái quan viên đi khắp nơi và đặt ra những câu hỏi hóc búa để thử thách",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "mọi người.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Với sự thông minh,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "nhanh trí và tài đối đáp,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "một cậu bé đã giải được câu hỏi “trâu cày được mấy đường” đến thử thách nuôi trâu",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "đực đẻ con,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "một con chim sẻ dọn ba mâm cỗ hay mưu mẹo xâu sợi chỉ qua ruột ốc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Nhờ tài trí hơn người, nhà vua đã phong cậu làm trạng nguyên.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cậu bé thông minh là truyện cổ tích cho bé ca ngợi sự thông minh,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "trí tuệ của con người.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Câu chuyện cũng nhắc nhở các bé phải chăm chỉ học tập,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "không ngừng sáng tạo để trở thành người tài giỏi,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "có ích.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.941,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Chú Cuội cung trăng",
+      "source_text_chars": 685,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\15_chu_cuoi_cung_trang.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 39.247,
+      "segments": [
+        {
+          "text": "Chú Cuội cung trăng là câu chuyện về một chàng tiều phu tên là Cuội.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một lần vào rừng, Cuội phát hiện loài cây thần có thể cứu người chết sống lại.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Từ đó, chàng dùng lá cây để chữa bệnh, cứu giúp dân làng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một hôm, vì thương người, Cuội cứu sống con gái nhà giàu và cưới nàng làm vợ.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thế nhưng,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "vợ Cuội tính hay quên nên vô ý tưới nước bẩn lên gốc cây,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "khiến cây thần bay lên trời.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sợ mất cây thuốc quý, Cuội vội nắm chặt rễ cây và bị kéo theo lên cung trăng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Chú Cuội cung trăng giúp các bé hiểu về hình ảnh chú Cuội ngồi gốc cây đa trên mặt",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "trăng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Không chỉ vậy,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "câu chuyện còn khơi dậy trí tưởng tượng phong phú cho bé và bài học về lòng nhân hậu",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "và tính cẩn thận trong mọi việc.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Sự tích cây vú sữa",
+      "source_text_chars": 666,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\16_su_tich_cay_vu_sua.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 40.02,
+      "segments": [
+        {
+          "text": "Trong các truyện cổ tích cho bé,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sự tích cây vú sữa nói về tình mẫu tử thiêng liêng,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "cao cả.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Xưa kia, một cậu bé vì được mẹ nuông chiều nên chỉ mãi ham chơi.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một lần mẹ mắng, cậu đã bỏ nhà đi.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Người mẹ vì quá thương con nên đã hóa thành một gốc cây to lớn.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Khi trở về, cậu bé không thấy mẹ liền ôm lấy gốc cây và bật khóc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Kỳ lạ thay,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "cây bỗng rung rinh,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "từ cành lá mọc ra những bông hoa trắng,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "rồi kết thành quả có dòng sữa ngọt ngào.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Người dân gọi loài cây ấy là cây vú sữa.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Câu chuyện Sự tích cây vú sữa gửi gắm bài học ý nghĩa về tình yêu thương,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "hy sinh của người mẹ dành cho con.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Hơn hết, câu chuyện còn nhắc nhở các bé phải luôn yêu thương, vâng lời cha mẹ.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Câu chuyện bó đũa",
+      "source_text_chars": 622,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\17_cau_chuyen_bo_dua.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 36.638,
+      "segments": [
+        {
+          "text": "Câu chuyện bó đũa cũng là câu chuyện gần gũi, quen thuộc với nhiều bé.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một người cha vì muốn dạy cho các con bài học quý giá liền đưa cho mỗi người một bó",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "đũa và bảo bẻ gãy.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thế nhưng, không ai có thể làm được.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sau đó, ông tách bó đũa ra và bẻ từng chiếc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Qua câu chuyện này,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "người cha nhắc nhở các con phải sống hòa thuận,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "đoàn kết,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "giúp đỡ nhau.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Sau khi cha mất, ba anh em tranh nhau, chia rẽ nhau và cuối cùng mất hết tài sản.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Câu chuyện bó đũa gửi gắm cho các bé bài học về lòng yêu thương,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "đùm bọc và tinh thần đoàn kết.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Không chỉ vậy,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "câu chuyện còn nhắc nhở các bé nên biết trân trọng tình cảm gia đình ruột thịt.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Trí khôn của ta đây",
+      "source_text_chars": 807,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\18_tri_khon_cua_ta_day.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 48.473,
+      "segments": [
+        {
+          "text": "Câu chuyện kể về sự thông minh của bác nông dân và con cọp to lớn nhưng ngốc nghếch.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một ngày nọ,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "thấy bác nông dân và trâu đang cày ruộng,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "cọp thắc mắc vì sao con người nhỏ bé như vậy lại khiến trâu phải nghe lời.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Trâu bảo, vì con người có trí khôn.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Vì tò mò, cọp tìm hỏi bác đến bác nông dân để hỏi.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Bác giả vờ nói trí khôn để ở nhà và xin phép trói cọp lại để đi lấy.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Khi cọp bị trói chặt,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "bác chất rơm quanh và châm lửa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "vừa đốt vừa hô:",
+          "punctuation": ":",
+          "pause_ms": 200,
+          "length_scale": 0.903,
+          "paragraph_end": false
+        },
+        {
+          "text": "“Trí khôn của ta đây!”.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cọp sợ hãi, vùng vẫy thoát thân.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Từ đó, thân cọp xuất hiện những vằn đen còn trâu vì cười mà rụng hết răng hàm trên.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Trí khôn của ta đây giúp các bé nhận ra, chỉ có trí tuệ mới chiến thắng tất cả.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Đồng thời,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "câu chuyện còn khuyến khích các bé học tập,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "dùng sự thông minh và sức mạnh của bản thân để giải quyết mọi khó khăn trong cuộc",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "sống.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.941,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Cây bút thần",
+      "source_text_chars": 779,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\19_cay_but_than.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 47.023,
+      "segments": [
+        {
+          "text": "Cây bút thần nhắc đến cậu bé mồ côi tên Mã Lương.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Dù cuộc sống nghèo khổ nhưng Mã Lương có tấm lòng nhân hậu và có tài vẽ tranh.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cậu nuôi dưỡng ước mơ vẽ tranh để giúp đỡ người nghèo.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Một đêm nọ,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "Mã Lương ngủ và mơ thấy ông tiên trao cho cậu cây bút thần,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "có thể biến mọi hình vẽ thành thật,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "nhưng chỉ được dùng để giúp người nghèo.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Từ đó, Mã Lương vẽ trâu, vẽ cày, vẽ thóc, vẽ cá, vẽ chim,…",
+          "punctuation": "…",
+          "pause_ms": 420,
+          "length_scale": 1.018,
+          "paragraph_end": false
+        },
+        {
+          "text": "để giúp dân nghèo có cuộc sống ấm no.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thế nhưng, tên quan huyện đến nhà vua đều tham lam bắt cậu vẽ vàng bạc.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Bằng trí thông minh và lòng chính nghĩa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "Mã Lương đã dùng cây bút thần để trừng trị kẻ xấu,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "bảo vệ công lý.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.941,
+          "paragraph_end": false
+        },
+        {
+          "text": "Cây bút thần là câu chuyện ý nghĩa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "mang đến cho các bé bài học về sức mạnh của sự sáng tạo và lòng nhân ái.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Đồng thời, truyện cũng lên án những kẻ tham lam, độc ác.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Truyền thuyết Con Rồng Cháu Tiên",
+      "source_text_chars": 825,
+      "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\20_truyen_thuyet_con_rong_chau_tien.wav",
+      "sample_rate": 22050,
+      "duration_seconds": 48.373,
+      "segments": [
+        {
+          "text": "Ngày xưa, ở đất Lạc Việt có một vị thần thuộc nòi rồng tên là Lạc Long Quân.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Thần mình rồng mạnh mẽ, có nhiều phép lạ lại rất yêu thương dân làng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Về sau, Lạc Long Quân được truyền ngôi, cai quản đất nước.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Lúc bấy giờ, cuộc sống người dân rất khổ cực, thường xuyên bị yêu quái hoành hành.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Ngoài biển đông, một con cá khổng lồ tên là Ngư Tinh chuyên quấy phá.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Biết chuyện,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "Lạc Long Quân đã dũng cảm chiến đấu,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "đánh bại quái vật,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "mang lại cuộc sống bình yên cho dân làng.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Rồi chàng lại diệt các yêu quái như Hồ Tinh và Mộc Tinh.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Không những thế,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "Lạc Long Quân còn dạy dân cách trồng lúa,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.892,
+          "paragraph_end": false
+        },
+        {
+          "text": "đóng thuyền,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "đánh cá,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "nấu cơm lam,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "đóng thuyền,",
+          "punctuation": ",",
+          "pause_ms": 120,
+          "length_scale": 0.866,
+          "paragraph_end": false
+        },
+        {
+          "text": "để mọi người có cuộc sống no đủ.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Con Rồng Cháu Tiên dạy các bé phải luôn dũng cảm, dám đương đầu với thử thách.",
+          "punctuation": ".",
+          "pause_ms": 260,
+          "length_scale": 0.97,
+          "paragraph_end": false
+        },
+        {
+          "text": "Khi gặp khó khăn, hãy dùng bản lĩnh và trí thông minh của mình để vượt qua.",
+          "punctuation": ".",
+          "pause_ms": 440,
+          "length_scale": 0.97,
+          "paragraph_end": true
+        }
+      ]
+    }
+  ]
+}

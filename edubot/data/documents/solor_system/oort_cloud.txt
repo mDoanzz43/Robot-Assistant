@@ -1,0 +1,20 @@
+Khái niệm:
+Đám mây Oort là vùng xa chứa nhiều vật thể băng.
+
+Đặc điểm:
+Bao quanh toàn bộ Hệ Mặt Trời.
+Nguồn gốc của sao chổi dài kỳ.
+
+Ví dụ:
+Một số sao chổi đến từ vùng rất xa này.
+
+Phản ví dụ:
+Các hành tinh không nằm trong đám mây Oort.
+
+Quan hệ:
+Oort_Cloud HAS Comet
+Oort_Cloud SURROUNDS Solar_System
+
+Câu hỏi gợi mở:
+Tại sao chúng ta khó quan sát đám mây Oort?
+Khoảng cách lớn ảnh hưởng gì đến vật thể?

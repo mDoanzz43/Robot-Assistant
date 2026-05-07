@@ -1,0 +1,22 @@
+Khái niệm:
+Tiến hóa là quá trình thay đổi của sinh vật qua nhiều thế hệ.
+
+Đặc điểm:
+Dựa trên chọn lọc tự nhiên.
+Diễn ra chậm.
+Tạo ra đa dạng sinh học.
+
+Ví dụ:
+Hươu cao cổ có cổ dài để ăn lá cao.
+
+Phản ví dụ:
+Thay đổi ngắn hạn không phải tiến hóa.
+
+Quan hệ:
+Evolution CHANGES Species
+Evolution CAUSED_BY Selection
+Species HAS Variation
+
+Câu hỏi gợi mở:
+Tại sao có nhiều loài khác nhau?
+Tiến hóa có thể dừng lại không?

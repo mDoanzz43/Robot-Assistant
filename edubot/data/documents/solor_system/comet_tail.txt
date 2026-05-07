@@ -1,0 +1,21 @@
+Khái niệm:
+Đuôi sao chổi là dòng khí và bụi kéo dài.
+
+Đặc điểm:
+Hướng ra xa Mặt Trời.
+Xuất hiện khi sao chổi nóng lên.
+
+Ví dụ:
+Đuôi sao chổi Halley rất sáng.
+
+Phản ví dụ:
+Tiểu hành tinh không có đuôi.
+
+Quan hệ:
+Comet HAS Tail
+Tail CAUSED_BY Solar_Radiation
+Comet ORBITS Sun
+
+Câu hỏi gợi mở:
+Tại sao đuôi luôn hướng ra xa Mặt Trời?
+Điều gì xảy ra khi sao chổi rời xa Mặt Trời?

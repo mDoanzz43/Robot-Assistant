@@ -1,0 +1,115 @@
+{
+  "id": "16",
+  "title": "Sự tích cây vú sữa",
+  "source_text_chars": 666,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\16_su_tich_cay_vu_sua.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 40.02,
+  "segments": [
+    {
+      "text": "Trong các truyện cổ tích cho bé,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sự tích cây vú sữa nói về tình mẫu tử thiêng liêng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "cao cả.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Xưa kia, một cậu bé vì được mẹ nuông chiều nên chỉ mãi ham chơi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một lần mẹ mắng, cậu đã bỏ nhà đi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Người mẹ vì quá thương con nên đã hóa thành một gốc cây to lớn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi trở về, cậu bé không thấy mẹ liền ôm lấy gốc cây và bật khóc.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Kỳ lạ thay,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "cây bỗng rung rinh,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "từ cành lá mọc ra những bông hoa trắng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "rồi kết thành quả có dòng sữa ngọt ngào.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Người dân gọi loài cây ấy là cây vú sữa.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Câu chuyện Sự tích cây vú sữa gửi gắm bài học ý nghĩa về tình yêu thương,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "hy sinh của người mẹ dành cho con.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hơn hết, câu chuyện còn nhắc nhở các bé phải luôn yêu thương, vâng lời cha mẹ.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Khái niệm:
+Sao Thổ là hành tinh có hệ vành nổi bật.
+
+Đặc điểm:
+Có vành đai lớn.
+Cấu tạo chủ yếu là khí.
+Mật độ thấp.
+
+Ví dụ:
+Vành Sao Thổ có thể nhìn thấy bằng kính thiên văn.
+
+Phản ví dụ:
+Trái Đất không có vành đai lớn.
+
+Quan hệ:
+Saturn IS_A Gas_Giant
+Saturn HAS Ring
+Saturn ORBITS Sun
+
+Câu hỏi gợi mở:
+Vành Sao Thổ được tạo thành từ gì?
+Tại sao không phải hành tinh nào cũng có vành?

@@ -1,0 +1,136 @@
+{
+  "id": "18",
+  "title": "Trí khôn của ta đây",
+  "source_text_chars": 807,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\18_tri_khon_cua_ta_day.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 48.473,
+  "segments": [
+    {
+      "text": "Câu chuyện kể về sự thông minh của bác nông dân và con cọp to lớn nhưng ngốc nghếch.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một ngày nọ,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "thấy bác nông dân và trâu đang cày ruộng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "cọp thắc mắc vì sao con người nhỏ bé như vậy lại khiến trâu phải nghe lời.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Trâu bảo, vì con người có trí khôn.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vì tò mò, cọp tìm hỏi bác đến bác nông dân để hỏi.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Bác giả vờ nói trí khôn để ở nhà và xin phép trói cọp lại để đi lấy.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi cọp bị trói chặt,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "bác chất rơm quanh và châm lửa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "vừa đốt vừa hô:",
+      "punctuation": ":",
+      "pause_ms": 200,
+      "length_scale": 0.903,
+      "paragraph_end": false
+    },
+    {
+      "text": "“Trí khôn của ta đây!”.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Cọp sợ hãi, vùng vẫy thoát thân.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, thân cọp xuất hiện những vằn đen còn trâu vì cười mà rụng hết răng hàm trên.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Trí khôn của ta đây giúp các bé nhận ra, chỉ có trí tuệ mới chiến thắng tất cả.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Đồng thời,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "câu chuyện còn khuyến khích các bé học tập,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "dùng sự thông minh và sức mạnh của bản thân để giải quyết mọi khó khăn trong cuộc",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "sống.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.941,
+      "paragraph_end": true
+    }
+  ]
+}

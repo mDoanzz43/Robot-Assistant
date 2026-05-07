@@ -1,0 +1,22 @@
+Khái niệm:
+Chuỗi thức ăn là mối quan hệ ăn và bị ăn giữa sinh vật.
+
+Đặc điểm:
+Bắt đầu từ sinh vật sản xuất.
+Truyền năng lượng qua các cấp.
+Có thể bị gián đoạn.
+
+Ví dụ:
+Cỏ → thỏ → cáo.
+
+Phản ví dụ:
+Một sinh vật không ăn sinh vật khác không thuộc chuỗi.
+
+Quan hệ:
+Food_Chain IS_A Energy_Path
+Food_Chain HAS Producer
+Food_Chain HAS Consumer
+
+Câu hỏi gợi mở:
+Điều gì xảy ra nếu một mắt xích biến mất?
+Tại sao chuỗi thức ăn quan trọng?

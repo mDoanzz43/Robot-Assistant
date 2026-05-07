@@ -1,0 +1,23 @@
+Khái niệm:
+Khí quyển là lớp khí bao quanh Trái Đất.
+
+Đặc điểm:
+Chứa nitơ, oxy và các khí khác.
+Bảo vệ khỏi bức xạ và thiên thạch nhỏ.
+Giữ nhiệt cho hành tinh.
+
+Ví dụ:
+Con người hít thở oxy trong khí quyển.
+
+Phản ví dụ:
+Sao Thủy gần như không có khí quyển.
+
+Quan hệ:
+Atmosphere IS_A Gas_Layer
+Earth HAS Atmosphere
+Atmosphere PROTECTS Life
+Atmosphere REGULATES Temperature
+
+Câu hỏi gợi mở:
+Tại sao khí quyển giữ được nhiệt?
+Điều gì xảy ra nếu mất khí quyển?

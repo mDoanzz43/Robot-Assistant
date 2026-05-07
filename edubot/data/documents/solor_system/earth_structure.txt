@@ -1,0 +1,23 @@
+Khái niệm:
+Trái Đất là hành tinh có cấu trúc nhiều lớp.
+
+Đặc điểm:
+Gồm lớp vỏ, lớp manti và lõi.
+Lõi ngoài là chất lỏng, lõi trong là rắn.
+Nhiệt độ tăng dần về phía tâm.
+
+Ví dụ:
+Núi lửa hình thành do hoạt động bên trong Trái Đất.
+
+Phản ví dụ:
+Mặt Trăng không có hoạt động địa chất mạnh như Trái Đất.
+
+Quan hệ:
+Earth HAS Crust
+Earth HAS Mantle
+Earth HAS Core
+Earth HAS Magnetic_Field
+
+Câu hỏi gợi mở:
+Tại sao Trái Đất có từ trường?
+Điều gì xảy ra nếu lõi Trái Đất ngừng chuyển động?

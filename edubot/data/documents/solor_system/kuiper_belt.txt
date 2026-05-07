@@ -1,0 +1,20 @@
+Khái niệm:
+Vành đai Kuiper là vùng chứa nhiều thiên thể băng.
+
+Đặc điểm:
+Nằm ngoài quỹ đạo Sao Hải Vương.
+Chứa nhiều sao chổi.
+
+Ví dụ:
+Sao Diêm Vương thuộc vùng này.
+
+Phản ví dụ:
+Các hành tinh chính không nằm trong Kuiper Belt.
+
+Quan hệ:
+Kuiper_Belt HAS Icy_Object
+Kuiper_Belt LOCATED_BEYOND Neptune
+
+Câu hỏi gợi mở:
+Vành đai Kuiper khác gì với vành đai tiểu hành tinh?
+Nguồn gốc sao chổi từ đâu?

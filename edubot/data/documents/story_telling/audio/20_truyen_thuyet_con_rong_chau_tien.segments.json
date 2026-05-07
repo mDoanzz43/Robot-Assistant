@@ -1,0 +1,143 @@
+{
+  "id": "20",
+  "title": "Truyền thuyết Con Rồng Cháu Tiên",
+  "source_text_chars": 825,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\20_truyen_thuyet_con_rong_chau_tien.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 48.373,
+  "segments": [
+    {
+      "text": "Ngày xưa, ở đất Lạc Việt có một vị thần thuộc nòi rồng tên là Lạc Long Quân.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thần mình rồng mạnh mẽ, có nhiều phép lạ lại rất yêu thương dân làng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Về sau, Lạc Long Quân được truyền ngôi, cai quản đất nước.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lúc bấy giờ, cuộc sống người dân rất khổ cực, thường xuyên bị yêu quái hoành hành.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Ngoài biển đông, một con cá khổng lồ tên là Ngư Tinh chuyên quấy phá.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Biết chuyện,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lạc Long Quân đã dũng cảm chiến đấu,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đánh bại quái vật,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "mang lại cuộc sống bình yên cho dân làng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Rồi chàng lại diệt các yêu quái như Hồ Tinh và Mộc Tinh.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Không những thế,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "Lạc Long Quân còn dạy dân cách trồng lúa,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "đóng thuyền,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "đánh cá,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "nấu cơm lam,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "đóng thuyền,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "để mọi người có cuộc sống no đủ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Con Rồng Cháu Tiên dạy các bé phải luôn dũng cảm, dám đương đầu với thử thách.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Khi gặp khó khăn, hãy dùng bản lĩnh và trí thông minh của mình để vượt qua.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "15",
+  "title": "Chú Cuội cung trăng",
+  "source_text_chars": 685,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\15_chu_cuoi_cung_trang.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 39.247,
+  "segments": [
+    {
+      "text": "Chú Cuội cung trăng là câu chuyện về một chàng tiều phu tên là Cuội.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một lần vào rừng, Cuội phát hiện loài cây thần có thể cứu người chết sống lại.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó, chàng dùng lá cây để chữa bệnh, cứu giúp dân làng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, vì thương người, Cuội cứu sống con gái nhà giàu và cưới nàng làm vợ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Thế nhưng,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "vợ Cuội tính hay quên nên vô ý tưới nước bẩn lên gốc cây,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "khiến cây thần bay lên trời.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sợ mất cây thuốc quý, Cuội vội nắm chặt rễ cây và bị kéo theo lên cung trăng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Chú Cuội cung trăng giúp các bé hiểu về hình ảnh chú Cuội ngồi gốc cây đa trên mặt",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "trăng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.941,
+      "paragraph_end": false
+    },
+    {
+      "text": "Không chỉ vậy,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "câu chuyện còn khơi dậy trí tưởng tượng phong phú cho bé và bài học về lòng nhân hậu",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "và tính cẩn thận trong mọi việc.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.97,
+      "paragraph_end": true
+    }
+  ]
+}

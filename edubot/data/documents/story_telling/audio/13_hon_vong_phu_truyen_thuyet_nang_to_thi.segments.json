@@ -1,0 +1,122 @@
+{
+  "id": "13",
+  "title": "Hòn Vọng Phu, Truyền thuyết nàng Tô Thị",
+  "source_text_chars": 875,
+  "output_wav": "D:\\STUDY\\At_school\\asr_zipformer\\edubot\\data\\documents\\story_telling\\audio\\13_hon_vong_phu_truyen_thuyet_nang_to_thi.wav",
+  "sample_rate": 22050,
+  "duration_seconds": 51.114,
+  "segments": [
+    {
+      "text": "Hòn Vọng Phu kể về nàng Tô Thị hiền lành, xinh đẹp, được nhiều chàng trai để ý.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Về sau, một chàng thanh niên tuấn tú xuất hiện và được Tô Thị đem lòng yêu thương.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hai người lấy nhau và sinh được 2 đứa con.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Một hôm, trong lúc vợ đang gội đầu, chàng trai nhìn thấy vết sẹo ở đầu vợ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Chàng hỏi ra mới biết Tô Thị chính là người em gái năm xưa của mình.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Vì quá rối bời, chàng đã xin đi lính biền biệt không về.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hằng ngày, Tô Thị bế con lên chùa Tam Thanh cầu bình yên cho chồng.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Rồi một ngày trời nổi mưa giông,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "sấm sét như rung chuyển cả quả núi,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "nàng vẫn bế con đứng trơ trên mỏm đá rồi dẫn hóa đá.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Sau này, người dân trong vùng đặt tên cho hòn đá đó là Đá Vọng Phu.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Hòn Vọng Phu là truyện cổ tích cho bé rất cảm động nói về lòng sắt son,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.892,
+      "paragraph_end": false
+    },
+    {
+      "text": "chung thuỷ và sự hy sinh của người vợ.",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Từ đó,",
+      "punctuation": ",",
+      "pause_ms": 120,
+      "length_scale": 0.866,
+      "paragraph_end": false
+    },
+    {
+      "text": "trẻ cũng được tìm hiểu thêm về tên gọi Hòn Vọng Phu trong đời sống văn hóa của người",
+      "punctuation": ".",
+      "pause_ms": 260,
+      "length_scale": 0.97,
+      "paragraph_end": false
+    },
+    {
+      "text": "Việt.",
+      "punctuation": ".",
+      "pause_ms": 440,
+      "length_scale": 0.941,
+      "paragraph_end": true
+    }
+  ]
+}

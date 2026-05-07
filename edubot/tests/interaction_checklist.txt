@@ -1,0 +1,149 @@
+EDUBOT INTERACTION CHECKLIST (24 LESSON TOPICS)
+Date: 2026-04-07
+
+PRECHECK
+1) Use the project venv Python when running build/runtime to avoid missing dependency mismatch.
+2) Confirm clean dataset artifacts exist in output_data_new:
+   - edubot.db
+   - graph/knowledge_graph.json
+   - qa_bank.json
+   - build_manifest.json with 24 files
+
+AVAILABLE TOPICS (CURRENTLY FEASIBLE)
+ANIMAL (12)
+- Dong vat co vu
+- Chim
+- Ca
+- Bo sat
+- Luong cu
+- Con trung
+- Chuoi thuc an
+- Moi truong song cua dong vat
+- Dong vat san moi va con moi
+- Su thich nghi cua dong vat
+- Vong doi cua dong vat
+- Hanh vi song theo nhom cua dong vat
+
+SPACE (12)
+- Cac lop cua Trai Dat
+- Mat Troi
+- Mat Trang
+- Cac hanh tinh
+- Su quay cua Trai Dat
+- Luc hap dan
+- Cac mua trong nam
+- Cac ngoi sao
+- Sao choi
+- Tieu hanh tinh
+- Thien ha
+- Nhat thuc va nguyet thuc
+
+SCENARIO 1 - CHILD TEACHES ROBOT ABOUT A TOPIC
+Goal: Verify TEACH phase and topic capture.
+Child says:
+- Hôm nay tớ muốn dạy cho cậu biết về chủ đề hệ mặt trời
+- Mat Troi la ngoi sao o trung tam he mat troi.
+Expected:
+- Robot acknowledges topic and invites teaching.
+- Robot keeps context in same domain.
+Observe:
+- status shows phase=teach.
+
+SCENARIO 2 - CHILD ASKS KNOWLEDGE (IN-TOPIC FIRST)
+Goal: Verify in-topic retrieval priority.
+Child says:
+- Tai sao co mua trong nam?
+Expected:
+- Robot answers with domain-consistent explanation.
+- No abrupt topic jump to animal domain.
+Observe:
+- Follow-up invites either next question or continue teaching.
+
+SCENARIO 3 - CHILD ASKS OUT-OF-TOPIC / ADVANCED QUESTION
+Goal: Verify uncertain fallback behavior.
+Child says:
+- Lo den co thong tin luong tu nhu the nao?
+Expected:
+- If model is not sure, response should fall back safely.
+- Final safe phrase should avoid hallucinated certainty.
+Observe:
+- System should not invent high-confidence facts.
+
+SCENARIO 4 - QUIZ FLOW, CORRECT VS WRONG ANSWER, EXPLANATION
+Goal: Verify quiz lifecycle and answer evaluation.
+Steps:
+1) Teach 3-4 turns until robot offers a quiz.
+2) Child opts in: oke kiem tra di.
+3) For one question answer correctly.
+4) For next question answer: khong biet.
+Expected:
+- Correct answer: praise + score update.
+- Wrong/uncertain: explanation shown, then asks if child understood.
+- If child says chua hieu: explain again in simpler style.
+Observe:
+- status reflects quiz progress.
+- quiz_result events update score/correct.
+
+SCENARIO 5 - CASUAL CHAT DURING SESSION
+Goal: Verify natural dialog handling without breaking state.
+Child says:
+- Hom nay con vui qua.
+- Ban ten gi?
+Expected:
+- Robot responds naturally, then can return to learning flow.
+Observe:
+- Session does not crash or reset unexpectedly.
+
+SCENARIO 6 - SWITCH TOPIC MID-SESSION
+Goal: Verify topic switch intent handling.
+Child says:
+- Minh doi chu de nhe, hoc ve dong vat di.
+Expected:
+- Robot confirms switching and asks for new topic details.
+- Concept focus is reset to new topic.
+Observe:
+- Later questions should align to new domain.
+
+SCENARIO 7 - REQUEST NEXT/REASK IN QUIZ
+Goal: Verify question management controls.
+Child says in quiz:
+- hoi lai di
+- cau khac di
+Expected:
+- Reask: robot repeats current question.
+- Next: robot moves on and continues quiz sequence.
+
+SCENARIO 8 - CHILD SAYS DONT KNOW MULTIPLE TIMES
+Goal: Verify supportive handling and no harsh penalty.
+Child says:
+- khong biet
+- chua hieu
+Expected:
+- Robot explains answer and checks understanding.
+- If still not understood, moves to easier next question with encouragement.
+
+SCENARIO 9 - END OF QUIZ REWARD
+Goal: Verify reward and session closure.
+After QUIZ_TOTAL questions:
+Expected:
+- Robot gives summary/praise.
+- Session transitions to reward then idle/end.
+Observe:
+- status or logs show reward/end session.
+
+SCENARIO 10 - DATA COVERAGE SPOT CHECK
+Goal: Confirm all 24 topics are accessible in retrieval.
+Method:
+- For each domain, randomly pick 3 topics and ask 2 concrete questions/topic.
+Pass criteria:
+- At least 1 useful answer per topic without domain leakage.
+
+EXTRA RECOMMENDED TESTS
+A) ASR noise robustness: short/unclear utterances.
+B) Very long child answer in quiz: evaluator still returns stable feedback.
+C) Empty input / pause: robot remains stable.
+D) Restart app and run a new child session: no cross-session contamination.
+
+NOTES
+- Current dataset is strong for functional tests (24 docs, 190 concepts, 432 QA).
+- Difficulty is still mostly easy (many level-1 questions), so adaptive-difficulty stress test should include more level 3-4 QA later.

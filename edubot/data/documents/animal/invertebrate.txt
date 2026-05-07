@@ -1,0 +1,22 @@
+Khái niệm:
+Động vật không xương sống là động vật không có cột sống.
+
+Đặc điểm:
+Thường nhỏ.
+Có thể có vỏ ngoài.
+Đa dạng về hình dạng.
+
+Ví dụ:
+Côn trùng và sứa là động vật không xương sống.
+
+Phản ví dụ:
+Cá có xương sống nên không thuộc nhóm này.
+
+Quan hệ:
+Invertebrate IS_A Animal
+Invertebrate HAS No_Spine
+Invertebrate CAN Have_Exoskeleton
+
+Câu hỏi gợi mở:
+Tại sao nhiều động vật nhỏ không có xương sống?
+Vỏ ngoài giúp bảo vệ như thế nào?

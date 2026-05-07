@@ -1,0 +1,23 @@
+Khái niệm:
+Động vật có vú là động vật nuôi con bằng sữa.
+
+Đặc điểm:
+Có lông.
+Sinh con.
+Có tuyến sữa.
+
+Ví dụ:
+Con người là động vật có vú.
+
+Phản ví dụ:
+Cá không có tuyến sữa.
+
+Quan hệ:
+Mammal IS_A Vertebrate
+Mammal HAS Hair
+Mammal HAS Mammary_Gland
+Mammal CAN Feed_Milk
+
+Câu hỏi gợi mở:
+Tại sao động vật có vú chăm con?
+Lông giúp ích gì cho cơ thể?

@@ -1,0 +1,78 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_group_behavior_basic.json",
+  "doc_id": "doc_animal_group_behavior_basic",
+  "topic": "Hành vi sống theo nhóm của động vật",
+  "domain": "animal",
+  "lesson_level": "hieu",
+  "age": 9,
+  "source": {
+    "title": "Animal Group Behavior for Kids",
+    "url": "https://example.com/animal_group_behavior",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Một số động vật sống theo nhóm để tăng cơ hội sống sót. Sống theo nhóm giúp chúng bảo vệ nhau, tìm thức ăn và chăm sóc con non. Ví dụ như đàn sói, đàn cá và đàn chim. Mỗi cá thể trong nhóm có thể có vai trò khác nhau.",
+  "concepts": [
+    {"id": "c_group_behavior","name": "Sống theo nhóm","description": "Hành vi sống cùng nhau.","difficulty": 2,"parent_id": null},
+    {"id": "c_animal","name": "Động vật","description": "Sinh vật sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_group","name": "Nhóm","description": "Nhiều cá thể cùng sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_protection","name": "Bảo vệ","description": "Giữ an toàn.","difficulty": 2,"parent_id": null},
+    {"id": "c_food","name": "Thức ăn","description": "Nguồn năng lượng.","difficulty": 1,"parent_id": null},
+    {"id": "c_care","name": "Chăm sóc","description": "Giúp con non phát triển.","difficulty": 2,"parent_id": null},
+    {"id": "c_wolf","name": "Sói","description": "Động vật sống theo đàn.","difficulty": 1,"parent_id": "c_animal"},
+    {"id": "c_fish","name": "Cá","description": "Động vật sống theo đàn.","difficulty": 1,"parent_id": "c_animal"}
+  ],
+  "relations": [
+    {"from_id": "c_animal","to_id": "c_group_behavior","relation": "HAS","weight": 0.9},
+    {"from_id": "c_group_behavior","to_id": "c_group","relation": "RELATED_TO","weight": 0.95},
+
+    {"from_id": "c_group_behavior","to_id": "c_protection","relation": "CAUSES","weight": 0.9},
+    {"from_id": "c_group_behavior","to_id": "c_food","relation": "CAUSES","weight": 0.85},
+    {"from_id": "c_group_behavior","to_id": "c_care","relation": "CAUSES","weight": 0.85},
+
+    {"from_id": "c_group","to_id": "c_animal","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_wolf","to_id": "c_animal","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_fish","to_id": "c_animal","relation": "IS_A","weight": 0.95},
+
+    {"from_id": "c_wolf","to_id": "c_group_behavior","relation": "RELATED_TO","weight": 0.8},
+    {"from_id": "c_fish","to_id": "c_group_behavior","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_animal","to_id": "c_wolf","relation": "HAS","weight": 0.7},
+    {"from_id": "c_animal","to_id": "c_fish","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_wolf","to_id": "c_animal","relation": "EXAMPLE_OF","weight": 0.7},
+    {"from_id": "c_fish","to_id": "c_animal","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_group_behavior","to_id": "c_survival","relation": "CAUSES","weight": 0.8}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_group_behavior","question": "Sống theo nhóm là gì?","answer": "Sống cùng nhau","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_2","concept_id": "c_group_behavior","question": "Động vật có sống theo nhóm không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_animal","question": "Động vật là gì?","answer": "Sinh vật sống","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_animal","question": "Động vật có thể sống theo nhóm không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_group","question": "Nhóm là gì?","answer": "Nhiều cá thể cùng sống","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_group","question": "Nhóm có nhiều cá thể không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_protection","question": "Sống theo nhóm giúp gì?","answer": "Bảo vệ nhau","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_8","concept_id": "c_protection","question": "Nhóm có giúp bảo vệ không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_food","question": "Nhóm giúp tìm gì?","answer": "Thức ăn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_food","question": "Sống theo nhóm có giúp tìm thức ăn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_care","question": "Chăm sóc là gì?","answer": "Giúp con non phát triển","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_12","concept_id": "c_care","question": "Nhóm có giúp chăm sóc con non không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_13","concept_id": "c_wolf","question": "Sói sống như thế nào?","answer": "Theo đàn","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_wolf","question": "Sói có sống một mình không?","answer": "Không","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_fish","question": "Cá có sống theo đàn không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_fish","question": "Cá sống theo nhóm để làm gì?","answer": "An toàn hơn","type": "open","options": [],"difficulty": 3},
+
+    {"id": "qa_17","concept_id": "c_group_behavior","question": "Vì sao động vật sống theo nhóm?","answer": "Để sống sót tốt hơn","type": "open","options": [],"difficulty": 4},
+    {"id": "qa_18","concept_id": "c_group_behavior","question": "Điền từ: Sống theo nhóm giúp động vật ____ nhau.","answer": "bảo vệ","type": "fill","options": [],"difficulty": 2}
+  ]
+}

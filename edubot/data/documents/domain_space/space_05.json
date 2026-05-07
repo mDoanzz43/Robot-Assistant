@@ -1,0 +1,83 @@
+{
+  "file_name": "input_data/bundles/space/doc_space_earth_rotation_basic.json",
+  "doc_id": "doc_space_earth_rotation_basic",
+  "topic": "Sự quay của Trái Đất",
+  "domain": "space",
+  "lesson_level": "nhan_biet",
+  "age": 7,
+  "source": {
+    "title": "Earth Rotation for Kids",
+    "url": "https://example.com/earth_rotation",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.95
+  },
+  "text": "Trái Đất tự quay quanh trục của nó. Một vòng quay mất khoảng 24 giờ và tạo ra ngày và đêm. Khi phần Trái Đất hướng về Mặt Trời thì là ban ngày, khi quay ra xa thì là ban đêm.",
+  "concepts": [
+    {"id": "c_earth","name": "Trái Đất","description": "Hành tinh chúng ta sống.","difficulty": 1,"parent_id": null},
+    {"id": "c_rotation","name": "Sự quay","description": "Chuyển động quay của Trái Đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_axis","name": "Trục","description": "Đường tưởng tượng Trái Đất quay quanh.","difficulty": 2,"parent_id": null},
+    {"id": "c_day","name": "Ban ngày","description": "Thời gian có ánh sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_night","name": "Ban đêm","description": "Thời gian không có ánh sáng.","difficulty": 1,"parent_id": null},
+    {"id": "c_sun","name": "Mặt Trời","description": "Nguồn ánh sáng cho Trái Đất.","difficulty": 1,"parent_id": null},
+    {"id": "c_light","name": "Ánh sáng","description": "Ánh sáng từ Mặt Trời.","difficulty": 1,"parent_id": null},
+    {"id": "c_time","name": "Thời gian","description": "Đo thời gian quay của Trái Đất.","difficulty": 1,"parent_id": null}
+  ],
+  "relations": [
+    {"from_id": "c_earth","to_id": "c_rotation","relation": "CAN","weight": 0.95},
+    {"from_id": "c_rotation","to_id": "c_axis","relation": "RELATED_TO","weight": 0.9},
+
+    {"from_id": "c_rotation","to_id": "c_day","relation": "CAUSES","weight": 0.95},
+    {"from_id": "c_rotation","to_id": "c_night","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_day","to_id": "c_light","relation": "HAS","weight": 0.9},
+    {"from_id": "c_night","to_id": "c_light","relation": "OPPOSITE_OF","weight": 0.9},
+
+    {"from_id": "c_light","to_id": "c_sun","relation": "CAUSES","weight": 0.95},
+
+    {"from_id": "c_earth","to_id": "c_sun","relation": "RELATED_TO","weight": 0.85},
+
+    {"from_id": "c_rotation","to_id": "c_time","relation": "HAS","weight": 0.8},
+
+    {"from_id": "c_day","to_id": "c_night","relation": "OPPOSITE_OF","weight": 0.95},
+
+    {"from_id": "c_axis","to_id": "c_earth","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_rotation","to_id": "c_earth","relation": "RELATED_TO","weight": 0.8},
+
+    {"from_id": "c_time","to_id": "c_day","relation": "RELATED_TO","weight": 0.7},
+    {"from_id": "c_time","to_id": "c_night","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_earth","to_id": "c_axis","relation": "HAS","weight": 0.8},
+
+    {"from_id": "c_sun","to_id": "c_light","relation": "HAS","weight": 0.9}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_earth","question": "Trái Đất làm gì quanh trục của nó?","answer": "Quay","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_earth","question": "Trái Đất có đứng yên không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_rotation","question": "Sự quay là gì?","answer": "Chuyển động quay","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_rotation","question": "Trái Đất có quay không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_axis","question": "Trục là gì?","answer": "Đường tưởng tượng Trái Đất quay quanh","type": "open","options": [],"difficulty": 2},
+    {"id": "qa_6","concept_id": "c_axis","question": "Trái Đất quay quanh cái gì?","answer": "Trục","type": "open","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_day","question": "Ban ngày có gì?","answer": "Ánh sáng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_day","question": "Ban ngày có tối không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_night","question": "Ban đêm có ánh sáng không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_night","question": "Ban đêm là khi nào?","answer": "Khi không có ánh sáng","type": "open","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_sun","question": "Ánh sáng đến từ đâu?","answer": "Mặt Trời","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_sun","question": "Mặt Trời có liên quan đến ngày không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_light","question": "Ánh sáng giúp tạo ra cái gì?","answer": "Ban ngày","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_light","question": "Ban đêm có ánh sáng không?","answer": "Không","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_15","concept_id": "c_time","question": "Một vòng quay mất bao lâu?","answer": "24 giờ","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_time","question": "24 giờ là một ngày đúng không?","answer": "Đúng","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_rotation","question": "Sự quay của Trái Đất tạo ra gì?","answer": "Ngày và đêm","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_18","concept_id": "c_rotation","question": "Điền từ: Trái Đất ____ quanh trục.","answer": "quay","type": "fill","options": [],"difficulty": 1}
+  ]
+}

@@ -1,0 +1,21 @@
+Khái niệm:
+Pha Mặt Trăng là sự thay đổi hình dạng nhìn thấy từ Trái Đất.
+
+Đặc điểm:
+Do vị trí tương đối giữa Mặt Trời, Trái Đất và Mặt Trăng.
+Có chu kỳ khoảng 29.5 ngày.
+
+Ví dụ:
+Trăng tròn khi Mặt Trăng đối diện Mặt Trời.
+
+Phản ví dụ:
+Nhật thực không phải pha Mặt Trăng.
+
+Quan hệ:
+Moon HAS Phase
+Phase CAUSED_BY Sun_Position
+Moon ORBITS Earth
+
+Câu hỏi gợi mở:
+Tại sao luôn thấy cùng một mặt của Mặt Trăng?
+Pha Mặt Trăng ảnh hưởng gì đến con người?

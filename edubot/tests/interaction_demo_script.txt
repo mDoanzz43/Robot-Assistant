@@ -1,0 +1,194 @@
+EDUBOT INTERACTION DEMO SCRIPT
+Version: 1.0
+Date: 2026-04-07
+
+MUC TIEU
+- Chay demo thuc te de kiem tra cac flow chinh cua he thong:
+  1) Tre day robot
+  2) Tre hoi kien thuc trong-topic va ngoai-topic
+  3) Quiz: dung/sai, giai thich, khen, cham diem
+  4) Tro chuyen tu nhien
+  5) Switch topic
+  6) Fallback an toan khi cau hoi qua nang
+  7) Xac nhan topic co du lieu
+
+CHUAN BI
+1) Chay app o che do interactive.
+2) Nhap ten be va tuoi.
+3) Neu co lenh status trong script, go chu status de check state.
+
+============================================================
+SESSION A (SPACE) - 10 den 15 phut
+============================================================
+
+A1) KHOI DONG + DAY CHU DE
+Tre: Hom nay con muon hoc ve he mat troi.
+Ky vong:
+- Robot xac nhan chu de
+- Robot moi tre day tiep
+
+Tre: Mat Troi la ngoi sao o trung tam he mat troi.
+Ky vong:
+- Robot ack dung ngu canh space
+
+Tre: Cac hanh tinh quay quanh Mat Troi.
+Ky vong:
+- Robot tiep tuc o TEACH, khong nhay sang animal
+
+Tre: status
+Ky vong:
+- phase la teach
+
+A2) HOI KIEN THUC TRONG-TOPIC (UU TIEN)
+Tre: Tai sao co mua trong nam?
+Ky vong:
+- Tra loi dung huong space (lien quan do nghieng truc Trai Dat va chuyen dong)
+- Co the moi tre hoi tiep hoac day tiep
+
+Tre: Mat Trang co tu phat sang khong?
+Ky vong:
+- Robot tra loi dung (khong tu phat sang, phan xa anh sang)
+
+A3) NGOAI TOPIC / CAU HOI NANG
+Tre: Lo den thao tac thong tin luong tu nhu the nao?
+Ky vong:
+- Neu khong chac, robot fallback an toan
+- Khong duoc tra loi kieu khang dinh manh nhu chac chan 100%
+
+A4) TRO CHUYEN TU NHIEN
+Tre: Hom nay con vui qua.
+Ky vong:
+- Robot dap lai tu nhien, than thien
+
+Tre: Ban ten gi?
+Ky vong:
+- Robot tra loi giao tiep on
+- Khong lam vo context hoc
+
+A5) VAO QUIZ
+Tre: Oke kiem tra di.
+Ky vong:
+- Chuyen sang QUIZ
+- Robot dua cau hoi dau tien
+
+Tre: status
+Ky vong:
+- phase la quiz
+
+A6) TRA LOI DUNG
+(Trong cau hoi quiz #1)
+Tre: [Tra loi dung theo dap an robot da hoi]
+Ky vong:
+- Robot khen
+- score tang
+- correct tang
+
+A7) TRA LOI SAI / KHONG BIET + GIAI THICH
+(Trong cau hoi quiz #2)
+Tre: khong biet
+Ky vong:
+- Robot dua dap an + giai thich ngan
+- Robot hoi da hieu chua
+
+Tre: chua hieu
+Ky vong:
+- Robot giai thich lan 2 de hon
+- Sau do chuyen cau tiep theo nhe nhang
+
+A8) QUIZ CONTROL
+Tre: hoi lai di
+Ky vong:
+- Robot lap lai cau hien tai
+
+Tre: cau khac di
+Ky vong:
+- Robot bo qua cau hien tai, hoi cau moi
+
+A9) KET THUC SESSION
+Tiep tuc den het QUIZ_TOTAL cau.
+Tre: status
+Ky vong:
+- Robot ve reward, tong ket diem
+- Session ket thuc ve idle/end
+
+
+============================================================
+SESSION B (ANIMAL) - 8 den 12 phut
+============================================================
+
+B1) SWITCH TOPIC
+Tre: Minh doi chu de nhe, hoc ve dong vat di.
+Ky vong:
+- Robot xac nhan doi topic
+- Reset focus sang animal
+
+B2) DAY + HOI TRONG ANIMAL
+Tre: Con trung la dong vat nho, co 6 chan.
+Ky vong:
+- Robot ack dung context animal
+
+Tre: Chuoi thuc an la gi?
+Ky vong:
+- Robot tra loi dung noi dung animal
+
+B3) KIEM TRA LEAK DOMAIN
+Tre: Sao choi la gi?
+Ky vong:
+- Neu dang khoa animal, uu tien dung context hien tai
+- Neu robot tra loi space thi van phai on dinh va khong vo state
+
+B4) QUIZ NHANH
+Tre: Oke kiem tra di.
+Ky vong:
+- Vao quiz
+
+Tra loi 1 cau dung, 1 cau sai.
+Ky vong:
+- Dung: khen
+- Sai: giai thich
+
+
+============================================================
+PASS/FAIL RUBRIC (NHANH)
+============================================================
+
+PASS NEU DAT TOI THIEU 8/10 TIEU CHI:
+1) Topic capture dung o dau session
+2) In-topic QA tra loi hop ly
+3) Out-of-topic nang co fallback an toan
+4) Co the chat tu nhien ma khong vo state
+5) Switch topic duoc xac nhan ro rang
+6) Vao quiz duoc khi tre opt-in
+7) Co feedback khac nhau cho dung va sai
+8) Co explain loop khi tre noi chua hieu
+9) score/correct thay doi dung theo quiz
+10) Session ket thuc reward on dinh
+
+FAIL NEU CO BAT KY DIEM NAO SAU DAY:
+- Hallucination nang (tra loi chac chan sai cho cau nang)
+- Mat state lien tuc (phase nhay loan)
+- Quiz khong cham diem hoac khong ket thuc
+- Switch topic khong hoat dong
+
+
+============================================================
+TOPIC GOI Y CHAY THU DEU TREN 24 LESSON
+============================================================
+
+SPACE goi y:
+- Mat Troi
+- Cac hanh tinh
+- Cac mua trong nam
+- Luc hap dan
+- Nhat thuc va nguyet thuc
+
+ANIMAL goi y:
+- Dong vat co vu
+- Chim
+- Con trung
+- Chuoi thuc an
+- Su thich nghi cua dong vat
+
+Ghi chu:
+- Bo data hien tai manh cho functional test.
+- Neu muon stress test adaptive kho/de, can bo sung them QA difficulty 3-4.

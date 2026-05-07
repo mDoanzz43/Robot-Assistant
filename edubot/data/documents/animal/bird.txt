@@ -1,0 +1,23 @@
+Khái niệm:
+Chim là động vật có lông vũ và cánh.
+
+Đặc điểm:
+Đẻ trứng.
+Có mỏ.
+Nhiều loài có thể bay.
+
+Ví dụ:
+Đại bàng là một loài chim.
+
+Phản ví dụ:
+Dơi có cánh nhưng là động vật có vú.
+
+Quan hệ:
+Bird IS_A Vertebrate
+Bird HAS Feather
+Bird HAS Wing
+Bird CAN Fly
+
+Câu hỏi gợi mở:
+Tại sao một số loài chim không bay được?
+Cánh giúp bay như thế nào?

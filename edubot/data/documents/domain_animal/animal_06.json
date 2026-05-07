@@ -1,0 +1,80 @@
+{
+  "file_name": "input_data/bundles/animal/doc_animal_insects_basic.json",
+  "doc_id": "doc_animal_insects_basic",
+  "topic": "Côn trùng",
+  "domain": "animal",
+  "lesson_level": "nhan_biet",
+  "age": 6,
+  "source": {
+    "title": "Insects for Kids",
+    "url": "https://example.com/insects_basic",
+    "publisher": "EduScience",
+    "retrieved_at": "2026-04-07",
+    "confidence": 0.94
+  },
+  "text": "Côn trùng là nhóm động vật nhỏ có 6 chân. Cơ thể của chúng thường có 3 phần: đầu, ngực và bụng. Nhiều côn trùng có cánh và có thể bay. Ví dụ như kiến, bướm và ong.",
+  "concepts": [
+    {"id": "c_insect","name": "Côn trùng","description": "Động vật nhỏ có 6 chân.","difficulty": 1,"parent_id": null},
+    {"id": "c_leg","name": "Chân","description": "Bộ phận giúp côn trùng di chuyển.","difficulty": 1,"parent_id": null},
+    {"id": "c_body","name": "Cơ thể","description": "Cấu tạo của côn trùng.","difficulty": 1,"parent_id": null},
+    {"id": "c_head","name": "Đầu","description": "Phần đầu của cơ thể.","difficulty": 1,"parent_id": "c_body"},
+    {"id": "c_thorax","name": "Ngực","description": "Phần giữa của cơ thể.","difficulty": 1,"parent_id": "c_body"},
+    {"id": "c_abdomen","name": "Bụng","description": "Phần cuối của cơ thể.","difficulty": 1,"parent_id": "c_body"},
+    {"id": "c_wing","name": "Cánh","description": "Bộ phận giúp bay.","difficulty": 1,"parent_id": null},
+    {"id": "c_ant","name": "Kiến","description": "Một loại côn trùng.","difficulty": 1,"parent_id": "c_insect"}
+  ],
+  "relations": [
+    {"from_id": "c_insect","to_id": "c_leg","relation": "HAS","weight": 0.95},
+    {"from_id": "c_insect","to_id": "c_body","relation": "HAS","weight": 0.95},
+    {"from_id": "c_insect","to_id": "c_wing","relation": "HAS","weight": 0.8},
+
+    {"from_id": "c_body","to_id": "c_head","relation": "HAS","weight": 0.9},
+    {"from_id": "c_body","to_id": "c_thorax","relation": "HAS","weight": 0.9},
+    {"from_id": "c_body","to_id": "c_abdomen","relation": "HAS","weight": 0.9},
+
+    {"from_id": "c_head","to_id": "c_body","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_thorax","to_id": "c_body","relation": "PART_OF","weight": 0.9},
+    {"from_id": "c_abdomen","to_id": "c_body","relation": "PART_OF","weight": 0.9},
+
+    {"from_id": "c_wing","to_id": "c_insect","relation": "RELATED_TO","weight": 0.7},
+
+    {"from_id": "c_ant","to_id": "c_insect","relation": "IS_A","weight": 0.95},
+    {"from_id": "c_insect","to_id": "c_ant","relation": "HAS","weight": 0.7},
+
+    {"from_id": "c_ant","to_id": "c_insect","relation": "EXAMPLE_OF","weight": 0.7},
+
+    {"from_id": "c_leg","to_id": "c_insect","relation": "PART_OF","weight": 0.8},
+
+    {"from_id": "c_insect","to_id": "c_wing","relation": "CAN","weight": 0.6},
+
+    {"from_id": "c_body","to_id": "c_leg","relation": "RELATED_TO","weight": 0.6}
+  ],
+  "qa_bank": [
+    {"id": "qa_1","concept_id": "c_insect","question": "Côn trùng là gì?","answer": "Động vật nhỏ có 6 chân","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_2","concept_id": "c_insect","question": "Côn trùng có 6 chân không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_3","concept_id": "c_leg","question": "Côn trùng có bao nhiêu chân?","answer": "6 chân","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_4","concept_id": "c_leg","question": "Chân giúp côn trùng làm gì?","answer": "Di chuyển","type": "open","options": [],"difficulty": 1},
+
+    {"id": "qa_5","concept_id": "c_body","question": "Cơ thể côn trùng có mấy phần?","answer": "3 phần","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_6","concept_id": "c_body","question": "Cơ thể côn trùng có đầu không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_7","concept_id": "c_head","question": "Đầu là phần nào của cơ thể?","answer": "Phần đầu","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_8","concept_id": "c_head","question": "Đầu có phải là một phần của cơ thể không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_9","concept_id": "c_thorax","question": "Ngực nằm ở đâu?","answer": "Giữa cơ thể","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_10","concept_id": "c_thorax","question": "Ngực có phải là phần giữa không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_11","concept_id": "c_abdomen","question": "Bụng nằm ở đâu?","answer": "Phần cuối cơ thể","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_12","concept_id": "c_abdomen","question": "Bụng có phải là phần cuối không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_13","concept_id": "c_wing","question": "Cánh giúp côn trùng làm gì?","answer": "Bay","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_14","concept_id": "c_wing","question": "Côn trùng có thể bay không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+
+    {"id": "qa_15","concept_id": "c_ant","question": "Kiến là loại gì?","answer": "Côn trùng","type": "open","options": [],"difficulty": 1},
+    {"id": "qa_16","concept_id": "c_ant","question": "Kiến có phải là côn trùng không?","answer": "Có","type": "yesno","options": [],"difficulty": 1},
+
+    {"id": "qa_17","concept_id": "c_insect","question": "Côn trùng có thể có cánh không?","answer": "Có","type": "yesno","options": [],"difficulty": 2},
+    {"id": "qa_18","concept_id": "c_insect","question": "Điền từ: Côn trùng có ____ chân.","answer": "6","type": "fill","options": [],"difficulty": 3}
+  ]
+}
