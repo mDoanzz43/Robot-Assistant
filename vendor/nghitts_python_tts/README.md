@@ -1,2 +1,2 @@
-This is a vendor copy of the core Python TTS component from `nghitts/python_tts`.
-Audio files are intentionally excluded to keep the repository small. See original `nghitts/python_tts/README.md` for full details.
+# Copy các file này vào trong repo nghitts/python_tts để test model tts
+# nghitts\public\tts-model -> Cần để checkpoint model tiếng việt ở đây (trên repo chính có hướng dẫn)

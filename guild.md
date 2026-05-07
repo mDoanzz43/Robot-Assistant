@@ -15,7 +15,9 @@ piper-tts>=1.2.0
 onnxruntime>=1.16.0
 numpy>=1.24.0
 thêm phonemizer-1.2.2.tgz
-(folder python_tts là convert code từ repo của họ ra module python - có thể chưa đủ hết chức năng nhưng vẫn đủ để test)
+(folder python_tts là convert code từ repo của họ ra module python - có thể chưa đủ hết chức năng nhưng vẫn đủ để test
+Cần copy các file python từ vendor\nghitts_python_tts vào nghitts/python_tts
+)
 
 ## Step 3: Cài llm phụ thuộc vào máy 
 
