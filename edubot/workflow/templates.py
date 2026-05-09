@@ -35,19 +35,56 @@ class T:
 
     _cycle_state = {}
 
-    # ── Greetings ─────────────────────────────────────────────
+    # ── Greetings (after name capture) ─────────────────────────────────
     _GREET = [
-        "Chào cậu! Mình là Robot thông minh đây. Hôm nay chúng mình sẽ học về chủ đề gì nhỉ?",
-        "Chào bạn nhỏ! Chúc cậu một ngày tốt lành! Hôm nay tớ với cậu sẽ học thêm về chủ đề nào thế nhỉ?",
-        "Xin chào bạn yêu. Mình là Robot thông minh, rất vui khi được học tập với bạn. Hôm nay tớ với học về chủ đề gì thế nhỉ?",
+        "Chào cậu! Mình là Robot thông minh đây. Vậy thì hôm nay chúng mình sẽ học về chủ đề gì nhỉ?",
+        "Chào bạn nhỏ! Chúc cậu một ngày tốt lành! vậy thì hôm nay tớ với cậu sẽ học thêm về chủ đề nào thế nhỉ?",
+        "Xin chào bạn yêu. Mình là Robot thông minh, rất vui khi được học tập với bạn. Vậy thì hôm nay tớ với học về chủ đề gì thế nhỉ?",
     ]
 
-    # ── Teaching / Listening ──────────────────────────────────
-    _ACK = [
-        "Kiến thức này thật thú vị, cảm ơn bạn đã chia sẻ cho mình biết thêm nhé",
-        "Ồ, thế còn gì nữa không nhỉ? Bạn hãy kể tiếp đi!",
-        "Uao, mình học được điều mới rồi! Còn gì nữa không nhỉ? Bạn dạy cho mình thêm đi",
-        "Bạn đã nói cho mình biết thêm kiến thức thú vị! Hãy tiếp tục thôi nào!",
+    # ── Name capture prompts (rotation) ──────────────────────────────────
+    _NAME_CAPTURE = [
+        "Hế lô bạn"
+        "mình vừa khởi động toàn bộ hệ thống và sẵn sàng hỗ trợ rồi đây. "
+        "Trước tiên. mình nên gọi bạn là gì cho ngầu nhỉ?",
+        
+        "Tinh tinh tinh !!! Rô bốt đã hoạt động trở lại rồi đây! "
+        "Hôm nay chúng ta sẽ cùng nhau làm điều gì thú vị đây? "
+        "À mà khoan. cho mình biết tên của bạn trước đã chứ",
+        
+        "Chào mừng bạn đã quay trở lại, "
+        "mình là trợ lý thông minh, sẽ luôn có mặt để hỗ trợ bạn mọi lúc. "
+        "Nhưng trước khi bắt đầu . mình có thể biết tên của bạn không?",
+    ]
+
+    # ── Teaching / Listening - 4 stages based on number of teaching turns ──
+    _ACK_STAGE1 = [
+        "Ồ? Đây là lần đầu mình nghe tới điều này đó! Còn cái gì thú vị hơn không? Hãy kể cho mình tiếp đi.",
+        "Uầy, kiến thức mở màn thú vị hơn mình tưởng luôn đó. Tiếp tục dạy cho mình đi.",
+        "Kiến thức mới này đã được gieo vào bộ não của mình thành công rồi, tiếp tục dạy mình đi cậu chủ ơi.",
+        "Chờ chút. thông tin này làm mình tò mò thật đấy. Bạn còn biết thêm gì nữa không? Hãy kể cho mình thêm đi",
+        "Mình vừa học được điều mới luôn đó. Kể tiếp đi, mình đang nghe rất chăm chú đây.",
+    ]
+
+    _ACK_STAGE2 = [
+        "Khoan nha. mình bắt đầu thấy sự liên kết rồi đó. Tiếp tục dạy mình đi nào, nét gâu, nét gâu.",
+        "Kiến thức này hay nha. Bạn giỏi thật đấy, hãy tiếp tục đi, mình thích nghe thêm nữa. nét gâu, nét gâu",
+        "Mình cảm giác mọi thứ bắt đầu kết nối lại với nhau rồi đó. Còn phần tiếp theo thì sao? nét gâu, nét gâu",
+        "Ơ kìa, càng nghe càng hợp lý luôn ấy. Bạn kể tiếp đi, mình bắt đầu hiểu rồi.",
+    ]
+
+    _ACK_STAGE3 = [
+        "Càng nghe mình càng thấy chủ đề này thú vị cực kỳ. Vui quá, hãy dạy mình tiếp đi nào!",
+        "Bạn siêu thật đấy, kiến thức của bạn thật đáng ngưỡng mộ, hãy dạy cho mình thêm điều nữa đi nào. Năn nỉ đó.",
+        "Mình bắt đầu hiểu sâu hơn rồi nha. Nhưng chắc vẫn còn điều hay phía sau đúng không?, hãy tiết lộ cho mình đi mà",
+        "Bạn kể chuyện có duyên ghê luôn ấy. Dạy tiếp đi, mình chưa muốn dừng đâu.",
+    ]
+
+    _ACK_STAGE4PLUS = [
+        "Hôm nay bạn dạy cho mình nhiều kiến thức thật đấy. Giờ mình cảm giác bản thân hiểu hơn nhiều rồi, hay là chúng mình kiểm tra thử một chút không nhỉ?",
+        "Kho dữ liệu của mình hôm nay được cập nhập mạnh thật sự luôn, hay là kiểm tra một chút nhỉ",
+        "Hôm nay mình học được nhiều điều mới ghê. Thử làm một vài câu hỏi nhỏ xem có nhớ hết không đi.",
+        "Càng nghe bạn dạy mình càng hiểu ra nhiều thứ hơn. Giờ tới lượt tớ hỏi bạn trả lời nhé",
     ]
 
     # ── Confusion questions ────────────────────────────────────
@@ -81,14 +118,13 @@ class T:
     _WRONG = [
         "Chưa đúng rồi, nhưng không sao! Thử lại nhé!",
         "Câu này hơi khó! Bạn nghĩ lại xem?",
-        "Hmm, chưa phải! Gợi ý: nghĩ về {hint}...",
     ]
 
     # ── Reward / End ──────────────────────────────────────────
     _REWARD = [
-        "Buổi học hôm nay thật tuyệt! Bạn đã dạy mình {n} kiến thức và trả lời đúng {ok}/{total}! Tổng: {score} điểm!",
-        "Bạn học rất tốt! {ok}/{total} câu đúng! Bạn đạt {score} điểm!",
-        "Uao, {ok}/{total} câu đúng hôm nay! Bạn thật giỏi! Tổng: {score} điểm!",
+        "Buổi học hôm nay thật tuyệt! Bạn đã dạy mình {n} kiến thức và trả lời đúng {ok} trên tổng số {total}! Tổng: {score} điểm!",
+        "Bạn học rất tốt! {ok} trên tổng số {total} câu đúng! Bạn đạt {score} điểm!",
+        "Uao, {ok} trên tổng số {total} câu đúng hôm nay! Bạn thật giỏi! Tổng: {score} điểm!",
     ]
 
     _LEVEL_UP = [
@@ -119,11 +155,31 @@ class T:
     # ── Public API ────────────────────────────────────────────
     @classmethod
     def greeting(cls) -> str:
+        """Random greeting after child name is captured."""
         return cls._p(cls._GREET)
 
     @classmethod
-    def ack(cls, concept: str = "") -> str:
-        return cls._p(cls._ACK).format(concept=concept or "điều bạn vừa nói")
+    def name_capture_prompt(cls) -> str:
+        """Rotating prompt to ask for child's name (3 variants)."""
+        return cls._p(cls._NAME_CAPTURE)
+
+    @classmethod
+    def ack(cls, stage: int = 1, concept: str = "") -> str:
+        """Get acknowledgment response based on teaching stage (1-4+).
+        stage 1: first teaching turn
+        stage 2: second teaching turn
+        stage 3: third teaching turn
+        stage 4+: fourth or more teaching turns
+        """
+        if stage <= 1:
+            ack_list = cls._ACK_STAGE1
+        elif stage == 2:
+            ack_list = cls._ACK_STAGE2
+        elif stage == 3:
+            ack_list = cls._ACK_STAGE3
+        else:  # stage >= 4
+            ack_list = cls._ACK_STAGE4PLUS
+        return cls._p(ack_list)
 
     @classmethod
     def confuse(cls, concept: str, sub: str = "", prop: str = "") -> str:

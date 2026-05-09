@@ -638,20 +638,21 @@ class Engine:
             )
 
         # Đa dạng response: ack hoặc deepening
+        stage = self._get_teaching_stage()
         if self._teach_turns % 3 == 0 and self._concept_id:
             g = self.tools.traverse_graph(concept_id=self._concept_id)
             if g.ok and g.data:
                 node = g.data.get("node", {})
                 name = node.get("name", "") if node else ""
                 if name:
-                    return T.ack(concept=name)
+                    return T.ack(stage=stage, concept=name)
         route = {
             "path": RPath.A,
             "reason": "teach_ack",
             "kwargs": {"concept_id": self._concept_id},
         }
         self._log_route(route, from_phase=Phase.TEACH.value)
-        return T.ack(concept=self._concept_id_name())
+        return T.ack(stage=stage, concept=self._concept_id_name())
 
     def _start_confuse(self) -> str:
         self._phase = Phase.CONFUSE
@@ -1029,7 +1030,8 @@ class Engine:
             if reason == "greeting":
                 return T.greeting()
             if reason in ("teach_ack", "confuse"):
-                return T.ack(concept=self._concept_id_name())
+                stage = self._get_teaching_stage() if reason == "teach_ack" else 1
+                return T.ack(stage=stage, concept=self._concept_id_name())
             return T.unknown()
 
         if pth == RPath.B:
@@ -1414,6 +1416,22 @@ class Engine:
             if node:
                 return node.get("name", "")
         return ""
+
+    def _get_teaching_stage(self) -> int:
+        """Calculate teaching stage (1-4+) based on _teach_turns.
+        Stage 1: 1st teaching turn
+        Stage 2: 2nd teaching turn
+        Stage 3: 3rd teaching turn
+        Stage 4+: 4th+ teaching turns
+        """
+        if self._teach_turns <= 1:
+            return 1
+        elif self._teach_turns == 2:
+            return 2
+        elif self._teach_turns == 3:
+            return 3
+        else:  # 4+
+            return 4
 
     def _can_adopt_candidate(self, candidate_id: str) -> bool:
         if not candidate_id:

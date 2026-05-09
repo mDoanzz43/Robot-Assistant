@@ -373,8 +373,11 @@ def run_interactive_voice(bot: EduBot):
         result = {"text": ""}
 
         def _cb(t: str):
-            # store first utterance and stop
-            result["text"] = t.strip()
+            # Only accept a non-empty utterance.
+            txt = (t or "").strip()
+            if not txt:
+                return
+            result["text"] = txt
             stop_evt.set()
 
         th = threading.Thread(target=asr.listen_loop, args=(_cb, stop_evt), daemon=True)
@@ -398,6 +401,15 @@ def run_interactive_voice(bot: EduBot):
         t = text.strip()
         # remove surrounding quotes
         t = re.sub(r'^["\'`\s]+|["\'`\s]+$', '', t)
+        t = re.sub(r"[\.,!?;:]+$", "", t).strip()
+        if not t:
+            return ""
+
+        # reject control words / likely non-name utterances
+        stop_words = {"quit", "thoat", "thoát", "status", "trạng thái"}
+        if t.lower() in stop_words:
+            return ""
+
         # common prefixes to strip
         prefixes = [r"^tôi tên là\s+", r"^tên tôi là\s+", r"^mình tên là\s+", r"^tên\s+", r"^tôi là\s+", r"^mình là\s+"]
         low = t.lower()
@@ -426,26 +438,39 @@ def run_interactive_voice(bot: EduBot):
         run_interactive(bot)
         return
 
-    prompt = (
-        "Hây chào bạn, trợ lý thông minh của bạn đã xuất hiện rồi đây. "
-        "Cho mình hỏi bạn tên là gì ý nhỉ?"
-    )
+    prompt = T.name_capture_prompt()
     print(f"\nRobot (prompting for name): {prompt}\n")
     bot.hw("speaking", {})
     bot.tts.speak(prompt, length_scale=cfg.TTS_LENGTH_SCALE)
     bot.hw("listening", {})
 
     # capture one utterance for the name
-    name_utt = _capture_one_utterance(bot.asr, timeout=8.0)
-    name = _extract_name_from_utterance(name_utt) or "Bé"
+    name_utt = ""
+    name = ""
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        name_utt = _capture_one_utterance(bot.asr, timeout=8.0)
+        name = _extract_name_from_utterance(name_utt)
+        if name:
+            break
+
+        if attempt < max_attempts - 1:
+            reprompt = "Mình chưa nghe rõ tên của bạn. Bạn nói lại tên giúp mình nhé."
+            print(f"Robot (reprompt): {reprompt}")
+            bot.hw("speaking", {})
+            bot.tts.speak(reprompt, length_scale=cfg.TTS_LENGTH_SCALE)
+            bot.hw("listening", {})
+
+    if not name:
+        # Avoid assigning a specific name when user hasn't spoken yet.
+        name = "Bạn nhỏ"
+        logger.warning("Name capture failed after retries; using fallback display name 'Bạn nhỏ'")
+
     age = 6
     print(f"Detected name utterance: '{name_utt}' -> parsed name: '{name}'")
 
     bot.new_session(name, age, doc)
-    greeting = (
-        f"Xin chào {name}, chúc cậu một ngày tốt lành. "
-        "Mình là rô bốt thông minh của cậu đây, hôm nay chúng mình sẽ học tập về chủ đề gì nhỉ?"
-    )
+    greeting = f"Xin chào {name}, " + T.greeting()
     print(f"\nRobot: {greeting}\n")
     bot.hw("speaking", {})
     bot.tts.speak(greeting)
@@ -524,7 +549,7 @@ def run_production(bot: EduBot):
     from workflow.templates import T
 
     stop_evt = threading.Event()
-    name  = "Bé"
+    name  = "Đoan"
     age   = 6
     child_id, sid = bot.new_session(name, age)
 
